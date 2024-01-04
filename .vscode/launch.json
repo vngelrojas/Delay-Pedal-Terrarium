@@ -29,6 +29,14 @@
       "showDevDebugOutput": true,
       "svdFile": "${workspaceRoot}/.vscode/STM32H750x.svd",
       "type": "cortex-debug"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/angel/Code/DaisyExamples/MyProjects/Delay",
+      "program": "/Users/angel/Code/DaisyExamples/MyProjects/Delay/build/Debug/outDebug"
     }
   ],
   "version": "0.2.0"
