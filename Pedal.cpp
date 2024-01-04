@@ -42,11 +42,22 @@ int main(void)
 void processControls()
 {
 	if(hw.switches[Terrarium::SWITCH_1].Pressed())
-	{
-		//
-	}
+		delay.enableHead(0);
 	else
-	{
+		delay.disableHead(0);
 
-	}
+	if(hw.switches[Terrarium::SWITCH_2].Pressed())
+		delay.enableHead(1);
+	else
+		delay.disableHead(1);
+
+	if(hw.switches[Terrarium::SWITCH_3].Pressed())
+		delay.enableHead(2);
+	else
+		delay.disableHead(2);	
+
+	if(hw.switches[Terrarium::SWITCH_4].Pressed())
+		delay.enableHead(3);
+	else
+		delay.disableHead(3);
 }
