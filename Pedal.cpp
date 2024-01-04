@@ -1,10 +1,20 @@
 #include "daisy_petal.h"
 #include "daisysp.h"
+#include "Terrarium.h"
+
 
 using namespace daisy;
 using namespace daisysp;
+using namespace terrarium;
+
 
 DaisyPetal hw;
+
+/**
+ * @brief Processes all controls for the pedal
+ * 
+ */
+void processControls();
 
 void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
 {
@@ -24,4 +34,9 @@ int main(void)
 	hw.StartAdc();
 	hw.StartAudio(AudioCallback);
 	while(1) {}
+}
+
+void processControls()
+{
+
 }
