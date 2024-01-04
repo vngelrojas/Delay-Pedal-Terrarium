@@ -2,7 +2,7 @@
 
 
 
-Delayy::Delayy()
+Delay::Delay()
 {
     //delayMems = temp;
     for(int i = 0; i < 4; i++)
@@ -16,25 +16,25 @@ Delayy::Delayy()
 
 }
 
-void Delayy::stopAll()
+void Delay::stopAll()
 {
     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
         delayHeadOn[i] = false;
 }
 
-void Delayy::setBPM(float bpm)
+void Delay::setBPM(float bpm)
 {
     this->bpm = bpm;
 }
 
-void Delayy::setFeedback(const float& feed)                           
+void Delay::setFeedback(const float& feed)                           
 {
     
     this->feedback = feed;
 
 }
 
-float Delayy::process(float in)
+float Delay::process(float in)
 {
     // if(clearing)
     //     return 0;
@@ -57,15 +57,31 @@ float Delayy::process(float in)
     //}
 }
 
-void Delayy::toggleHead(const int& headNumber)
+void Delay::toggleHead(const int& headNum)
 {
-    if(headNumber >= NUM_OF_DELAY_HEADS || headNumber < 0)
+    if(headNum >= NUM_OF_DELAY_HEADS || headNum < 0)
         return;
     else
-        delayHeadOn[headNumber] = !delayHeadOn[headNumber];
+        delayHeadOn[headNum] = !delayHeadOn[headNum];
 }
 
-void Delayy::clear()
+void Delay::enableHead(const int& headNum)
+{
+    if(headNum >= NUM_OF_DELAY_HEADS || headNum < 0)
+        return;
+    else
+        delayHeadOn[headNum] = true;
+}
+
+void Delay::disableHead(const int& headNum)
+{
+    if(headNum >= NUM_OF_DELAY_HEADS || headNum < 0)
+        return;
+    else
+        delayHeadOn[headNum] = false;
+}
+
+void Delay::clear()
 {
     
     for (int i = 0; i < NUM_OF_DELAY_HEADS; i++)
@@ -77,7 +93,7 @@ void Delayy::clear()
     
     
 }
-float Delayy::getBPM()
+float Delay::getBPM()
 {
     return bpm;
 }

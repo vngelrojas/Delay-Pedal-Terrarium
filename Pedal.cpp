@@ -1,6 +1,7 @@
 #include "daisy_petal.h"
 #include "daisysp.h"
 #include "Terrarium.h"
+#include "Delay.h"
 
 
 using namespace daisy;
@@ -9,6 +10,7 @@ using namespace terrarium;
 
 
 DaisyPetal hw;
+Delay delay;
 
 /**
  * @brief Processes all controls for the pedal
@@ -36,7 +38,15 @@ int main(void)
 	while(1) {}
 }
 
+
 void processControls()
 {
+	if(hw.switches[Terrarium::SWITCH_1].Pressed())
+	{
+		//
+	}
+	else
+	{
 
+	}
 }

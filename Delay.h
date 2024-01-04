@@ -10,7 +10,7 @@ const int NUM_OF_DELAY_HEADS = 4;                   // # of delay heads, simply 
 
 
 
-class Delayy
+class Delay
 {
     private:
         struct DelayHead
@@ -41,7 +41,7 @@ class Delayy
         /**
          * @brief Constructs the delay heads
          */
-        Delayy();
+        Delay();
         /**
          * @brief Stops all the delays from playing but does not delete their sound, 
          * meaning if you toggle a head, it will keep playing previous input
@@ -72,7 +72,19 @@ class Delayy
          * 
          * @param headNumber The delay head to toggle on/off
          */
-        void toggleHead(const int& headNumber);
+        void toggleHead(const int& headNum);
+        /**
+         * @brief Enable a single delay head
+         * 
+         * @param headNum Delay head to enable
+         */
+        void enableHead(const int& headNum);
+        /**
+         * @brief Disable a single delay head
+         * 
+         * @param headNum Delay head to Disable
+         */
+        void disableHead(const int& headNum);
         /**
          * @brief Get the current bpm of delay
          * 

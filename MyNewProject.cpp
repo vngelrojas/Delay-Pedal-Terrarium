@@ -8,7 +8,7 @@ using namespace daisy::seed;
 
 DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
 
-Delayy delay;
+Delay delay;
 ToneFilter tone(48000.f);
 static Balance balance;
 TapTempo tapTempo;
