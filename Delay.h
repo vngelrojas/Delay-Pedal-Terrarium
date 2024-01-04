@@ -38,6 +38,8 @@ class Delay
             }
         };
     public:
+
+        void initDelay(DelayLine<float, MAX_DELAY> delayMems[4]);
         /**
          * @brief Constructs the delay heads
          */

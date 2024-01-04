@@ -15,6 +15,7 @@ DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
 
 bool bypass = true;
 
+
 /**
  * @brief Processes all controls for the terrarium pedal
  * 
@@ -27,8 +28,8 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 	processControls();
 	for (size_t i = 0; i < size; i++)
 	{
-		out[0][i] = in[0][i];
-		out[1][i] = in[1][i];
+		
+		out[0][i] = delay.process(in[0][i]);
 	}
 }
 
@@ -38,6 +39,9 @@ int main(void)
 	hw.SetAudioBlockSize(4); // number of samples handled per callback
 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
 	hw.StartAdc();
+
+	delay.initDelay(delayMems);
+	delay.setBPM(90);
 	hw.StartAudio(AudioCallback);
 	while(1) {}
 }
@@ -72,8 +76,5 @@ void processControls()
 	else
 		delay.disableHead(3);
 	/************************************************/
-
-
-
 
 }

@@ -2,7 +2,14 @@
 TARGET = Pedal
 
 # Sources
-CPP_SOURCES = Pedal.cpp
+CPP_SOURCES = Pedal.cpp \
+			  Delay.cpp \
+			  ToneFilter.cpp \
+			  TapTempo.cpp \
+
+CPP_HEADERS = Delay.h \
+			  ToneFilter.h \
+			  TapTempo.h \
 
 # Library Locations
 LIBDAISY_DIR = ../../libDaisy/
