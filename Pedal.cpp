@@ -11,9 +11,12 @@ using namespace terrarium;
 
 DaisyPetal hw;
 Delay delay;
+DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
+
+bool bypass = true;
 
 /**
- * @brief Processes all controls for the pedal
+ * @brief Processes all controls for the terrarium pedal
  * 
  */
 void processControls();
@@ -21,6 +24,7 @@ void processControls();
 void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
 {
 	hw.ProcessAllControls();
+	processControls();
 	for (size_t i = 0; i < size; i++)
 	{
 		out[0][i] = in[0][i];
@@ -41,6 +45,13 @@ int main(void)
 
 void processControls()
 {
+	/***************PROCESS FOOTSWITCHES*****************/
+	if(hw.switches[Terrarium::FOOTSWITCH_1].RisingEdge())
+		bypass = !bypass;
+
+	/***************************************************/
+
+	/***************PROCESS SWITCHES*****************/
 	if(hw.switches[Terrarium::SWITCH_1].Pressed())
 		delay.enableHead(0);
 	else
@@ -60,4 +71,9 @@ void processControls()
 		delay.enableHead(3);
 	else
 		delay.disableHead(3);
+	/************************************************/
+
+
+
+
 }
