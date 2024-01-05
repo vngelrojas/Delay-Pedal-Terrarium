@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
   27:TapTempo.cpp  **** #include "TapTempo.h"
   28:TapTempo.cpp  **** 
   29:TapTempo.cpp  **** 
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 2
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 2
 
 
   30:TapTempo.cpp  **** void TapTempo::setSkippedTapThresholdLow(float threshold)
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
   77 0012 B4EEE70A 		vcmpe.f32	s0, s15
   78 0016 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
   39:TapTempo.cpp  ****     skippedTapThresholdHigh = threshold;
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 3
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 3
 
 
   79              		.loc 1 39 5 is_stmt 1 discriminator 1 view .LVU9
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  131              	.LVL3:
  132              	.LFB2545:
   46:TapTempo.cpp  **** 
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 4
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 4
 
 
   47:TapTempo.cpp  **** void TapTempo::setBPM(float bpm)
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
    9:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** // any later version.
   10:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** 
   11:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** // This library is distributed in the hope that it will be useful,
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 5
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 5
 
 
   12:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** // but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
   66:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** #undef ldexp
   67:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** #undef log
   68:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** #undef log10
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 6
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 6
 
 
   69:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** #undef modf
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  123:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** #ifndef __CORRECT_ISO_CPP_MATH_H_PROTO
  124:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath ****   inline _GLIBCXX_CONSTEXPR float
  125:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath ****   atan(float __x)
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 7
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 7
 
 
  126:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath ****   { return __builtin_atanf(__x); }
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  180:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath ****   using ::cos;
  181:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** 
  182:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** #ifndef __CORRECT_ISO_CPP_MATH_H_PROTO
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 8
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 8
 
 
  183:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath ****   inline _GLIBCXX_CONSTEXPR float
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  237:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath ****   using ::fabs;
  238:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** 
  239:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** #ifndef __CORRECT_ISO_CPP_MATH_H_PROTO
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 9
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 9
 
 
  240:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath ****   inline _GLIBCXX_CONSTEXPR float
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  185              	.LVL5:
  186              	.LBB23:
  187              	.LBI18:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 10
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 10
 
 
  279:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath ****   { return __builtin_fmodf(__x, __y); }
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  238              		.cfi_restore 81
  239              		.cfi_def_cfa_offset 8
   54:TapTempo.cpp  **** }
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 11
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 11
 
 
  240              		.loc 1 54 115 view .LVU40
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  285              	.LBE29:
  286              	.LBI28:
   62:TapTempo.cpp  **** {
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 12
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 12
 
 
  287              		.loc 1 62 6 is_stmt 1 view .LVU51
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
   63:TapTempo.cpp  ****   return lastTapMS + maxBeatLengthMS > ms && lastTapMS + (beatLengthMS * beatsUntilChainReset) > ms
  340              		.loc 1 63 1 is_stmt 1 view -0
  341              		.cfi_startproc
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 13
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 13
 
 
  342              		@ args = 0, pretend = 0, frame = 0
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  393 0000 90ED077A 		vldr.32	s14, [r0, #28]	@ int
  394              	.LBB33:
  395              	.LBB34:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 14
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 14
 
 
  281:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath **** 
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  434              	.LFE2549:
  436              		.section	.text._ZN8TapTempo13addTapToChainEm,"ax",%progbits
  437              		.align	1
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 15
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 15
 
 
  438              		.p2align 2,,3
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  460              		.cfi_offset 14, -4
  103:TapTempo.cpp  ****   if(tapsInChain == 1)
  461              		.loc 1 103 3 view .LVU95
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 16
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 16
 
 
  462 0006 012B     		cmp	r3, #1
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  123:TapTempo.cpp  ****   tapDurationIndex++;
  124:TapTempo.cpp  ****   if(tapDurationIndex == totalTapValues) {
  491              		.loc 1 124 26 view .LVU108
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 17
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 17
 
 
  492 002e C468     		ldr	r4, [r0, #12]
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  517 0040 A242     		cmp	r2, r4
  518 0042 A8BF     		it	ge
  519 0044 2246     		movge	r2, r4
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 18
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 18
 
 
  520              	.LVL29:
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  561              	.LBE40:
  128:TapTempo.cpp  **** }
  562              		.loc 1 128 16 view .LVU137
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 19
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 19
 
 
  563 0064 4368     		ldr	r3, [r0, #4]
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  603              		.loc 1 115 20 is_stmt 0 view .LVU151
  604 00ac BAE7     		b	.L33
  605              	.L39:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 20
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 20
 
 
  119:TapTempo.cpp  ****   }
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  654              		.loc 1 64 10 view .LVU159
  655 0002 C26A     		ldr	r2, [r0, #44]
  656              	.LBE49:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 21
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 21
 
 
  657              	.LBE48:
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  698              	.LBB55:
  138:TapTempo.cpp  ****   tapDurationIndex = 0;
  699              		.loc 1 138 3 view .LVU173
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 22
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 22
 
 
  138:TapTempo.cpp  ****   tapDurationIndex = 0;
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  740              		.cfi_restore 4
  741              		.cfi_restore 3
  742              		.cfi_def_cfa_offset 0
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 23
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 23
 
 
  743              	.LVL46:
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  789              	.L61:
   80:TapTempo.cpp  ****   millisSinceResetOld = millisSinceReset;
  790              		.loc 1 80 3 is_stmt 1 view .LVU198
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 24
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 24
 
 
   82:TapTempo.cpp  **** }
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  132:TapTempo.cpp  ****   resetTapChain(daisy::System::GetNow());
  835              		.loc 1 132 1 is_stmt 0 view .LVU211
  836 0000 10B5     		push	{r4, lr}
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 25
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 25
 
 
  837              		.cfi_def_cfa_offset 8
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  877              	.LBE59:
  134:TapTempo.cpp  **** 
  878              		.loc 1 134 1 view .LVU226
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 26
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 26
 
 
  879 001c BDE81040 		pop	{r4, lr}
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  926              		.loc 1 140 15 view .LVU235
  927 0004 8162     		str	r1, [r0, #40]
  928              	.LBB68:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 27
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 27
 
 
  141:TapTempo.cpp  ****     tapDurations[i] = 0;
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  973              		.loc 1 148 3 view .LVU247
  148:TapTempo.cpp  ****   if(amount > totalTapValues)
  974              		.loc 1 148 7 is_stmt 0 view .LVU248
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 28
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 28
 
 
  975 0000 C36D     		ldr	r3, [r0, #92]
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  1016              	.LBE71:
  156:TapTempo.cpp  ****   if(avgTapDurationMS < minBeatLengthMS) {
  1017              		.loc 1 156 3 view .LVU262
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 29
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 29
 
 
  1018              		.loc 1 157 3 view .LVU263
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  1063              		.cfi_startproc
  1064              		@ args = 0, pretend = 0, frame = 0
  1065              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 30
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 30
 
 
  1066              		@ link register save eliminated.
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  1104 0006 0229     		cmp	r1, #2
  1105 0008 B8BF     		it	lt
  1106 000a 0221     		movlt	r1, #2
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 31
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 31
 
 
  1107              	.LVL81:
@@ -1848,45 +1848,45 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 1
  1151              		.file 37 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/string.h"
  1152              		.file 38 "TapTempo.h"
  1153              		.file 39 "../../libDaisy//src/dev/sr_595.h"
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s 			page 32
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s 			page 32
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 TapTempo.cpp
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:19     .text._ZN8TapTempo25setSkippedTapThresholdLowEf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:26     .text._ZN8TapTempo25setSkippedTapThresholdLowEf:0000000000000000 _ZN8TapTempo25setSkippedTapThresholdLowEf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:55     .text._ZN8TapTempo26setSkippedTapThresholdHighEf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:62     .text._ZN8TapTempo26setSkippedTapThresholdHighEf:0000000000000000 _ZN8TapTempo26setSkippedTapThresholdHighEf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:90     .text._ZN8TapTempo6getBPMEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:97     .text._ZN8TapTempo6getBPMEv:0000000000000000 _ZN8TapTempo6getBPMEv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:117    .text._ZN8TapTempo6getBPMEv:0000000000000018 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:123    .text._ZN8TapTempo6setBPMEf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:130    .text._ZN8TapTempo6setBPMEf:0000000000000000 _ZN8TapTempo6setBPMEf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:150    .text._ZN8TapTempo6setBPMEf:0000000000000014 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:155    .text._ZN8TapTempo6onBeatEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:162    .text._ZN8TapTempo6onBeatEv:0000000000000000 _ZN8TapTempo6onBeatEv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:252    .text._ZN8TapTempo13isChainActiveEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:259    .text._ZN8TapTempo13isChainActiveEv:0000000000000000 _ZN8TapTempo13isChainActiveEv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:330    .text._ZN8TapTempo13isChainActiveEm:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:337    .text._ZN8TapTempo13isChainActiveEm:0000000000000000 _ZN8TapTempo13isChainActiveEm
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:377    .text._ZN8TapTempo12beatProgressEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:384    .text._ZN8TapTempo12beatProgressEv:0000000000000000 _ZN8TapTempo12beatProgressEv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:437    .text._ZN8TapTempo13addTapToChainEm:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:444    .text._ZN8TapTempo13addTapToChainEm:0000000000000000 _ZN8TapTempo13addTapToChainEm
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:630    .text._ZN8TapTempo3tapEm:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:637    .text._ZN8TapTempo3tapEm:0000000000000000 _ZN8TapTempo3tapEm
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:752    .text._ZN8TapTempo6updateEb:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:759    .text._ZN8TapTempo6updateEb:0000000000000000 _ZN8TapTempo6updateEb
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:820    .text._ZN8TapTempo13resetTapChainEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:827    .text._ZN8TapTempo13resetTapChainEv:0000000000000000 _ZN8TapTempo13resetTapChainEv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:904    .text._ZN8TapTempo13resetTapChainEm:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:911    .text._ZN8TapTempo13resetTapChainEm:0000000000000000 _ZN8TapTempo13resetTapChainEm
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:959    .text._ZN8TapTempo21getAverageTapDurationEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:966    .text._ZN8TapTempo21getAverageTapDurationEv:0000000000000000 _ZN8TapTempo21getAverageTapDurationEv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:1052   .text._ZN8TapTempo23setBeatsUntilChainResetEi:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:1059   .text._ZN8TapTempo23setBeatsUntilChainResetEi:0000000000000000 _ZN8TapTempo23setBeatsUntilChainResetEi
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:1082   .text._ZN8TapTempo17setTotalTapValuesEi:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfQgNsQ.s:1089   .text._ZN8TapTempo17setTotalTapValuesEi:0000000000000000 _ZN8TapTempo17setTotalTapValuesEi
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:19     .text._ZN8TapTempo25setSkippedTapThresholdLowEf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:26     .text._ZN8TapTempo25setSkippedTapThresholdLowEf:0000000000000000 _ZN8TapTempo25setSkippedTapThresholdLowEf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:55     .text._ZN8TapTempo26setSkippedTapThresholdHighEf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:62     .text._ZN8TapTempo26setSkippedTapThresholdHighEf:0000000000000000 _ZN8TapTempo26setSkippedTapThresholdHighEf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:90     .text._ZN8TapTempo6getBPMEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:97     .text._ZN8TapTempo6getBPMEv:0000000000000000 _ZN8TapTempo6getBPMEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:117    .text._ZN8TapTempo6getBPMEv:0000000000000018 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:123    .text._ZN8TapTempo6setBPMEf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:130    .text._ZN8TapTempo6setBPMEf:0000000000000000 _ZN8TapTempo6setBPMEf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:150    .text._ZN8TapTempo6setBPMEf:0000000000000014 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:155    .text._ZN8TapTempo6onBeatEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:162    .text._ZN8TapTempo6onBeatEv:0000000000000000 _ZN8TapTempo6onBeatEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:252    .text._ZN8TapTempo13isChainActiveEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:259    .text._ZN8TapTempo13isChainActiveEv:0000000000000000 _ZN8TapTempo13isChainActiveEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:330    .text._ZN8TapTempo13isChainActiveEm:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:337    .text._ZN8TapTempo13isChainActiveEm:0000000000000000 _ZN8TapTempo13isChainActiveEm
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:377    .text._ZN8TapTempo12beatProgressEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:384    .text._ZN8TapTempo12beatProgressEv:0000000000000000 _ZN8TapTempo12beatProgressEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:437    .text._ZN8TapTempo13addTapToChainEm:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:444    .text._ZN8TapTempo13addTapToChainEm:0000000000000000 _ZN8TapTempo13addTapToChainEm
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:630    .text._ZN8TapTempo3tapEm:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:637    .text._ZN8TapTempo3tapEm:0000000000000000 _ZN8TapTempo3tapEm
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:752    .text._ZN8TapTempo6updateEb:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:759    .text._ZN8TapTempo6updateEb:0000000000000000 _ZN8TapTempo6updateEb
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:820    .text._ZN8TapTempo13resetTapChainEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:827    .text._ZN8TapTempo13resetTapChainEv:0000000000000000 _ZN8TapTempo13resetTapChainEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:904    .text._ZN8TapTempo13resetTapChainEm:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:911    .text._ZN8TapTempo13resetTapChainEm:0000000000000000 _ZN8TapTempo13resetTapChainEm
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:959    .text._ZN8TapTempo21getAverageTapDurationEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:966    .text._ZN8TapTempo21getAverageTapDurationEv:0000000000000000 _ZN8TapTempo21getAverageTapDurationEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:1052   .text._ZN8TapTempo23setBeatsUntilChainResetEi:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:1059   .text._ZN8TapTempo23setBeatsUntilChainResetEi:0000000000000000 _ZN8TapTempo23setBeatsUntilChainResetEi
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:1082   .text._ZN8TapTempo17setTotalTapValuesEi:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccfnSSvS.s:1089   .text._ZN8TapTempo17setTotalTapValuesEi:0000000000000000 _ZN8TapTempo17setTotalTapValuesEi
 
 UNDEFINED SYMBOLS
 fmodf

@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
   49              	.LVL1:
   50              	.L2:
   51              	.LBB39:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 2
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 2
 
 
    7:Delay.cpp     ****     {
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
   70              	.LBE27:
    6:Delay.cpp     ****     {
   71              		.loc 1 6 23 discriminator 2 view .LVU9
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 3
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 3
 
 
   72 0012 1834     		adds	r4, r4, #24
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  116              	.LBE39:
   10:Delay.cpp     ****     }
   11:Delay.cpp     **** }
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 4
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 4
 
 
  117              		.loc 1 11 1 is_stmt 0 view .LVU24
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  165              		.loc 1 17 9 is_stmt 1 discriminator 2 view .LVU30
  166              	.LBB47:
  167              	.LBI47:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 5
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 5
 
 
  168              		.file 3 "delayline_reverse.h"
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
   49:delayline_reverse.h ****     {
   50:delayline_reverse.h **** 
   51:delayline_reverse.h ****         delay1_  = 25000; //min Reverse delay time
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 6
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 6
 
 
   52:delayline_reverse.h ****         fadetime = 24000;    //in samples = 0.5 seconds
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  215 002a 0B4A     		ldr	r2, .L12+12
  216              	.LBB59:
  217              	.LBB57:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 7
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 7
 
 
  218              	.LBB55:
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  256 0054 00DC0500 		.word	384000
  257 0058 28DC0500 		.word	384040
  258              		.cfi_endproc
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 8
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 8
 
 
  259              	.LFE4801:
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  285              		.loc 1 32 9 view .LVU61
  286 0002 0849     		ldr	r1, .L16
  287              	.LBE67:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 9
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 9
 
 
   22:Delay.cpp     **** {
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  334              	.LVL13:
  335              		.loc 4 18 16 view .LVU76
  336              	.LBE65:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 10
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 10
 
 
  337              	.LBE76:
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
   28:Delay.cpp     ****         // Make sure they are all off
  374              		.loc 1 28 9 view .LVU96
   28:Delay.cpp     ****         // Make sure they are all off
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 11
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 11
 
 
  375              		.loc 1 28 32 is_stmt 0 view .LVU97
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  418              		@ frame_needed = 0, uses_anonymous_args = 0
  419              		@ link register save eliminated.
   38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 12
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 12
 
 
  420              		.loc 1 38 5 view .LVU110
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  462              		.loc 1 44 15 is_stmt 0 view .LVU128
  463 0000 80ED010A 		vstr.32	s0, [r0, #4]
   45:Delay.cpp     **** }
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 13
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 13
 
 
  464              		.loc 1 45 1 view .LVU129
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
   58:Delay.cpp     ****         float allDelaySignals = 0;
  510              		.loc 1 58 9 view .LVU136
   59:Delay.cpp     **** 
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 14
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 14
 
 
   60:Delay.cpp     ****         for (int i = 0; i < NUM_OF_DELAY_HEADS; i++)
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  554 0028 B6EE083B 		vmov.f64	d3, #7.5e-1
  555              		.loc 1 65 64 view .LVU152
  556 002c 9FED397A 		vldr.32	s14, .L30+8
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 15
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 15
 
 
   60:Delay.cpp     ****         {
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  594              		.loc 1 72 1 is_stmt 0 view .LVU169
  595 0068 B0EE420A 		vmov.f32	s0, s4
  596              	.LVL28:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 16
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 16
 
 
  597              		.loc 1 72 1 view .LVU170
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
   24:../../DaisySP//Source/Utility/dsp.h **** static constexpr float kRandFrac = 1.f / (float)RAND_MAX;
   25:../../DaisySP//Source/Utility/dsp.h **** 
   26:../../DaisySP//Source/Utility/dsp.h **** //Convert from semitones to other units. e.g. 2 ^ (kOneTwelfth * x)
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 17
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 17
 
 
   27:../../DaisySP//Source/Utility/dsp.h **** static constexpr float kOneTwelfth = 1.f / 12.f;
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
   81:../../DaisySP//Source/Utility/dsp.h ****     l  = *lp;
   82:../../DaisySP//Source/Utility/dsp.h ****     l -= 0x3F800000;
   83:../../DaisySP//Source/Utility/dsp.h ****     l >>= (n = 1);
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 18
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 18
 
 
   84:../../DaisySP//Source/Utility/dsp.h ****     l += 0x3F800000;
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  136:../../DaisySP//Source/Utility/dsp.h **** {
  137:../../DaisySP//Source/Utility/dsp.h ****     out += coeff * (in - out);
  614              		.loc 5 137 5 view .LVU176
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 19
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 19
 
 
  615              		.loc 5 137 9 is_stmt 0 view .LVU177
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
   71:../../DaisySP//Source/Utility/delayline.h ****     {
   72:../../DaisySP//Source/Utility/delayline.h ****         T a = line_[(write_ptr_ + delay_) % max_size];
  634              		.loc 2 72 22 view .LVU182
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 20
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 20
 
 
  635 0080 6668     		ldr	r6, [r4, #4]
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  678              		.loc 2 55 37 view .LVU194
  679 00a0 F8EEE77A 		vcvt.f32.s32	s15, s15
  680              	.LVL33:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 21
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 21
 
 
   56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  725 00b8 C4ED005A 		vstr.32	s11, [r4]
  726              	.LBE103:
  727              	.LBE128:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 22
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 22
 
 
  728              	.LBB129:
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  776              	.LBE134:
  777              	.LBB135:
  778              	.LBB112:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 23
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 23
 
 
  779              		.loc 2 73 11 view .LVU218
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  825 0110 00007042 		.word	1114636288
  826 0114 00803B47 		.word	1195081728
  827 0118 17B75139 		.word	961656599
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 24
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 24
 
 
  828 011c FF760100 		.word	95999
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  878              	.LVL44:
  879              	.LFB4813:
   81:Delay.cpp     **** 
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 25
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 25
 
 
   82:Delay.cpp     **** void Delay::enableHead(const int& headNum)
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
   94:Delay.cpp     ****     else
   95:Delay.cpp     ****     {
   96:Delay.cpp     ****         delayHeadOn[headNum] = false;
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 26
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 26
 
 
  924              		.loc 1 96 9 is_stmt 1 view .LVU250
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  970              	.LBE205:
   96:Delay.cpp     ****         delayHeads[headNum].feedback = 0;
  971              		.loc 1 96 30 view .LVU261
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 27
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 27
 
 
  972 002a C454     		strb	r4, [r0, r3]
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  1017              	.LBB170:
  1018              	.LBB171:
   72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 28
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 28
 
 
  1019              		.loc 2 72 22 view .LVU275
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  1063              		.loc 2 56 60 view .LVU288
  1064 0062 8B42     		cmp	r3, r1
   55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 29
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 29
 
 
  1065              		.loc 2 55 35 view .LVU289
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  1108              		.loc 2 72 43 view .LVU300
  1109 007a A0FB0346 		umull	r4, r6, r0, r3
   73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 30
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 30
 
 
  1110              		.loc 2 73 47 view .LVU301
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  1154              		.loc 2 73 11 view .LVU311
  1155 009e 02EB8C0C 		add	ip, r2, ip, lsl #2
   72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 31
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 31
 
 
  1156              		.loc 2 72 11 view .LVU312
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  1203              		.p2align 2,,3
  1204              		.global	_ZN5Delay5clearEv
  1205              		.syntax unified
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 32
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 32
 
 
  1206              		.thumb
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  1252              		.loc 1 107 18 discriminator 2 view .LVU333
  1253 0014 80ED027A 		vstr.32	s14, [r0, #8]
  108:Delay.cpp     ****         delayHeads[i].feedback = 0;
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 33
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 33
 
 
  1254              		.loc 1 108 9 is_stmt 1 discriminator 2 view .LVU334
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  1300              	.LBB241:
  1301              	.LBB228:
  1302              		.loc 5 137 9 discriminator 2 view .LVU348
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 34
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 34
 
 
  1303 0032 E6EE056A 		vfma.f32	s13, s12, s10
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
   56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
  1347              		.loc 2 56 60 discriminator 2 view .LVU361
  1348 0056 28BF     		it	cs
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 35
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 35
 
 
  1349 0058 8846     		movcs	r8, r1
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  1394              	.LBB260:
  1395              	.LBB253:
   65:../../DaisySP//Source/Utility/delayline.h ****     }
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 36
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 36
 
 
  1396              		.loc 2 65 57 discriminator 2 view .LVU371
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
   72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
  1439              		.loc 2 72 11 discriminator 2 view .LVU383
  1440 0096 02EB8C0C 		add	ip, r2, ip, lsl #2
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 37
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 37
 
 
   73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  1481              	.L50:
  1482 00be 00BF     		.align	2
  1483              	.L49:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 38
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 38
 
 
  1484 00c0 00000000 		.word	0
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  121:Delay.cpp     **** }...
  1535              		.loc 1 121 1 is_stmt 0 view .LVU407
  1536 0000 90ED010A 		vldr.32	s0, [r0, #4]
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 39
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 39
 
 
  1537 0004 7047     		bx	lr
@@ -2327,44 +2327,44 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
  1581              		.file 44 "../../libDaisy//src/daisy_seed.h"
  1582              		.file 45 "../../libDaisy//src/dev/sr_595.h"
  1583              		.file 46 "<built-in>"
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 40
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s 			page 40
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 Delay.cpp
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:19     .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:26     .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000000 _ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:122    .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000038 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:128    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:135    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:0000000000000000 _ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:254    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:000000000000004c $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:262    .text._ZN5DelayC2Ev:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:269    .text._ZN5DelayC2Ev:0000000000000000 _ZN5DelayC2Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:398    .text._ZN5DelayC2Ev:0000000000000024 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:269    .text._ZN5DelayC2Ev:0000000000000000 _ZN5DelayC1Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:405    .text._ZN5Delay7stopAllEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:412    .text._ZN5Delay7stopAllEv:0000000000000000 _ZN5Delay7stopAllEv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:446    .text._ZN5Delay6setBPMEf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:453    .text._ZN5Delay6setBPMEf:0000000000000000 _ZN5Delay6setBPMEf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:470    .text._ZN5Delay11setFeedbackERKf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:477    .text._ZN5Delay11setFeedbackERKf:0000000000000000 _ZN5Delay11setFeedbackERKf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:496    .text._ZN5Delay7processEf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:503    .text._ZN5Delay7processEf:0000000000000000 _ZN5Delay7processEf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:824    .text._ZN5Delay7processEf:000000000000010c $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:836    .text._ZN5Delay10toggleHeadERKi:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:843    .text._ZN5Delay10toggleHeadERKi:0000000000000000 _ZN5Delay10toggleHeadERKi
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:870    .text._ZN5Delay10enableHeadERKi:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:877    .text._ZN5Delay10enableHeadERKi:0000000000000000 _ZN5Delay10enableHeadERKi
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:902    .text._ZN5Delay11disableHeadERKi:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:909    .text._ZN5Delay11disableHeadERKi:0000000000000000 _ZN5Delay11disableHeadERKi
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1193   .text._ZN5Delay11disableHeadERKi:00000000000000c0 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1202   .text._ZN5Delay5clearEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1209   .text._ZN5Delay5clearEv:0000000000000000 _ZN5Delay5clearEv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1484   .text._ZN5Delay5clearEv:00000000000000c0 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1493   .text._ZN5Delay13setModulationERKf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1500   .text._ZN5Delay13setModulationERKf:0000000000000000 _ZN5Delay13setModulationERKf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1519   .text._ZN5Delay6getBPMEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1526   .text._ZN5Delay6getBPMEv:0000000000000000 _ZN5Delay6getBPMEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:19     .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:26     .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000000 _ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:122    .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000038 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:128    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:135    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:0000000000000000 _ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:254    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:000000000000004c $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:262    .text._ZN5DelayC2Ev:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:269    .text._ZN5DelayC2Ev:0000000000000000 _ZN5DelayC2Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:398    .text._ZN5DelayC2Ev:0000000000000024 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:269    .text._ZN5DelayC2Ev:0000000000000000 _ZN5DelayC1Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:405    .text._ZN5Delay7stopAllEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:412    .text._ZN5Delay7stopAllEv:0000000000000000 _ZN5Delay7stopAllEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:446    .text._ZN5Delay6setBPMEf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:453    .text._ZN5Delay6setBPMEf:0000000000000000 _ZN5Delay6setBPMEf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:470    .text._ZN5Delay11setFeedbackERKf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:477    .text._ZN5Delay11setFeedbackERKf:0000000000000000 _ZN5Delay11setFeedbackERKf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:496    .text._ZN5Delay7processEf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:503    .text._ZN5Delay7processEf:0000000000000000 _ZN5Delay7processEf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:824    .text._ZN5Delay7processEf:000000000000010c $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:836    .text._ZN5Delay10toggleHeadERKi:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:843    .text._ZN5Delay10toggleHeadERKi:0000000000000000 _ZN5Delay10toggleHeadERKi
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:870    .text._ZN5Delay10enableHeadERKi:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:877    .text._ZN5Delay10enableHeadERKi:0000000000000000 _ZN5Delay10enableHeadERKi
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:902    .text._ZN5Delay11disableHeadERKi:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:909    .text._ZN5Delay11disableHeadERKi:0000000000000000 _ZN5Delay11disableHeadERKi
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:1193   .text._ZN5Delay11disableHeadERKi:00000000000000c0 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:1202   .text._ZN5Delay5clearEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:1209   .text._ZN5Delay5clearEv:0000000000000000 _ZN5Delay5clearEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:1484   .text._ZN5Delay5clearEv:00000000000000c0 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:1493   .text._ZN5Delay13setModulationERKf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:1500   .text._ZN5Delay13setModulationERKf:0000000000000000 _ZN5Delay13setModulationERKf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:1519   .text._ZN5Delay6getBPMEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccGDrFqM.s:1526   .text._ZN5Delay6getBPMEv:0000000000000000 _ZN5Delay6getBPMEv
 
 UNDEFINED SYMBOLS
 memset

@@ -20,9 +20,12 @@ ToneFilter tone(48000.f);
 static CrossFade crossFade;
 DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
 
-Oscillator osc;
+	Oscillator osc;
+	Looper looper;
+	#define loopBuffSize 48000 * 60 // 60 seconds at 48kHz
+	float DSY_SDRAM_BSS loopBuffer[loopBuffSize];
 
-//DelayLineReverse<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
+	//DelayLineReverse<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
 
 Parameter toneParam;
 Parameter bpmParam;
@@ -58,11 +61,13 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 			out[0][i] = in[0][i];
 		else
 		{
+float loopSample = looper.Process(in[0][i]);
 			// Needed for crossFade process
-			float nonConstInput = in[0][i];
+			float nonConstInput = in[0][i] + loopSample;
 			float finalMix = 0;
-			float allDelaySignals = delay.process(in[0][i]);
+			float allDelaySignals = delay.process(in[0][i] + loopSample);
 			float preFilterDelays = allDelaySignals;
+
 
 			allDelaySignals = tone.process(allDelaySignals);
 			
@@ -81,7 +86,7 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 int main(void)
 {
 	hw.Init();
-	hw.SetAudioBlockSize(4); // number of samples handled per callback
+	hw.SetAudioBlockSize(4); 
 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
 	hw.StartAdc();
 
@@ -97,6 +102,8 @@ osc.Init(hw.AudioSampleRate());
 osc.SetWaveform(Oscillator::WAVE_SIN);
 osc.SetAmp(1);
 osc.SetFreq(20);
+
+looper.Init(loopBuffer, loopBuffSize);
 
 	hw.StartAudio(AudioCallback);
 	while(1) {}
@@ -121,11 +128,18 @@ void processControls()
 		if(bypass)
 			delay.clear();
 	}
-	if(hw.switches[Terrarium::FOOTSWITCH_1].RisingEdge())
-		tapping = !tapping;
 
-	tapTempo.update(tapping);
-	delay.setBPM(tapTempo.getBPM());
+	if(hw.switches[Terrarium::FOOTSWITCH_1].RisingEdge())
+		looper.TrigRecord();
+
+	if(hw.switches[Terrarium::FOOTSWITCH_1].TimeHeldMs() >= 1000.f)
+		looper.Clear();
+
+	// if(hw.switches[Terrarium::FOOTSWITCH_1].RisingEdge())
+	// 	tapping = !tapping;
+
+	// tapTempo.update(tapping);
+	// delay.setBPM(tapTempo.getBPM());
 
 	/***************************************************/
 
@@ -163,7 +177,7 @@ void processControls()
 
 	float bpmFromKnob = bpmParam.Process();
 
-	// Only update the delay time from the knob if it falls within + or - the current bpm to prevent extreme jumps in bpm. 
+	// Only update the delay time from the knob if it falls within + or - one of the current bpm to prevent extreme jumps in bpm. 
     if( bpmFromKnob > tapTempo.getBPM() - 1 &&  bpmFromKnob < tapTempo.getBPM() + 1 )
     {    
 		tapTempo.setBPM(bpmFromKnob);
