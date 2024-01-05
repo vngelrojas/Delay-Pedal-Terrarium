@@ -3,7 +3,7 @@
 #include "Terrarium.h"
 #include "Delay.h"
 #include "ToneFilter.h"
-
+#include "TapTempo.h"
 
 using namespace daisy;
 using namespace daisysp;
@@ -12,8 +12,9 @@ using namespace terrarium;
 
 DaisyPetal hw;
 Delay delay;
-ToneFilter tone(48000.f);
 Balance balance;
+TapTempo tapTempo;
+ToneFilter tone(48000.f);
 static CrossFade crossFade;
 DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
 
@@ -82,6 +83,7 @@ int main(void)
 	crossFade.SetCurve(CROSSFADE_CPOW);
 	balance.Init(hw.AudioSampleRate());
 	initParams();
+
 	hw.StartAudio(AudioCallback);
 	while(1) {}
 }
@@ -95,9 +97,16 @@ void initParams()
 
 void processControls()
 {
+	bool tapping = false;
+
 	/***************PROCESS FOOTSWITCHES*****************/
 	if(hw.switches[Terrarium::FOOTSWITCH_2].RisingEdge())
 		bypass = !bypass;
+	if(hw.switches[Terrarium::FOOTSWITCH_1].RisingEdge())
+		tapping = !tapping;
+
+	tapTempo.update(tapping);
+	delay.setBPM(tapTempo.getBPM());
 
 	/***************************************************/
 
@@ -133,8 +142,16 @@ void processControls()
 	toneVal = toneParam.Process();
 	tone.setFreq(toneVal);
 
-	bpm = bpmParam.Process();
-	delay.setBPM(bpm);
+	float bpmFromKnob = bpmParam.Process();
+
+	// Only update the delay time from the knob if it falls within + or - the current bpm to prevent extreme jumps in bpm. 
+    if( bpmFromKnob > tapTempo.getBPM() - 1 &&  bpmFromKnob < tapTempo.getBPM() + 1 )
+    {    
+		tapTempo.setBPM(bpmFromKnob);
+		delay.setBPM(bpm);
+	}
+	
 	/*********************************************/
 
+	bpm = tapTempo.getBPM();
 }
