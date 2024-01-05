@@ -55,8 +55,8 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 			float allDelaySignals = delay.process(in[0][i]);
 			float preFilterDelays = allDelaySignals;
 
-			// allDelaySignals = tone.process(allDelaySignals);
-            // allDelaySignals = balance.Process(allDelaySignals,preFilterDelays*tone.getFactor());
+			allDelaySignals = tone.process(allDelaySignals);
+            allDelaySignals = balance.Process(allDelaySignals,preFilterDelays*tone.getFactor());
 
 			finalMix = crossFade.Process(nonConstInput, allDelaySignals);
 
@@ -130,8 +130,8 @@ void processControls()
 	feedback = hw.knob[Terrarium::KNOB_2].Process();
 	delay.setFeedback(feedback);
 
-	// toneVal = toneParam.Process();
-	// tone.setFreq(toneVal);
+	toneVal = toneParam.Process();
+	tone.setFreq(toneVal);
 
 	bpm = bpmParam.Process();
 	delay.setBPM(bpm);

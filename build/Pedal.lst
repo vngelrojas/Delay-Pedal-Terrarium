@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   27:../../libDaisy//src/hid/parameter.h ****     ~Parameter() {}
   30              		.loc 1 27 5 view -0
   31              		.cfi_startproc
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 2
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 2
 
 
   32              		@ args = 0, pretend = 0, frame = 0
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
    6:../../libDaisy//src/daisy_petal.h **** 
    7:../../libDaisy//src/daisy_petal.h **** namespace daisy
    8:../../libDaisy//src/daisy_petal.h **** {
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 3
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 3
 
 
    9:../../libDaisy//src/daisy_petal.h **** /**
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   63:../../libDaisy//src/daisy_petal.h ****     };
   64:../../libDaisy//src/daisy_petal.h **** 
   65:../../libDaisy//src/daisy_petal.h ****     /** Constructor */
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 4
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 4
 
 
   66:../../libDaisy//src/daisy_petal.h ****     DaisyPetal() {}
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   14:../../libDaisy//src/hid/switch.h ****     @date December 2019
   15:../../libDaisy//src/hid/switch.h ****     @ingroup controls
   16:../../libDaisy//src/hid/switch.h **** */
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 5
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 5
 
 
   17:../../libDaisy//src/hid/switch.h **** class Switch
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   22:../../libDaisy//src/daisy_seed.h ****     ~DaisySeed() {}
   84              		.loc 6 22 5 is_stmt 1 view .LVU10
   85              	.LBB269:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 6
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 6
 
 
   86              	.LBI269:
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   53:../../libDaisy//src/sys/system.h ****         }
   54:../../libDaisy//src/sys/system.h **** 
   55:../../libDaisy//src/sys/system.h ****         SysClkFreq cpu_freq;
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 7
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 7
 
 
   56:../../libDaisy//src/sys/system.h ****         bool       use_dcache;
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   26:../../libDaisy//src/hid/usb.h ****     };
   27:../../libDaisy//src/hid/usb.h **** 
   28:../../libDaisy//src/hid/usb.h ****     /** Specified which of the two USB Peripherals to initialize. */
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 8
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 8
 
 
   29:../../libDaisy//src/hid/usb.h ****     enum UsbPeriph
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   35:../../libDaisy//src/per/adc.h ****     {
   36:../../libDaisy//src/per/adc.h ****         MUX_SEL_0,    /**< & */
   37:../../libDaisy//src/per/adc.h ****         MUX_SEL_1,    /**< & */
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 9
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 9
 
 
   38:../../libDaisy//src/per/adc.h ****         MUX_SEL_2,    /**< & */
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   92:../../libDaisy//src/per/adc.h ****     AdcHandle() {}
   93:../../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
  100              		.loc 9 93 5 is_stmt 1 view .LVU15
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 10
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 10
 
 
  101              		.loc 9 93 5 is_stmt 0 view .LVU16
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   50:../../libDaisy//src/hid/audio.h ****         }
   51:../../libDaisy//src/hid/audio.h ****     };
   52:../../libDaisy//src/hid/audio.h **** 
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 11
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 11
 
 
   53:../../libDaisy//src/hid/audio.h ****     enum class Result
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  117 0002 00BF     		.section	.text._ZN7daisysp7BalanceD2Ev,"axG",%progbits,_ZN7daisysp7BalanceD5Ev,comdat
  118              		.align	1
  119              		.p2align 2,,3
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 12
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 12
 
 
  120              		.weak	_ZN7daisysp7BalanceD2Ev
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
    2:../../DaisySP//Source/Dynamics/crossfade.h **** #ifndef DSY_CROSSFADE_H
    3:../../DaisySP//Source/Dynamics/crossfade.h **** #define DSY_CROSSFADE_H
    4:../../DaisySP//Source/Dynamics/crossfade.h **** #include <stdint.h>
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 13
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 13
 
 
    5:../../DaisySP//Source/Dynamics/crossfade.h **** #ifdef __cplusplus
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  176              		.file 13 "ToneFilter.h"
    1:ToneFilter.h  **** #pragma once
    2:ToneFilter.h  **** #include "daisysp.h"
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 14
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 14
 
 
    3:ToneFilter.h  **** #include "daisy_seed.h"
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   11:../../DaisySP//Source/Filters/tone.h **** */
   12:../../DaisySP//Source/Filters/tone.h **** class Tone
   13:../../DaisySP//Source/Filters/tone.h **** {
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 15
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 15
 
 
   14:../../DaisySP//Source/Filters/tone.h ****   public:
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  227              		.thumb_func
  229              	_Z10initParamsv:
  230              	.LFB4803:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 16
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 16
 
 
   19:Pedal.cpp     **** 
@@ -940,8 +940,8 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   55:Pedal.cpp     **** 			float allDelaySignals = delay.process(in[0][i]);
   56:Pedal.cpp     **** 			float preFilterDelays = allDelaySignals;
   57:Pedal.cpp     **** 
-  58:Pedal.cpp     **** 			// allDelaySignals = tone.process(allDelaySignals);
-  59:Pedal.cpp     ****             // allDelaySignals = balance.Process(allDelaySignals,preFilterDelays*tone.getFactor());
+  58:Pedal.cpp     **** 			allDelaySignals = tone.process(allDelaySignals);
+  59:Pedal.cpp     ****             allDelaySignals = balance.Process(allDelaySignals,preFilterDelays*tone.getFactor());
   60:Pedal.cpp     **** 
   61:Pedal.cpp     **** 			finalMix = crossFade.Process(nonConstInput, allDelaySignals);
   62:Pedal.cpp     **** 
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   73:Pedal.cpp     **** {
   74:Pedal.cpp     **** 	hw.Init();
   75:Pedal.cpp     **** 	hw.SetAudioBlockSize(4); // number of samples handled per callback
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 17
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 17
 
 
   76:Pedal.cpp     **** 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  267              		.loc 2 23 5 is_stmt 0 view .LVU43
  268              	.LBE275:
   92:Pedal.cpp     **** 	bpmParam.Init(hw.knob[Terrarium::KNOB_4], 30.0f, 240.0f, Parameter::LINEAR);
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 18
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 18
 
 
  269              		.loc 16 92 2 is_stmt 1 view .LVU44
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   74:Pedal.cpp     **** 	hw.SetAudioBlockSize(4); // number of samples handled per callback
  322              		.loc 16 74 2 view .LVU53
   73:Pedal.cpp     **** 	hw.Init();
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 19
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 19
 
 
  323              		.loc 16 73 1 is_stmt 0 view .LVU54
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   38:../../DaisySP//Source/Dynamics/crossfade.h ****     /** Initializes CrossFade module
   39:../../DaisySP//Source/Dynamics/crossfade.h ****         Defaults
   40:../../DaisySP//Source/Dynamics/crossfade.h ****         - current position = .5
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 20
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 20
 
 
   41:../../DaisySP//Source/Dynamics/crossfade.h ****         - curve = linear
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   45:../../DaisySP//Source/Dynamics/crossfade.h ****         curve_ = curve < CROSSFADE_LAST ? curve : CROSSFADE_LIN;
  391              		.loc 12 45 16 view .LVU74
  392 003c 1960     		str	r1, [r3]	@ float
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 21
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 21
 
 
   46:../../DaisySP//Source/Dynamics/crossfade.h ****     }
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  434              	.L16:
  435              		.align	2
  436              	.L15:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 22
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 22
 
 
  437 0058 00000000 		.word	.LANCHOR0
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   66:../../libDaisy//src/hid/switch.h ****     */
   67:../../libDaisy//src/hid/switch.h ****     void Debounce();
   68:../../libDaisy//src/hid/switch.h **** 
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 23
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 23
 
 
   69:../../libDaisy//src/hid/switch.h ****     /** \return true if a button was just pressed. */
@@ -1337,7 +1337,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  475              	.LBB292:
  476              	.LBB290:
  477              		.loc 5 70 45 view .LVU97
- 478 0002 354C     		ldr	r4, .L36
+ 478 0002 3A4C     		ldr	r4, .L36
  479              	.LBE290:
  480              	.LBE292:
   97:Pedal.cpp     **** 	/***************PROCESS FOOTSWITCHES*****************/
@@ -1356,7 +1356,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  493              		.loc 16 99 2 view .LVU101
  494 000c 94F89E31 		ldrb	r3, [r4, #414]	@ zero_extendqisi2
  495 0010 7F2B     		cmp	r3, #127
- 496 0012 4CD0     		beq	.L31
+ 496 0012 55D0     		beq	.L31
  497              	.L18:
  100:Pedal.cpp     **** 		bypass = !bypass;
  101:Pedal.cpp     **** 
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   78:../../libDaisy//src/hid/switch.h ****     /** \return true if the button is held down (or if the toggle is on) */
   79:../../libDaisy//src/hid/switch.h ****     inline bool Pressed() const { return state_ == 0xff; }
  502              		.loc 5 79 17 view .LVU103
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 24
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 24
 
 
  503              	.LBB295:
@@ -1391,7 +1391,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  106:Pedal.cpp     **** 		delay.enableHead(0);
  510              		.loc 16 106 19 view .LVU107
  511 0018 03A9     		add	r1, sp, #12
- 512 001a 3048     		ldr	r0, .L36+4
+ 512 001a 3548     		ldr	r0, .L36+4
  105:Pedal.cpp     **** 		delay.enableHead(0);
  513              		.loc 16 105 2 view .LVU108
  514 001c FF2B     		cmp	r3, #255
@@ -1403,7 +1403,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  520 0024 0393     		str	r3, [sp, #12]
  105:Pedal.cpp     **** 		delay.enableHead(0);
  521              		.loc 16 105 2 view .LVU112
- 522 0026 53D0     		beq	.L32
+ 522 0026 5CD0     		beq	.L32
  107:Pedal.cpp     **** 	else
  108:Pedal.cpp     **** 		delay.disableHead(0);
  523              		.loc 16 108 3 is_stmt 1 view .LVU113
@@ -1428,7 +1428,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  540 002e 94F85E31 		ldrb	r3, [r4, #350]	@ zero_extendqisi2
  111:Pedal.cpp     **** 		delay.enableHead(1);
  541              		.loc 16 111 19 view .LVU120
- 542 0032 2A48     		ldr	r0, .L36+4
+ 542 0032 2F48     		ldr	r0, .L36+4
  110:Pedal.cpp     **** 		delay.enableHead(1);
  543              		.loc 16 110 2 view .LVU121
  544 0034 FF2B     		cmp	r3, #255
@@ -1438,12 +1438,12 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  548 003a 0191     		str	r1, [sp, #4]
  549              		.loc 16 111 20 view .LVU124
  550 003c 0393     		str	r3, [sp, #12]
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 25
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 25
 
 
  110:Pedal.cpp     **** 		delay.enableHead(1);
  551              		.loc 16 110 2 view .LVU125
- 552 003e 43D0     		beq	.L33
+ 552 003e 4CD0     		beq	.L33
  112:Pedal.cpp     **** 	else
  113:Pedal.cpp     **** 		delay.disableHead(1);
  553              		.loc 16 113 3 is_stmt 1 view .LVU126
@@ -1468,7 +1468,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  570 0046 94F84E31 		ldrb	r3, [r4, #334]	@ zero_extendqisi2
  116:Pedal.cpp     **** 		delay.enableHead(2);
  571              		.loc 16 116 19 view .LVU133
- 572 004a 2448     		ldr	r0, .L36+4
+ 572 004a 2948     		ldr	r0, .L36+4
  115:Pedal.cpp     **** 		delay.enableHead(2);
  573              		.loc 16 115 2 view .LVU134
  574 004c FF2B     		cmp	r3, #255
@@ -1480,7 +1480,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  580 0054 0393     		str	r3, [sp, #12]
  115:Pedal.cpp     **** 		delay.enableHead(2);
  581              		.loc 16 115 2 view .LVU138
- 582 0056 33D0     		beq	.L34
+ 582 0056 3CD0     		beq	.L34
  117:Pedal.cpp     **** 	else
  118:Pedal.cpp     **** 		delay.disableHead(2);	
  583              		.loc 16 118 3 is_stmt 1 view .LVU139
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  593              		.loc 5 79 17 view .LVU142
  594              	.LBB301:
  595              		.loc 5 79 35 view .LVU143
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 26
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 26
 
 
  596              		.loc 5 79 35 is_stmt 0 view .LVU144
@@ -1508,7 +1508,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  600 005e 94F8AE31 		ldrb	r3, [r4, #430]	@ zero_extendqisi2
  121:Pedal.cpp     **** 		delay.enableHead(3);
  601              		.loc 16 121 19 view .LVU146
- 602 0062 1E48     		ldr	r0, .L36+4
+ 602 0062 2348     		ldr	r0, .L36+4
  120:Pedal.cpp     **** 		delay.enableHead(3);
  603              		.loc 16 120 2 view .LVU147
  604 0064 FF2B     		cmp	r3, #255
@@ -1517,7 +1517,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  607 006a 0393     		str	r3, [sp, #12]
  120:Pedal.cpp     **** 		delay.enableHead(3);
  608              		.loc 16 120 2 view .LVU149
- 609 006c 25D0     		beq	.L35
+ 609 006c 2ED0     		beq	.L35
  122:Pedal.cpp     **** 	else
  123:Pedal.cpp     **** 		delay.disableHead(3);
  610              		.loc 16 123 3 is_stmt 1 view .LVU150
@@ -1531,23 +1531,23 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  127:Pedal.cpp     **** 	dryWet = hw.knob[Terrarium::KNOB_1].Process();
  615              		.loc 16 127 2 is_stmt 1 view .LVU152
  616              		.loc 16 127 45 is_stmt 0 view .LVU153
- 617 0072 1B48     		ldr	r0, .L36+8
+ 617 0072 2048     		ldr	r0, .L36+8
  618 0074 FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
  619              	.LVL29:
  620              		.loc 16 127 9 view .LVU154
- 621 0078 1A4A     		ldr	r2, .L36+12
+ 621 0078 1F4A     		ldr	r2, .L36+12
  622              	.LBB302:
  623              	.LBB303:
   60:../../DaisySP//Source/Dynamics/crossfade.h ****     /** Sets current curve applied to CrossFade 
  624              		.loc 12 60 42 view .LVU155
- 625 007a 1B4B     		ldr	r3, .L36+16
+ 625 007a 204B     		ldr	r3, .L36+16
  626              	.LBE303:
  627              	.LBE302:
  128:Pedal.cpp     **** 	crossFade.SetPos(dryWet);
  129:Pedal.cpp     **** 
  130:Pedal.cpp     **** 	feedback = hw.knob[Terrarium::KNOB_2].Process();
  628              		.loc 16 130 47 view .LVU156
- 629 007c 1B48     		ldr	r0, .L36+20
+ 629 007c 2048     		ldr	r0, .L36+20
  127:Pedal.cpp     **** 	crossFade.SetPos(dryWet);
  630              		.loc 16 127 9 view .LVU157
  631 007e 82ED000A 		vstr.32	s0, [r2]
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  635              	.LBI302:
   60:../../DaisySP//Source/Dynamics/crossfade.h ****     /** Sets current curve applied to CrossFade 
  636              		.loc 12 60 17 view .LVU159
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 27
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 27
 
 
  637              	.LBB304:
@@ -1577,10 +1577,10 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  647 0086 FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
  648              	.LVL32:
  649              		.loc 16 130 11 view .LVU165
- 650 008a 1949     		ldr	r1, .L36+24
+ 650 008a 1E49     		ldr	r1, .L36+24
  131:Pedal.cpp     **** 	delay.setFeedback(feedback);
  651              		.loc 16 131 19 view .LVU166
- 652 008c 1348     		ldr	r0, .L36+4
+ 652 008c 1848     		ldr	r0, .L36+4
  130:Pedal.cpp     **** 	delay.setFeedback(feedback);
  653              		.loc 16 130 11 view .LVU167
  654 008e 81ED000A 		vstr.32	s0, [r1]
@@ -1589,136 +1589,158 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  657 0092 FFF7FEFF 		bl	_ZN5Delay11setFeedbackERKf
  658              	.LVL33:
  132:Pedal.cpp     **** 
- 133:Pedal.cpp     **** 	// toneVal = toneParam.Process();
- 134:Pedal.cpp     **** 	// tone.setFreq(toneVal);
- 135:Pedal.cpp     **** 
- 136:Pedal.cpp     **** 	bpm = bpmParam.Process();
- 659              		.loc 16 136 2 is_stmt 1 view .LVU170
- 660              		.loc 16 136 24 is_stmt 0 view .LVU171
- 661 0096 1748     		ldr	r0, .L36+28
+ 133:Pedal.cpp     **** 	toneVal = toneParam.Process();
+ 659              		.loc 16 133 2 is_stmt 1 view .LVU170
+ 660              		.loc 16 133 29 is_stmt 0 view .LVU171
+ 661 0096 1C48     		ldr	r0, .L36+28
  662 0098 FFF7FEFF 		bl	_ZN5daisy9Parameter7ProcessEv
  663              	.LVL34:
- 664              		.loc 16 136 6 view .LVU172
- 665 009c 164B     		ldr	r3, .L36+32
- 137:Pedal.cpp     **** 	delay.setBPM(bpm);
- 666              		.loc 16 137 14 view .LVU173
- 667 009e 0F48     		ldr	r0, .L36+4
- 136:Pedal.cpp     **** 	delay.setBPM(bpm);
- 668              		.loc 16 136 6 view .LVU174
+ 664              		.loc 16 133 10 view .LVU172
+ 665 009c 1B4B     		ldr	r3, .L36+32
+ 134:Pedal.cpp     **** 	tone.setFreq(toneVal);
+ 666              		.loc 16 134 14 view .LVU173
+ 667 009e 1C48     		ldr	r0, .L36+36
+ 133:Pedal.cpp     **** 	tone.setFreq(toneVal);
+ 668              		.loc 16 133 10 view .LVU174
  669 00a0 83ED000A 		vstr.32	s0, [r3]
- 670              		.loc 16 137 2 is_stmt 1 view .LVU175
+ 670              		.loc 16 134 2 is_stmt 1 view .LVU175
+ 671              		.loc 16 134 14 is_stmt 0 view .LVU176
+ 672 00a4 FFF7FEFF 		bl	_ZN10ToneFilter7setFreqEf
+ 673              	.LVL35:
+ 135:Pedal.cpp     **** 
+ 136:Pedal.cpp     **** 	bpm = bpmParam.Process();
+ 674              		.loc 16 136 2 is_stmt 1 view .LVU177
+ 675              		.loc 16 136 24 is_stmt 0 view .LVU178
+ 676 00a8 1A48     		ldr	r0, .L36+40
+ 677 00aa FFF7FEFF 		bl	_ZN5daisy9Parameter7ProcessEv
+ 678              	.LVL36:
+ 679              		.loc 16 136 6 view .LVU179
+ 680 00ae 1A4B     		ldr	r3, .L36+44
+ 137:Pedal.cpp     **** 	delay.setBPM(bpm);
+ 681              		.loc 16 137 14 view .LVU180
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 28
+
+
+ 682 00b0 0F48     		ldr	r0, .L36+4
+ 136:Pedal.cpp     **** 	delay.setBPM(bpm);
+ 683              		.loc 16 136 6 view .LVU181
+ 684 00b2 83ED000A 		vstr.32	s0, [r3]
+ 685              		.loc 16 137 2 is_stmt 1 view .LVU182
  138:Pedal.cpp     **** 	/*********************************************/
  139:Pedal.cpp     **** 
  140:Pedal.cpp     **** }...
- 671              		.loc 16 140 1 is_stmt 0 view .LVU176
- 672 00a4 04B0     		add	sp, sp, #16
- 673              		.cfi_remember_state
- 674              		.cfi_def_cfa_offset 8
- 675              		@ sp needed
- 676 00a6 BDE81040 		pop	{r4, lr}
- 677              		.cfi_restore 14
- 678              		.cfi_restore 4
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 28
-
-
- 679              		.cfi_def_cfa_offset 0
+ 686              		.loc 16 140 1 is_stmt 0 view .LVU183
+ 687 00b6 04B0     		add	sp, sp, #16
+ 688              		.cfi_remember_state
+ 689              		.cfi_def_cfa_offset 8
+ 690              		@ sp needed
+ 691 00b8 BDE81040 		pop	{r4, lr}
+ 692              		.cfi_restore 14
+ 693              		.cfi_restore 4
+ 694              		.cfi_def_cfa_offset 0
  137:Pedal.cpp     **** 	delay.setBPM(bpm);
- 680              		.loc 16 137 14 view .LVU177
- 681 00aa FFF7FEBF 		b	_ZN5Delay6setBPMEf
- 682              	.LVL35:
- 683              	.L31:
- 684              		.cfi_restore_state
+ 695              		.loc 16 137 14 view .LVU184
+ 696 00bc FFF7FEBF 		b	_ZN5Delay6setBPMEf
+ 697              	.LVL37:
+ 698              	.L31:
+ 699              		.cfi_restore_state
  100:Pedal.cpp     **** 		bypass = !bypass;
- 685              		.loc 16 100 3 is_stmt 1 view .LVU178
+ 700              		.loc 16 100 3 is_stmt 1 view .LVU185
  100:Pedal.cpp     **** 		bypass = !bypass;
- 686              		.loc 16 100 10 is_stmt 0 view .LVU179
- 687 00ae 134A     		ldr	r2, .L36+36
+ 701              		.loc 16 100 10 is_stmt 0 view .LVU186
+ 702 00c0 164A     		ldr	r2, .L36+48
  100:Pedal.cpp     **** 		bypass = !bypass;
- 688              		.loc 16 100 12 view .LVU180
- 689 00b0 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
- 690 00b2 83F00103 		eor	r3, r3, #1
+ 703              		.loc 16 100 12 view .LVU187
+ 704 00c2 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+ 705 00c4 83F00103 		eor	r3, r3, #1
  100:Pedal.cpp     **** 		bypass = !bypass;
- 691              		.loc 16 100 10 view .LVU181
- 692 00b6 1370     		strb	r3, [r2]
- 693 00b8 ACE7     		b	.L18
- 694              	.L35:
+ 706              		.loc 16 100 10 view .LVU188
+ 707 00c8 1370     		strb	r3, [r2]
+ 708 00ca A3E7     		b	.L18
+ 709              	.L35:
  121:Pedal.cpp     **** 		delay.enableHead(3);
- 695              		.loc 16 121 3 is_stmt 1 view .LVU182
+ 710              		.loc 16 121 3 is_stmt 1 view .LVU189
  121:Pedal.cpp     **** 		delay.enableHead(3);
- 696              		.loc 16 121 19 is_stmt 0 view .LVU183
- 697 00ba FFF7FEFF 		bl	_ZN5Delay10enableHeadERKi
- 698              	.LVL36:
- 699 00be D8E7     		b	.L26
- 700              	.L34:
+ 711              		.loc 16 121 19 is_stmt 0 view .LVU190
+ 712 00cc FFF7FEFF 		bl	_ZN5Delay10enableHeadERKi
+ 713              	.LVL38:
+ 714 00d0 CFE7     		b	.L26
+ 715              	.L34:
  116:Pedal.cpp     **** 		delay.enableHead(2);
- 701              		.loc 16 116 3 is_stmt 1 view .LVU184
+ 716              		.loc 16 116 3 is_stmt 1 view .LVU191
  116:Pedal.cpp     **** 		delay.enableHead(2);
- 702              		.loc 16 116 19 is_stmt 0 view .LVU185
- 703 00c0 FFF7FEFF 		bl	_ZN5Delay10enableHeadERKi
- 704              	.LVL37:
- 705 00c4 0199     		ldr	r1, [sp, #4]
- 706 00c6 CAE7     		b	.L24
- 707              	.L33:
+ 717              		.loc 16 116 19 is_stmt 0 view .LVU192
+ 718 00d2 FFF7FEFF 		bl	_ZN5Delay10enableHeadERKi
+ 719              	.LVL39:
+ 720 00d6 0199     		ldr	r1, [sp, #4]
+ 721 00d8 C1E7     		b	.L24
+ 722              	.L33:
  111:Pedal.cpp     **** 		delay.enableHead(1);
- 708              		.loc 16 111 3 is_stmt 1 view .LVU186
+ 723              		.loc 16 111 3 is_stmt 1 view .LVU193
  111:Pedal.cpp     **** 		delay.enableHead(1);
- 709              		.loc 16 111 19 is_stmt 0 view .LVU187
- 710 00c8 FFF7FEFF 		bl	_ZN5Delay10enableHeadERKi
- 711              	.LVL38:
- 712 00cc 0199     		ldr	r1, [sp, #4]
- 713 00ce BAE7     		b	.L22
- 714              	.L32:
- 106:Pedal.cpp     **** 		delay.enableHead(0);
- 715              		.loc 16 106 3 is_stmt 1 view .LVU188
- 106:Pedal.cpp     **** 		delay.enableHead(0);
- 716              		.loc 16 106 19 is_stmt 0 view .LVU189
- 717 00d0 FFF7FEFF 		bl	_ZN5Delay10enableHeadERKi
- 718              	.LVL39:
- 719 00d4 0199     		ldr	r1, [sp, #4]
- 720 00d6 AAE7     		b	.L20
- 721              	.L37:
- 722              		.align	2
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 29
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 29
 
 
- 723              	.L36:
- 724 00d8 00000000 		.word	.LANCHOR0
- 725 00dc 00000000 		.word	.LANCHOR3
- 726 00e0 64000000 		.word	.LANCHOR0+100
- 727 00e4 00000000 		.word	.LANCHOR7
- 728 00e8 00000000 		.word	.LANCHOR4
- 729 00ec A4000000 		.word	.LANCHOR0+164
- 730 00f0 00000000 		.word	.LANCHOR8
- 731 00f4 00000000 		.word	.LANCHOR2
- 732 00f8 00000000 		.word	.LANCHOR9
- 733 00fc 00000000 		.word	.LANCHOR6
- 734              		.cfi_endproc
- 735              	.LFE4804:
- 737              		.section	.text._Z13AudioCallbackPKPKfPPfj,"ax",%progbits
- 738              		.align	1
- 739              		.p2align 2,,3
- 740              		.global	_Z13AudioCallbackPKPKfPPfj
- 741              		.syntax unified
- 742              		.thumb
- 743              		.thumb_func
- 745              	_Z13AudioCallbackPKPKfPPfj:
- 746              	.LVL40:
- 747              	.LFB4801:
+ 724              		.loc 16 111 19 is_stmt 0 view .LVU194
+ 725 00da FFF7FEFF 		bl	_ZN5Delay10enableHeadERKi
+ 726              	.LVL40:
+ 727 00de 0199     		ldr	r1, [sp, #4]
+ 728 00e0 B1E7     		b	.L22
+ 729              	.L32:
+ 106:Pedal.cpp     **** 		delay.enableHead(0);
+ 730              		.loc 16 106 3 is_stmt 1 view .LVU195
+ 106:Pedal.cpp     **** 		delay.enableHead(0);
+ 731              		.loc 16 106 19 is_stmt 0 view .LVU196
+ 732 00e2 FFF7FEFF 		bl	_ZN5Delay10enableHeadERKi
+ 733              	.LVL41:
+ 734 00e6 0199     		ldr	r1, [sp, #4]
+ 735 00e8 A1E7     		b	.L20
+ 736              	.L37:
+ 737 00ea 00BF     		.align	2
+ 738              	.L36:
+ 739 00ec 00000000 		.word	.LANCHOR0
+ 740 00f0 00000000 		.word	.LANCHOR3
+ 741 00f4 64000000 		.word	.LANCHOR0+100
+ 742 00f8 00000000 		.word	.LANCHOR7
+ 743 00fc 00000000 		.word	.LANCHOR4
+ 744 0100 A4000000 		.word	.LANCHOR0+164
+ 745 0104 00000000 		.word	.LANCHOR8
+ 746 0108 00000000 		.word	.LANCHOR1
+ 747 010c 00000000 		.word	.LANCHOR9
+ 748 0110 00000000 		.word	.LANCHOR10
+ 749 0114 00000000 		.word	.LANCHOR2
+ 750 0118 00000000 		.word	.LANCHOR11
+ 751 011c 00000000 		.word	.LANCHOR6
+ 752              		.cfi_endproc
+ 753              	.LFE4804:
+ 755              		.section	.text._Z13AudioCallbackPKPKfPPfj,"ax",%progbits
+ 756              		.align	1
+ 757              		.p2align 2,,3
+ 758              		.global	_Z13AudioCallbackPKPKfPPfj
+ 759              		.syntax unified
+ 760              		.thumb
+ 761              		.thumb_func
+ 763              	_Z13AudioCallbackPKPKfPPfj:
+ 764              	.LVL42:
+ 765              	.LFB4801:
   43:Pedal.cpp     **** {
- 748              		.loc 16 43 1 is_stmt 1 view -0
- 749              		.cfi_startproc
- 750              		@ args = 0, pretend = 0, frame = 8
- 751              		@ frame_needed = 0, uses_anonymous_args = 0
+ 766              		.loc 16 43 1 is_stmt 1 view -0
+ 767              		.cfi_startproc
+ 768              		@ args = 0, pretend = 0, frame = 8
+ 769              		@ frame_needed = 0, uses_anonymous_args = 0
   44:Pedal.cpp     **** 	hw.ProcessAllControls();
- 752              		.loc 16 44 2 view .LVU191
- 753              	.LBB306:
- 754              	.LBI306:
+ 770              		.loc 16 44 2 view .LVU198
+ 771              	.LBB306:
+ 772              	.LBI306:
   69:../../libDaisy//src/daisy_petal.h **** 
   70:../../libDaisy//src/daisy_petal.h ****     /** Initialize daisy petal */
   71:../../libDaisy//src/daisy_petal.h ****     void Init(bool boost = false);
   72:../../libDaisy//src/daisy_petal.h **** 
   73:../../libDaisy//src/daisy_petal.h ****     /**
   74:../../libDaisy//src/daisy_petal.h ****        Wait before moving on.
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 30
+
+
   75:../../libDaisy//src/daisy_petal.h ****        \param del Delay time in ms.
   76:../../libDaisy//src/daisy_petal.h ****      */
   77:../../libDaisy//src/daisy_petal.h ****     void DelayMs(size_t del);
@@ -1738,9 +1760,6 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   91:../../libDaisy//src/daisy_petal.h ****        Switch callback functions
   92:../../libDaisy//src/daisy_petal.h ****        \param cb New interleaved callback function.
   93:../../libDaisy//src/daisy_petal.h ****     */
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 30
-
-
   94:../../libDaisy//src/daisy_petal.h ****     void ChangeAudioCallback(AudioHandle::InterleavingAudioCallback cb);
   95:../../libDaisy//src/daisy_petal.h **** 
   96:../../libDaisy//src/daisy_petal.h ****     /**
@@ -1779,276 +1798,326 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  129:../../libDaisy//src/daisy_petal.h ****     void StopAdc();
  130:../../libDaisy//src/daisy_petal.h **** 
  131:../../libDaisy//src/daisy_petal.h ****     /** Call at the same frequency as controls are read for stable readings.*/
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 31
+
+
  132:../../libDaisy//src/daisy_petal.h ****     void ProcessAnalogControls();
  133:../../libDaisy//src/daisy_petal.h **** 
  134:../../libDaisy//src/daisy_petal.h ****     /** Process Analog and Digital Controls */
  135:../../libDaisy//src/daisy_petal.h ****     inline void ProcessAllControls()
- 755              		.loc 3 135 17 view .LVU192
- 756              	.LBB307:
+ 773              		.loc 3 135 17 view .LVU199
+ 774              	.LBB307:
  136:../../libDaisy//src/daisy_petal.h ****     {
  137:../../libDaisy//src/daisy_petal.h ****         ProcessAnalogControls();
- 757              		.loc 3 137 9 view .LVU193
- 758              	.LBE307:
- 759              	.LBE306:
+ 775              		.loc 3 137 9 view .LVU200
+ 776              	.LBE307:
+ 777              	.LBE306:
   43:Pedal.cpp     **** {
- 760              		.loc 16 43 1 is_stmt 0 view .LVU194
- 761 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
- 762              		.cfi_def_cfa_offset 28
- 763              		.cfi_offset 4, -28
- 764              		.cfi_offset 5, -24
- 765              		.cfi_offset 6, -20
- 766              		.cfi_offset 7, -16
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 31
-
-
- 767              		.cfi_offset 8, -12
- 768              		.cfi_offset 9, -8
- 769              		.cfi_offset 14, -4
- 770 0004 1546     		mov	r5, r2
- 771 0006 83B0     		sub	sp, sp, #12
- 772              		.cfi_def_cfa_offset 40
-  43:Pedal.cpp     **** {
- 773              		.loc 16 43 1 view .LVU195
- 774 0008 0646     		mov	r6, r0
- 775              	.LBB310:
- 776              	.LBB308:
- 777              		.loc 3 137 30 view .LVU196
- 778 000a 1D48     		ldr	r0, .L49
- 779              	.LVL41:
- 780              		.loc 3 137 30 view .LVU197
- 781              	.LBE308:
- 782              	.LBE310:
-  43:Pedal.cpp     **** {
- 783              		.loc 16 43 1 view .LVU198
- 784 000c 0F46     		mov	r7, r1
- 785              	.LBB311:
- 786              	.LBB309:
- 787              		.loc 3 137 30 view .LVU199
- 788 000e FFF7FEFF 		bl	_ZN5daisy10DaisyPetal21ProcessAnalogControlsEv
- 789              	.LVL42:
- 138:../../libDaisy//src/daisy_petal.h ****         ProcessDigitalControls();
- 790              		.loc 3 138 9 is_stmt 1 view .LVU200
- 791              		.loc 3 138 31 is_stmt 0 view .LVU201
- 792 0012 1B48     		ldr	r0, .L49
- 793 0014 FFF7FEFF 		bl	_ZN5daisy10DaisyPetal22ProcessDigitalControlsEv
+ 778              		.loc 16 43 1 is_stmt 0 view .LVU201
+ 779 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
+ 780              		.cfi_def_cfa_offset 28
+ 781              		.cfi_offset 4, -28
+ 782              		.cfi_offset 5, -24
+ 783              		.cfi_offset 6, -20
+ 784              		.cfi_offset 7, -16
+ 785              		.cfi_offset 8, -12
+ 786              		.cfi_offset 9, -8
+ 787              		.cfi_offset 14, -4
+ 788 0004 1546     		mov	r5, r2
+ 789 0006 0646     		mov	r6, r0
+ 790              	.LBB310:
+ 791              	.LBB308:
+ 792              		.loc 3 137 30 view .LVU202
+ 793 0008 2B48     		ldr	r0, .L49
  794              	.LVL43:
- 795              		.loc 3 138 31 view .LVU202
- 796              	.LBE309:
- 797              	.LBE311:
+ 795              		.loc 3 137 30 view .LVU203
+ 796              	.LBE308:
+ 797              	.LBE310:
+  43:Pedal.cpp     **** {
+ 798              		.loc 16 43 1 view .LVU204
+ 799 000a 0F46     		mov	r7, r1
+ 800 000c 2DED028B 		vpush.64	{d8}
+ 801              		.cfi_def_cfa_offset 36
+ 802              		.cfi_offset 80, -36
+ 803              		.cfi_offset 81, -32
+ 804 0010 83B0     		sub	sp, sp, #12
+ 805              		.cfi_def_cfa_offset 48
+ 806              	.LBB311:
+ 807              	.LBB309:
+ 808              		.loc 3 137 30 view .LVU205
+ 809 0012 FFF7FEFF 		bl	_ZN5daisy10DaisyPetal21ProcessAnalogControlsEv
+ 810              	.LVL44:
+ 138:../../libDaisy//src/daisy_petal.h ****         ProcessDigitalControls();
+ 811              		.loc 3 138 9 is_stmt 1 view .LVU206
+ 812              		.loc 3 138 31 is_stmt 0 view .LVU207
+ 813 0016 2848     		ldr	r0, .L49
+ 814 0018 FFF7FEFF 		bl	_ZN5daisy10DaisyPetal22ProcessDigitalControlsEv
+ 815              	.LVL45:
+ 816              		.loc 3 138 31 view .LVU208
+ 817              	.LBE309:
+ 818              	.LBE311:
   45:Pedal.cpp     **** 	processControls();
- 798              		.loc 16 45 2 is_stmt 1 view .LVU203
-  45:Pedal.cpp     **** 	processControls();
- 799              		.loc 16 45 17 is_stmt 0 view .LVU204
- 800 0018 FFF7FEFF 		bl	_Z15processControlsv
- 801              	.LVL44:
-  46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 802              		.loc 16 46 2 is_stmt 1 view .LVU205
- 803              	.LBB312:
-  46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 804              		.loc 16 46 23 view .LVU206
- 805 001c 6DB3     		cbz	r5, .L38
-  46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 806              		.loc 16 46 14 is_stmt 0 view .LVU207
- 807 001e 0024     		movs	r4, #0
- 808 0020 DFF86880 		ldr	r8, .L49+12
- 809 0024 0BE0     		b	.L42
- 810              	.LVL45:
- 811              	.L48:
- 812              	.LBB313:
-  49:Pedal.cpp     **** 			out[0][i] = in[0][i];
- 813              		.loc 16 49 23 view .LVU208
- 814 0026 3268     		ldr	r2, [r6]
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 32
+ 819              		.loc 16 45 2 is_stmt 1 view .LVU209
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 32
 
 
-  49:Pedal.cpp     **** 			out[0][i] = in[0][i];
- 815              		.loc 16 49 14 view .LVU209
- 816 0028 3B68     		ldr	r3, [r7]
-  49:Pedal.cpp     **** 			out[0][i] = in[0][i];
- 817              		.loc 16 49 23 view .LVU210
- 818 002a 02EB840C 		add	ip, r2, r4, lsl #2
-  49:Pedal.cpp     **** 			out[0][i] = in[0][i];
- 819              		.loc 16 49 14 view .LVU211
- 820 002e 03EB8403 		add	r3, r3, r4, lsl #2
- 821              	.LBE313:
+  45:Pedal.cpp     **** 	processControls();
+ 820              		.loc 16 45 17 is_stmt 0 view .LVU210
+ 821 001c FFF7FEFF 		bl	_Z15processControlsv
+ 822              	.LVL46:
   46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 822              		.loc 16 46 2 view .LVU212
- 823 0032 0134     		adds	r4, r4, #1
- 824              	.LVL46:
- 825              	.LBB317:
+ 823              		.loc 16 46 2 is_stmt 1 view .LVU211
+ 824              	.LBB312:
+  46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
+ 825              		.loc 16 46 23 view .LVU212
+ 826 0020 002D     		cmp	r5, #0
+ 827 0022 44D0     		beq	.L38
+  46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
+ 828              		.loc 16 46 14 is_stmt 0 view .LVU213
+ 829 0024 0024     		movs	r4, #0
+ 830 0026 DFF8A480 		ldr	r8, .L49+20
+ 831 002a 0BE0     		b	.L42
+ 832              	.LVL47:
+ 833              	.L48:
+ 834              	.LBB313:
   49:Pedal.cpp     **** 			out[0][i] = in[0][i];
- 826              		.loc 16 49 23 view .LVU213
- 827 0034 DCF80020 		ldr	r2, [ip]	@ float
- 828              	.LBE317:
-  46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 829              		.loc 16 46 23 view .LVU214
- 830 0038 A542     		cmp	r5, r4
- 831              	.LBB318:
+ 835              		.loc 16 49 23 view .LVU214
+ 836 002c 3268     		ldr	r2, [r6]
   49:Pedal.cpp     **** 			out[0][i] = in[0][i];
- 832              		.loc 16 49 14 view .LVU215
- 833 003a 1A60     		str	r2, [r3]	@ float
- 834              	.LBE318:
+ 837              		.loc 16 49 14 view .LVU215
+ 838 002e 3B68     		ldr	r3, [r7]
+  49:Pedal.cpp     **** 			out[0][i] = in[0][i];
+ 839              		.loc 16 49 23 view .LVU216
+ 840 0030 02EB840C 		add	ip, r2, r4, lsl #2
+  49:Pedal.cpp     **** 			out[0][i] = in[0][i];
+ 841              		.loc 16 49 14 view .LVU217
+ 842 0034 03EB8403 		add	r3, r3, r4, lsl #2
+ 843              	.LBE313:
   46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 835              		.loc 16 46 2 is_stmt 1 view .LVU216
- 836              	.LVL47:
+ 844              		.loc 16 46 2 view .LVU218
+ 845 0038 0134     		adds	r4, r4, #1
+ 846              	.LVL48:
+ 847              	.LBB317:
+  49:Pedal.cpp     **** 			out[0][i] = in[0][i];
+ 848              		.loc 16 49 23 view .LVU219
+ 849 003a DCF80020 		ldr	r2, [ip]	@ float
+ 850              	.LBE317:
   46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 837              		.loc 16 46 23 view .LVU217
- 838 003c 1DD0     		beq	.L38
- 839              	.LVL48:
- 840              	.L42:
+ 851              		.loc 16 46 23 view .LVU220
+ 852 003e A542     		cmp	r5, r4
+ 853              	.LBB318:
+  49:Pedal.cpp     **** 			out[0][i] = in[0][i];
+ 854              		.loc 16 49 14 view .LVU221
+ 855 0040 1A60     		str	r2, [r3]	@ float
+ 856              	.LBE318:
   46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 841              		.loc 16 46 23 is_stmt 0 view .LVU218
- 842              	.LBE312:
+ 857              		.loc 16 46 2 is_stmt 1 view .LVU222
+ 858              	.LVL49:
+  46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
+ 859              		.loc 16 46 23 view .LVU223
+ 860 0042 34D0     		beq	.L38
+ 861              	.LVL50:
+ 862              	.L42:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 33
+
+
+  46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
+ 863              		.loc 16 46 23 is_stmt 0 view .LVU224
+ 864              	.LBE312:
   48:Pedal.cpp     **** 		if(bypass)
- 843              		.loc 16 48 3 is_stmt 1 view .LVU219
- 844              	.LBB322:
- 845              	.LBB319:
+ 865              		.loc 16 48 3 is_stmt 1 view .LVU225
+ 866              	.LBB322:
+ 867              	.LBB319:
   49:Pedal.cpp     **** 			out[0][i] = in[0][i];
- 846              		.loc 16 49 4 view .LVU220
+ 868              		.loc 16 49 4 view .LVU226
   48:Pedal.cpp     **** 		if(bypass)
- 847              		.loc 16 48 3 is_stmt 0 view .LVU221
- 848 003e 98F80030 		ldrb	r3, [r8]	@ zero_extendqisi2
- 849 0042 002B     		cmp	r3, #0
- 850 0044 EFD1     		bne	.L48
- 851              	.LBB314:
+ 869              		.loc 16 48 3 is_stmt 0 view .LVU227
+ 870 0044 98F80030 		ldrb	r3, [r8]	@ zero_extendqisi2
+ 871 0048 002B     		cmp	r3, #0
+ 872 004a EFD1     		bne	.L48
+ 873              	.LBB314:
   53:Pedal.cpp     **** 			float nonConstInput = in[0][i];
- 852              		.loc 16 53 4 is_stmt 1 view .LVU222
+ 874              		.loc 16 53 4 is_stmt 1 view .LVU228
   53:Pedal.cpp     **** 			float nonConstInput = in[0][i];
- 853              		.loc 16 53 33 is_stmt 0 view .LVU223
- 854 0046 3368     		ldr	r3, [r6]
- 855 0048 4FEA8409 		lsl	r9, r4, #2
+ 875              		.loc 16 53 33 is_stmt 0 view .LVU229
+ 876 004c 3368     		ldr	r3, [r6]
+ 877 004e 4FEA8409 		lsl	r9, r4, #2
   55:Pedal.cpp     **** 			float allDelaySignals = delay.process(in[0][i]);
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 33
-
-
- 856              		.loc 16 55 41 view .LVU224
- 857 004c 0D48     		ldr	r0, .L49+4
+ 878              		.loc 16 55 41 view .LVU230
+ 879 0052 1A48     		ldr	r0, .L49+4
   53:Pedal.cpp     **** 			float nonConstInput = in[0][i];
- 858              		.loc 16 53 33 view .LVU225
- 859 004e 03EB8403 		add	r3, r3, r4, lsl #2
- 860              	.LBE314:
- 861              	.LBE319:
+ 880              		.loc 16 53 33 view .LVU231
+ 881 0054 03EB8403 		add	r3, r3, r4, lsl #2
+ 882              	.LBE314:
+ 883              	.LBE319:
   46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 862              		.loc 16 46 2 view .LVU226
- 863 0052 0134     		adds	r4, r4, #1
- 864              	.LVL49:
- 865              	.LBB320:
- 866              	.LBB315:
+ 884              		.loc 16 46 2 view .LVU232
+ 885 0058 0134     		adds	r4, r4, #1
+ 886              	.LVL51:
+ 887              	.LBB320:
+ 888              	.LBB315:
   53:Pedal.cpp     **** 			float nonConstInput = in[0][i];
- 867              		.loc 16 53 33 view .LVU227
- 868 0054 93ED000A 		vldr.32	s0, [r3]
+ 889              		.loc 16 53 33 view .LVU233
+ 890 005a 93ED000A 		vldr.32	s0, [r3]
   53:Pedal.cpp     **** 			float nonConstInput = in[0][i];
- 869              		.loc 16 53 10 view .LVU228
- 870 0058 8DED000A 		vstr.32	s0, [sp]
+ 891              		.loc 16 53 10 view .LVU234
+ 892 005e 8DED000A 		vstr.32	s0, [sp]
   54:Pedal.cpp     **** 			float finalMix = 0;
- 871              		.loc 16 54 4 is_stmt 1 view .LVU229
- 872              	.LVL50:
+ 893              		.loc 16 54 4 is_stmt 1 view .LVU235
+ 894              	.LVL52:
   55:Pedal.cpp     **** 			float allDelaySignals = delay.process(in[0][i]);
- 873              		.loc 16 55 4 view .LVU230
+ 895              		.loc 16 55 4 view .LVU236
   55:Pedal.cpp     **** 			float allDelaySignals = delay.process(in[0][i]);
- 874              		.loc 16 55 41 is_stmt 0 view .LVU231
- 875 005c FFF7FEFF 		bl	_ZN5Delay7processEf
- 876              	.LVL51:
-  61:Pedal.cpp     **** 			finalMix = crossFade.Process(nonConstInput, allDelaySignals);
- 877              		.loc 16 61 32 view .LVU232
- 878 0060 01AA     		add	r2, sp, #4
- 879 0062 6946     		mov	r1, sp
- 880 0064 0848     		ldr	r0, .L49+8
+ 896              		.loc 16 55 41 is_stmt 0 view .LVU237
+ 897 0062 FFF7FEFF 		bl	_ZN5Delay7processEf
+ 898              	.LVL53:
+  58:Pedal.cpp     **** 			allDelaySignals = tone.process(allDelaySignals);
+ 899              		.loc 16 58 34 view .LVU238
+ 900 0066 1648     		ldr	r0, .L49+8
   55:Pedal.cpp     **** 			float allDelaySignals = delay.process(in[0][i]);
- 881              		.loc 16 55 50 view .LVU233
- 882 0066 8DED010A 		vstr.32	s0, [sp, #4]
+ 901              		.loc 16 55 41 view .LVU239
+ 902 0068 B0EE408A 		vmov.f32	s16, s0
+  55:Pedal.cpp     **** 			float allDelaySignals = delay.process(in[0][i]);
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 34
+
+
+ 903              		.loc 16 55 50 view .LVU240
+ 904 006c 8DED010A 		vstr.32	s0, [sp, #4]
   56:Pedal.cpp     **** 			float preFilterDelays = allDelaySignals;
- 883              		.loc 16 56 4 is_stmt 1 view .LVU234
- 884              	.LVL52:
+ 905              		.loc 16 56 4 is_stmt 1 view .LVU241
+ 906              	.LVL54:
+  58:Pedal.cpp     **** 			allDelaySignals = tone.process(allDelaySignals);
+ 907              		.loc 16 58 4 view .LVU242
+  58:Pedal.cpp     **** 			allDelaySignals = tone.process(allDelaySignals);
+ 908              		.loc 16 58 34 is_stmt 0 view .LVU243
+ 909 0070 FFF7FEFF 		bl	_ZN10ToneFilter7processEf
+ 910              	.LVL55:
+  59:Pedal.cpp     ****             allDelaySignals = balance.Process(allDelaySignals,preFilterDelays*tone.getFactor());
+ 911              		.loc 16 59 93 view .LVU244
+ 912 0074 1248     		ldr	r0, .L49+8
+  58:Pedal.cpp     **** 			allDelaySignals = tone.process(allDelaySignals);
+ 913              		.loc 16 58 34 view .LVU245
+ 914 0076 F0EE408A 		vmov.f32	s17, s0
+  58:Pedal.cpp     **** 			allDelaySignals = tone.process(allDelaySignals);
+ 915              		.loc 16 58 20 view .LVU246
+ 916 007a 8DED010A 		vstr.32	s0, [sp, #4]
+  59:Pedal.cpp     ****             allDelaySignals = balance.Process(allDelaySignals,preFilterDelays*tone.getFactor());
+ 917              		.loc 16 59 13 is_stmt 1 view .LVU247
+  59:Pedal.cpp     ****             allDelaySignals = balance.Process(allDelaySignals,preFilterDelays*tone.getFactor());
+ 918              		.loc 16 59 93 is_stmt 0 view .LVU248
+ 919 007e FFF7FEFF 		bl	_ZN10ToneFilter9getFactorEv
+ 920              	.LVL56:
+ 921 0082 F0EE400A 		vmov.f32	s1, s0
+  59:Pedal.cpp     ****             allDelaySignals = balance.Process(allDelaySignals,preFilterDelays*tone.getFactor());
+ 922              		.loc 16 59 46 view .LVU249
+ 923 0086 0F48     		ldr	r0, .L49+12
+ 924 0088 B0EE680A 		vmov.f32	s0, s17
+ 925 008c 68EE200A 		vmul.f32	s1, s16, s1
+ 926 0090 FFF7FEFF 		bl	_ZN7daisysp7Balance7ProcessEff
+ 927              	.LVL57:
   61:Pedal.cpp     **** 			finalMix = crossFade.Process(nonConstInput, allDelaySignals);
- 885              		.loc 16 61 4 view .LVU235
+ 928              		.loc 16 61 32 view .LVU250
+ 929 0094 01AA     		add	r2, sp, #4
+ 930 0096 6946     		mov	r1, sp
+ 931 0098 0B48     		ldr	r0, .L49+16
+  59:Pedal.cpp     ****             allDelaySignals = balance.Process(allDelaySignals,preFilterDelays*tone.getFactor());
+ 932              		.loc 16 59 29 view .LVU251
+ 933 009a 8DED010A 		vstr.32	s0, [sp, #4]
   61:Pedal.cpp     **** 			finalMix = crossFade.Process(nonConstInput, allDelaySignals);
- 886              		.loc 16 61 32 is_stmt 0 view .LVU236
- 887 006a FFF7FEFF 		bl	_ZN7daisysp9CrossFade7ProcessERfS1_
- 888              	.LVL53:
+ 934              		.loc 16 61 4 is_stmt 1 view .LVU252
+  61:Pedal.cpp     **** 			finalMix = crossFade.Process(nonConstInput, allDelaySignals);
+ 935              		.loc 16 61 32 is_stmt 0 view .LVU253
+ 936 009e FFF7FEFF 		bl	_ZN7daisysp9CrossFade7ProcessERfS1_
+ 937              	.LVL58:
   65:Pedal.cpp     **** 			out[0][i] = finalMix;
- 889              		.loc 16 65 4 is_stmt 1 view .LVU237
+ 938              		.loc 16 65 4 is_stmt 1 view .LVU254
   65:Pedal.cpp     **** 			out[0][i] = finalMix;
- 890              		.loc 16 65 14 is_stmt 0 view .LVU238
- 891 006e 3B68     		ldr	r3, [r7]
- 892              	.LBE315:
- 893              	.LBE320:
+ 939              		.loc 16 65 14 is_stmt 0 view .LVU255
+ 940 00a2 3B68     		ldr	r3, [r7]
+ 941              	.LBE315:
+ 942              	.LBE320:
   46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 894              		.loc 16 46 23 view .LVU239
- 895 0070 A542     		cmp	r5, r4
- 896              	.LBB321:
- 897              	.LBB316:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 34
+ 943              		.loc 16 46 23 view .LVU256
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 35
 
 
+ 944 00a4 A542     		cmp	r5, r4
+ 945              	.LBB321:
+ 946              	.LBB316:
   65:Pedal.cpp     **** 			out[0][i] = finalMix;
- 898              		.loc 16 65 14 view .LVU240
- 899 0072 4B44     		add	r3, r3, r9
- 900 0074 83ED000A 		vstr.32	s0, [r3]
- 901              	.LBE316:
- 902              	.LBE321:
+ 947              		.loc 16 65 14 view .LVU257
+ 948 00a6 4B44     		add	r3, r3, r9
+ 949 00a8 83ED000A 		vstr.32	s0, [r3]
+ 950              	.LBE316:
+ 951              	.LBE321:
   46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 903              		.loc 16 46 2 is_stmt 1 view .LVU241
- 904              	.LVL54:
+ 952              		.loc 16 46 2 is_stmt 1 view .LVU258
+ 953              	.LVL59:
   46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 905              		.loc 16 46 23 view .LVU242
- 906 0078 E1D1     		bne	.L42
- 907              	.LVL55:
- 908              	.L38:
+ 954              		.loc 16 46 23 view .LVU259
+ 955 00ac CAD1     		bne	.L42
+ 956              	.LVL60:
+ 957              	.L38:
   46:Pedal.cpp     **** 	for (size_t i = 0; i < size; i++)
- 909              		.loc 16 46 23 is_stmt 0 view .LVU243
- 910              	.LBE322:
+ 958              		.loc 16 46 23 is_stmt 0 view .LVU260
+ 959              	.LBE322:
   70:Pedal.cpp     **** }
- 911              		.loc 16 70 1 view .LVU244
- 912 007a 03B0     		add	sp, sp, #12
- 913              		.cfi_def_cfa_offset 28
- 914              		@ sp needed
- 915 007c BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
- 916              	.LVL56:
- 917              	.L50:
+ 960              		.loc 16 70 1 view .LVU261
+ 961 00ae 03B0     		add	sp, sp, #12
+ 962              		.cfi_def_cfa_offset 36
+ 963              		@ sp needed
+ 964 00b0 BDEC028B 		vldm	sp!, {d8}
+ 965              		.cfi_restore 80
+ 966              		.cfi_restore 81
+ 967              		.cfi_def_cfa_offset 28
+ 968 00b4 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 969              	.LVL61:
+ 970              	.L50:
   70:Pedal.cpp     **** }
- 918              		.loc 16 70 1 view .LVU245
- 919              		.align	2
- 920              	.L49:
- 921 0080 00000000 		.word	.LANCHOR0
- 922 0084 00000000 		.word	.LANCHOR3
- 923 0088 00000000 		.word	.LANCHOR4
- 924 008c 00000000 		.word	.LANCHOR6
- 925              		.cfi_endproc
- 926              	.LFE4801:
- 928              		.section	.text.startup._GLOBAL__sub_I_hw,"ax",%progbits
- 929              		.align	1
- 930              		.p2align 2,,3
- 931              		.syntax unified
- 932              		.thumb
- 933              		.thumb_func
- 935              	_GLOBAL__sub_I_hw:
- 936              	.LFB5377:
- 937              		.loc 16 140 1 is_stmt 1 view -0
- 938              		.cfi_startproc
- 939              		@ args = 0, pretend = 0, frame = 0
- 940              		@ frame_needed = 0, uses_anonymous_args = 0
- 941              	.LBB376:
- 942              	.LBI376:
- 943              		.loc 16 140 1 view .LVU247
- 944              	.LVL57:
- 945              	.LBB377:
- 946              	.LBB378:
- 947              	.LBI378:
+ 971              		.loc 16 70 1 view .LVU262
+ 972              		.align	2
+ 973              	.L49:
+ 974 00b8 00000000 		.word	.LANCHOR0
+ 975 00bc 00000000 		.word	.LANCHOR3
+ 976 00c0 00000000 		.word	.LANCHOR10
+ 977 00c4 00000000 		.word	.LANCHOR5
+ 978 00c8 00000000 		.word	.LANCHOR4
+ 979 00cc 00000000 		.word	.LANCHOR6
+ 980              		.cfi_endproc
+ 981              	.LFE4801:
+ 983              		.section	.text.startup._GLOBAL__sub_I_hw,"ax",%progbits
+ 984              		.align	1
+ 985              		.p2align 2,,3
+ 986              		.syntax unified
+ 987              		.thumb
+ 988              		.thumb_func
+ 990              	_GLOBAL__sub_I_hw:
+ 991              	.LFB5377:
+ 992              		.loc 16 140 1 is_stmt 1 view -0
+ 993              		.cfi_startproc
+ 994              		@ args = 0, pretend = 0, frame = 0
+ 995              		@ frame_needed = 0, uses_anonymous_args = 0
+ 996              	.LBB376:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 36
+
+
+ 997              	.LBI376:
+ 998              		.loc 16 140 1 view .LVU264
+ 999              	.LVL62:
+ 1000              	.LBB377:
+ 1001              	.LBB378:
+ 1002              	.LBI378:
   66:../../libDaisy//src/daisy_petal.h ****     /** Destructor */
- 948              		.loc 3 66 5 view .LVU248
- 949              	.LBB379:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 35
-
-
- 950              	.LBB380:
- 951              	.LBI380:
+ 1003              		.loc 3 66 5 view .LVU265
+ 1004              	.LBB379:
+ 1005              	.LBB380:
+ 1006              	.LBI380:
   21:../../libDaisy//src/daisy_seed.h ****     ~DaisySeed() {}
- 952              		.loc 6 21 5 view .LVU249
- 953              	.LBB381:
- 954              	.LBB382:
- 955              	.LBI382:
- 956              		.file 17 "../../libDaisy//src/per/qspi.h"
+ 1007              		.loc 6 21 5 view .LVU266
+ 1008              	.LBB381:
+ 1009              	.LBB382:
+ 1010              	.LBI382:
+ 1011              		.file 17 "../../libDaisy//src/per/qspi.h"
    1:../../libDaisy//src/per/qspi.h **** #ifndef DSY_QSPI
    2:../../libDaisy//src/per/qspi.h **** #define DSY_QSPI /**< Macro */
    3:../../libDaisy//src/per/qspi.h **** 
@@ -2089,6 +2158,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   38:../../libDaisy//src/per/qspi.h **** 
   39:../../libDaisy//src/per/qspi.h ****     /** Indicates the current status of the module. 
   40:../../libDaisy//src/per/qspi.h ****          *  Warnings are indicated by a leading W.
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 37
+
+
   41:../../libDaisy//src/per/qspi.h ****          *  Errors are indicated by a leading E and cause an immediate exit.
   42:../../libDaisy//src/per/qspi.h ****          * 
   43:../../libDaisy//src/per/qspi.h ****          *  \param GOOD - No errors have been reported.
@@ -2098,9 +2170,6 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   47:../../libDaisy//src/per/qspi.h ****          */
   48:../../libDaisy//src/per/qspi.h ****     enum Status
   49:../../libDaisy//src/per/qspi.h ****     {
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 36
-
-
   50:../../libDaisy//src/per/qspi.h ****         GOOD = 0,
   51:../../libDaisy//src/per/qspi.h ****         E_HAL_ERROR,
   52:../../libDaisy//src/per/qspi.h ****         E_SWITCHING_MODES,
@@ -2149,6 +2218,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   95:../../libDaisy//src/per/qspi.h **** 
   96:../../libDaisy//src/per/qspi.h ****     /** 
   97:../../libDaisy//src/per/qspi.h ****         Initializes QSPI peripheral, and Resets, and prepares memory for access.
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 38
+
+
   98:../../libDaisy//src/per/qspi.h ****         \param config should be populated with the mode, device and pin_config before calling this 
   99:../../libDaisy//src/per/qspi.h ****         \return Result::OK or Result::ERR
  100:../../libDaisy//src/per/qspi.h ****         */
@@ -2158,9 +2230,6 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  104:../../libDaisy//src/per/qspi.h ****     const Config& GetConfig() const;
  105:../../libDaisy//src/per/qspi.h **** 
  106:../../libDaisy//src/per/qspi.h ****     // Couldn't this just be called before anything else in init? That
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 37
-
-
  107:../../libDaisy//src/per/qspi.h ****     // would make manually calling it unnecessary.
  108:../../libDaisy//src/per/qspi.h ****     /** 
  109:../../libDaisy//src/per/qspi.h ****         Deinitializes the peripheral
@@ -2209,6 +2278,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  152:../../libDaisy//src/per/qspi.h ****     /** Returns the current class status. Useful for debugging.
  153:../../libDaisy//src/per/qspi.h ****      *  \returns Status
  154:../../libDaisy//src/per/qspi.h ****      */
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 39
+
+
  155:../../libDaisy//src/per/qspi.h ****     Status GetStatus();
  156:../../libDaisy//src/per/qspi.h **** 
  157:../../libDaisy//src/per/qspi.h ****     /** Returns a pointer to the actual memory used 
@@ -2218,47 +2290,44 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
  161:../../libDaisy//src/per/qspi.h ****      *  \param offset returns the pointer starting this 
  162:../../libDaisy//src/per/qspi.h ****      *                many bytes into the memory
  163:../../libDaisy//src/per/qspi.h ****     */
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 38
-
-
  164:../../libDaisy//src/per/qspi.h ****     void* GetData(uint32_t offset = 0);
  165:../../libDaisy//src/per/qspi.h **** 
  166:../../libDaisy//src/per/qspi.h ****     QSPIHandle() : pimpl_(nullptr) {}
- 957              		.loc 17 166 5 view .LVU250
- 958              	.LBE382:
- 959              	.LBE381:
- 960              	.LBE380:
- 961              	.LBE379:
- 962              	.LBE378:
- 963              	.LBE377:
- 964              	.LBE376:
- 965              		.loc 16 140 1 is_stmt 0 view .LVU251
- 966 0000 70B5     		push	{r4, r5, r6, lr}
- 967              		.cfi_def_cfa_offset 16
- 968              		.cfi_offset 4, -16
- 969              		.cfi_offset 5, -12
- 970              		.cfi_offset 6, -8
- 971              		.cfi_offset 14, -4
- 972              	.LBB436:
- 973              	.LBB432:
- 974              	.LBB421:
- 975              	.LBB418:
- 976              	.LBB402:
- 977              	.LBB399:
- 978              	.LBB387:
- 979              	.LBB383:
- 980              	.LBB384:
- 981              		.loc 17 166 34 view .LVU252
- 982 0002 1E4C     		ldr	r4, .L53
- 983 0004 0025     		movs	r5, #0
- 984              	.LBE384:
- 985              	.LBE383:
- 986              	.LBE387:
- 987              	.LBE399:
- 988              	.LBE402:
- 989              	.LBB403:
- 990              	.LBB404:
- 991              		.file 18 "../../libDaisy//src/dev/leddriver.h"
+ 1012              		.loc 17 166 5 view .LVU267
+ 1013              	.LBE382:
+ 1014              	.LBE381:
+ 1015              	.LBE380:
+ 1016              	.LBE379:
+ 1017              	.LBE378:
+ 1018              	.LBE377:
+ 1019              	.LBE376:
+ 1020              		.loc 16 140 1 is_stmt 0 view .LVU268
+ 1021 0000 70B5     		push	{r4, r5, r6, lr}
+ 1022              		.cfi_def_cfa_offset 16
+ 1023              		.cfi_offset 4, -16
+ 1024              		.cfi_offset 5, -12
+ 1025              		.cfi_offset 6, -8
+ 1026              		.cfi_offset 14, -4
+ 1027              	.LBB436:
+ 1028              	.LBB432:
+ 1029              	.LBB421:
+ 1030              	.LBB418:
+ 1031              	.LBB402:
+ 1032              	.LBB399:
+ 1033              	.LBB387:
+ 1034              	.LBB383:
+ 1035              	.LBB384:
+ 1036              		.loc 17 166 34 view .LVU269
+ 1037 0002 1E4C     		ldr	r4, .L53
+ 1038 0004 0025     		movs	r5, #0
+ 1039              	.LBE384:
+ 1040              	.LBE383:
+ 1041              	.LBE387:
+ 1042              	.LBE399:
+ 1043              	.LBE402:
+ 1044              	.LBB403:
+ 1045              	.LBB404:
+ 1046              		.file 18 "../../libDaisy//src/dev/leddriver.h"
    1:../../libDaisy//src/dev/leddriver.h **** #pragma once
    2:../../libDaisy//src/dev/leddriver.h **** #ifndef SA_LED_DRIVER_H
    3:../../libDaisy//src/dev/leddriver.h **** #define SA_LED_DRIVER_H /**< & */
@@ -2269,6 +2338,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
    8:../../libDaisy//src/dev/leddriver.h **** #include "per/i2c.h"
    9:../../libDaisy//src/dev/leddriver.h **** #include "per/gpio.h"
   10:../../libDaisy//src/dev/leddriver.h **** 
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 40
+
+
   11:../../libDaisy//src/dev/leddriver.h **** namespace daisy
   12:../../libDaisy//src/dev/leddriver.h **** {
   13:../../libDaisy//src/dev/leddriver.h **** /** LED driver for one or multiple PCA9685 12bit PWM chips connected to
@@ -2278,9 +2350,6 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   17:../../libDaisy//src/dev/leddriver.h ****  * This driver uses two buffers - one for drawing, one for transmitting.
   18:../../libDaisy//src/dev/leddriver.h ****  * Multiple LedDriverPca9685 instances can be used at the same time.
   19:../../libDaisy//src/dev/leddriver.h ****  * \param numDrivers    The number of PCA9685 driver attached to the I2C
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 39
-
-
   20:../../libDaisy//src/dev/leddriver.h ****  *                      peripheral.
   21:../../libDaisy//src/dev/leddriver.h ****  * \param persistentBufferContents If set to true, the current draw buffer 
   22:../../libDaisy//src/dev/leddriver.h ****  *                      contents will be copied to the next draw buffer 
@@ -2294,63 +2363,63 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   30:../../libDaisy//src/dev/leddriver.h ****  */
   31:../../libDaisy//src/dev/leddriver.h **** template <int numDrivers, bool persistentBufferContents = true>
   32:../../libDaisy//src/dev/leddriver.h **** class LedDriverPca9685
- 992              		.loc 18 32 7 view .LVU253
- 993 0006 4FF40072 		mov	r2, #512
- 994 000a 1D49     		ldr	r1, .L53+4
- 995              	.LBE404:
- 996              	.LBE403:
- 997              	.LBB410:
- 998              	.LBB400:
- 999              	.LBB388:
- 1000              	.LBB386:
- 1001              	.LBB385:
- 1002              		.loc 17 166 34 view .LVU254
- 1003 000c 2560     		str	r5, [r4]
- 1004              	.LVL58:
- 1005              		.loc 17 166 34 view .LVU255
- 1006              	.LBE385:
- 1007              	.LBE386:
- 1008              	.LBE388:
- 1009              	.LBB389:
- 1010              	.LBI389:
+ 1047              		.loc 18 32 7 view .LVU270
+ 1048 0006 4FF40072 		mov	r2, #512
+ 1049 000a 1D49     		ldr	r1, .L53+4
+ 1050              	.LBE404:
+ 1051              	.LBE403:
+ 1052              	.LBB410:
+ 1053              	.LBB400:
+ 1054              	.LBB388:
+ 1055              	.LBB386:
+ 1056              	.LBB385:
+ 1057              		.loc 17 166 34 view .LVU271
+ 1058 000c 2560     		str	r5, [r4]
+ 1059              	.LVL63:
+ 1060              		.loc 17 166 34 view .LVU272
+ 1061              	.LBE385:
+ 1062              	.LBE386:
+ 1063              	.LBE388:
+ 1064              	.LBB389:
+ 1065              	.LBI389:
   95:../../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 1011              		.loc 10 95 5 is_stmt 1 view .LVU256
- 1012              	.LBE389:
- 1013              	.LBE400:
- 1014              	.LBE410:
- 1015              	.LBB411:
- 1016              	.LBB408:
- 1017              		.loc 18 32 7 is_stmt 0 view .LVU257
- 1018 000e 04F2DA40 		addw	r0, r4, #1242
- 1019              	.LBE408:
- 1020              	.LBE411:
- 1021              	.LBB412:
- 1022              	.LBB401:
- 1023              	.LBB392:
- 1024              	.LBB390:
- 1025              	.LBB391:
-  95:../../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 1026              		.loc 10 95 35 view .LVU258
- 1027 0012 6561     		str	r5, [r4, #20]
- 1028              	.LVL59:
-  95:../../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 1029              		.loc 10 95 35 view .LVU259
- 1030              	.LBE391:
- 1031              	.LBE390:
- 1032              	.LBE392:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 40
+ 1066              		.loc 10 95 5 is_stmt 1 view .LVU273
+ 1067              	.LBE389:
+ 1068              	.LBE400:
+ 1069              	.LBE410:
+ 1070              	.LBB411:
+ 1071              	.LBB408:
+ 1072              		.loc 18 32 7 is_stmt 0 view .LVU274
+ 1073 000e 04F2DA40 		addw	r0, r4, #1242
+ 1074              	.LBE408:
+ 1075              	.LBE411:
+ 1076              	.LBB412:
+ 1077              	.LBB401:
+ 1078              	.LBB392:
+ 1079              	.LBB390:
+ 1080              	.LBB391:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 41
 
 
- 1033              	.LBB393:
- 1034              	.LBI393:
+  95:../../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
+ 1081              		.loc 10 95 35 view .LVU275
+ 1082 0012 6561     		str	r5, [r4, #20]
+ 1083              	.LVL64:
+  95:../../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
+ 1084              		.loc 10 95 35 view .LVU276
+ 1085              	.LBE391:
+ 1086              	.LBE390:
+ 1087              	.LBE392:
+ 1088              	.LBB393:
+ 1089              	.LBI393:
   92:../../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
- 1035              		.loc 9 92 5 is_stmt 1 view .LVU260
+ 1090              		.loc 9 92 5 is_stmt 1 view .LVU277
   92:../../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
- 1036              		.loc 9 92 5 is_stmt 0 view .LVU261
- 1037              	.LBE393:
- 1038              	.LBB394:
- 1039              	.LBI394:
- 1040              		.file 19 "../../libDaisy//src/per/dac.h"
+ 1091              		.loc 9 92 5 is_stmt 0 view .LVU278
+ 1092              	.LBE393:
+ 1093              	.LBB394:
+ 1094              	.LBI394:
+ 1095              		.file 19 "../../libDaisy//src/per/dac.h"
    1:../../libDaisy//src/per/dac.h **** #pragma once
    2:../../libDaisy//src/per/dac.h **** #ifndef DSY_DAC_H
    3:../../libDaisy//src/per/dac.h **** #define DSY_DAC_H
@@ -2389,6 +2458,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   36:../../libDaisy//src/per/dac.h ****         BOTH,
   37:../../libDaisy//src/per/dac.h ****     };
   38:../../libDaisy//src/per/dac.h **** 
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 42
+
+
   39:../../libDaisy//src/per/dac.h ****     /** Sets the Mode for the DAC channels.
   40:../../libDaisy//src/per/dac.h ****      **
   41:../../libDaisy//src/per/dac.h ****      ** Polling mode uses the blocking mode to transmit a single value at a time.
@@ -2398,9 +2470,6 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   45:../../libDaisy//src/per/dac.h ****      ***/
   46:../../libDaisy//src/per/dac.h ****     enum class Mode
   47:../../libDaisy//src/per/dac.h ****     {
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 41
-
-
   48:../../libDaisy//src/per/dac.h ****         POLLING,
   49:../../libDaisy//src/per/dac.h ****         DMA,
   50:../../libDaisy//src/per/dac.h ****     };
@@ -2438,90 +2507,90 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   82:../../libDaisy//src/per/dac.h ****     };
   83:../../libDaisy//src/per/dac.h **** 
   84:../../libDaisy//src/per/dac.h ****     DacHandle() : pimpl_(nullptr) {}
- 1041              		.loc 19 84 5 is_stmt 1 view .LVU262
- 1042              	.LBB395:
- 1043              	.LBB396:
- 1044              		.loc 19 84 33 is_stmt 0 view .LVU263
- 1045 0014 2562     		str	r5, [r4, #32]
- 1046              	.LVL60:
- 1047              		.loc 19 84 33 view .LVU264
- 1048              	.LBE396:
- 1049              	.LBE395:
- 1050              	.LBE394:
- 1051              	.LBB397:
- 1052              	.LBI397:
-  40:../../libDaisy//src/hid/usb.h **** 
- 1053              		.loc 8 40 5 is_stmt 1 view .LVU265
-  40:../../libDaisy//src/hid/usb.h **** 
- 1054              		.loc 8 40 5 is_stmt 0 view .LVU266
- 1055              	.LBE397:
- 1056              	.LBB398:
- 1057              	.LBI398:
-  77:../../libDaisy//src/sys/system.h ****     ~System() {}
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 42
+ 1096              		.loc 19 84 5 is_stmt 1 view .LVU279
+ 1097              	.LBB395:
+ 1098              	.LBB396:
+ 1099              		.loc 19 84 33 is_stmt 0 view .LVU280
+ 1100 0014 2562     		str	r5, [r4, #32]
+ 1101              	.LVL65:
+ 1102              		.loc 19 84 33 view .LVU281
+ 1103              	.LBE396:
+ 1104              	.LBE395:
+ 1105              	.LBE394:
+ 1106              	.LBB397:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 43
 
 
- 1058              		.loc 7 77 5 is_stmt 1 view .LVU267
+ 1107              	.LBI397:
+  40:../../libDaisy//src/hid/usb.h **** 
+ 1108              		.loc 8 40 5 is_stmt 1 view .LVU282
+  40:../../libDaisy//src/hid/usb.h **** 
+ 1109              		.loc 8 40 5 is_stmt 0 view .LVU283
+ 1110              	.LBE397:
+ 1111              	.LBB398:
+ 1112              	.LBI398:
   77:../../libDaisy//src/sys/system.h ****     ~System() {}
- 1059              		.loc 7 77 5 is_stmt 0 view .LVU268
- 1060              	.LBE398:
- 1061              	.LBE401:
- 1062              	.LBE412:
- 1063              	.LBB413:
- 1064              	.LBI413:
+ 1113              		.loc 7 77 5 is_stmt 1 view .LVU284
+  77:../../libDaisy//src/sys/system.h ****     ~System() {}
+ 1114              		.loc 7 77 5 is_stmt 0 view .LVU285
+ 1115              	.LBE398:
+ 1116              	.LBE401:
+ 1117              	.LBE412:
+ 1118              	.LBB413:
+ 1119              	.LBI413:
   20:../../libDaisy//src/hid/encoder.h ****     ~Encoder() {}
- 1065              		.loc 4 20 5 is_stmt 1 view .LVU269
- 1066              	.LBB414:
- 1067              	.LBB415:
- 1068              	.LBI415:
+ 1120              		.loc 4 20 5 is_stmt 1 view .LVU286
+ 1121              	.LBB414:
+ 1122              	.LBB415:
+ 1123              	.LBI415:
   41:../../libDaisy//src/hid/switch.h ****     ~Switch() {}
- 1069              		.loc 5 41 5 view .LVU270
+ 1124              		.loc 5 41 5 view .LVU287
   41:../../libDaisy//src/hid/switch.h ****     ~Switch() {}
- 1070              		.loc 5 41 5 is_stmt 0 view .LVU271
- 1071              	.LBE415:
- 1072              	.LBE414:
- 1073              	.LBE413:
- 1074              	.LBE418:
- 1075              	.LBE421:
- 1076              	.LBE432:
- 1077              	.LBE436:
+ 1125              		.loc 5 41 5 is_stmt 0 view .LVU288
+ 1126              	.LBE415:
+ 1127              	.LBE414:
+ 1128              	.LBE413:
+ 1129              	.LBE418:
+ 1130              	.LBE421:
+ 1131              	.LBE432:
+ 1132              	.LBE436:
   66:../../libDaisy//src/daisy_petal.h ****     /** Destructor */
- 1078              		.loc 3 66 18 is_stmt 1 view .LVU272
- 1079              	.LBB437:
- 1080              	.LBB433:
- 1081              	.LBB422:
- 1082              	.LBB419:
- 1083              	.LBB416:
- 1084              	.LBI416:
+ 1133              		.loc 3 66 18 is_stmt 1 view .LVU289
+ 1134              	.LBB437:
+ 1135              	.LBB433:
+ 1136              	.LBB422:
+ 1137              	.LBB419:
+ 1138              	.LBB416:
+ 1139              	.LBI416:
   21:../../libDaisy//src/hid/ctrl.h ****     /** destructor */
- 1085              		.loc 2 21 5 view .LVU273
+ 1140              		.loc 2 21 5 view .LVU290
   21:../../libDaisy//src/hid/ctrl.h ****     /** destructor */
- 1086              		.loc 2 21 5 is_stmt 0 view .LVU274
- 1087              	.LBE416:
- 1088              	.LBE419:
- 1089              	.LBE422:
- 1090              	.LBE433:
- 1091              	.LBE437:
+ 1141              		.loc 2 21 5 is_stmt 0 view .LVU291
+ 1142              	.LBE416:
+ 1143              	.LBE419:
+ 1144              	.LBE422:
+ 1145              	.LBE433:
+ 1146              	.LBE437:
   66:../../libDaisy//src/daisy_petal.h ****     /** Destructor */
- 1092              		.loc 3 66 18 is_stmt 1 view .LVU275
+ 1147              		.loc 3 66 18 is_stmt 1 view .LVU292
   66:../../libDaisy//src/daisy_petal.h ****     /** Destructor */
- 1093              		.loc 3 66 18 view .LVU276
+ 1148              		.loc 3 66 18 view .LVU293
   66:../../libDaisy//src/daisy_petal.h ****     /** Destructor */
- 1094              		.loc 3 66 18 view .LVU277
- 1095              	.LBB438:
- 1096              	.LBB434:
- 1097              	.LBB423:
- 1098              	.LBB420:
- 1099              	.LBB417:
- 1100              	.LBI403:
- 1101              		.loc 18 32 7 view .LVU278
- 1102              	.LBB409:
- 1103              	.LBB405:
- 1104              	.LBI405:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 43
+ 1149              		.loc 3 66 18 view .LVU294
+ 1150              	.LBB438:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 44
 
 
- 1105              		.file 20 "../../libDaisy//src/per/i2c.h"
+ 1151              	.LBB434:
+ 1152              	.LBB423:
+ 1153              	.LBB420:
+ 1154              	.LBB417:
+ 1155              	.LBI403:
+ 1156              		.loc 18 32 7 view .LVU295
+ 1157              	.LBB409:
+ 1158              	.LBB405:
+ 1159              	.LBI405:
+ 1160              		.file 20 "../../libDaisy//src/per/i2c.h"
    1:../../libDaisy//src/per/i2c.h **** #pragma once
    2:../../libDaisy//src/per/i2c.h **** #include "daisy_core.h"
    3:../../libDaisy//src/per/i2c.h **** 
@@ -2569,6 +2638,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   45:../../libDaisy//src/per/i2c.h **** 
   46:../../libDaisy//src/per/i2c.h ****         /** Rate at which the clock/data will be sent/received. The device being used will have max
   47:../../libDaisy//src/per/i2c.h ****          *  1MHZ Mode is currently 886kHz
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 45
+
+
   48:../../libDaisy//src/per/i2c.h ****          */
   49:../../libDaisy//src/per/i2c.h ****         enum class Speed
   50:../../libDaisy//src/per/i2c.h ****         {
@@ -2578,9 +2650,6 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   54:../../libDaisy//src/per/i2c.h ****         };
   55:../../libDaisy//src/per/i2c.h **** 
   56:../../libDaisy//src/per/i2c.h ****         Peripheral periph; /**< & */
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 44
-
-
   57:../../libDaisy//src/per/i2c.h ****         struct
   58:../../libDaisy//src/per/i2c.h ****         {
   59:../../libDaisy//src/per/i2c.h ****             dsy_gpio_pin scl; /**< & */
@@ -2607,688 +2676,689 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 1
   80:../../libDaisy//src/per/i2c.h ****     };
   81:../../libDaisy//src/per/i2c.h **** 
   82:../../libDaisy//src/per/i2c.h ****     I2CHandle() : pimpl_(nullptr) {}
- 1106              		.loc 20 82 5 view .LVU279
- 1107              	.LBB406:
- 1108              	.LBB407:
- 1109              		.loc 20 82 33 is_stmt 0 view .LVU280
- 1110 0016 C4F8C454 		str	r5, [r4, #1220]
- 1111              	.LVL61:
- 1112              		.loc 20 82 33 view .LVU281
- 1113              	.LBE407:
- 1114              	.LBE406:
- 1115              	.LBE405:
- 1116              		.loc 18 32 7 view .LVU282
- 1117 001a FFF7FEFF 		bl	memcpy
- 1118              	.LVL62:
- 1119              		.loc 18 32 7 view .LVU283
- 1120              	.LBE409:
- 1121              	.LBE417:
- 1122              	.LBE420:
- 1123              	.LBE423:
+ 1161              		.loc 20 82 5 view .LVU296
+ 1162              	.LBB406:
+ 1163              	.LBB407:
+ 1164              		.loc 20 82 33 is_stmt 0 view .LVU297
+ 1165 0016 C4F8C454 		str	r5, [r4, #1220]
+ 1166              	.LVL66:
+ 1167              		.loc 20 82 33 view .LVU298
+ 1168              	.LBE407:
+ 1169              	.LBE406:
+ 1170              	.LBE405:
+ 1171              		.loc 18 32 7 view .LVU299
+ 1172 001a FFF7FEFF 		bl	memcpy
+ 1173              	.LVL67:
+ 1174              		.loc 18 32 7 view .LVU300
+ 1175              	.LBE409:
+ 1176              	.LBE417:
+ 1177              	.LBE420:
+ 1178              	.LBE423:
   15:Pedal.cpp     **** ToneFilter tone(48000.f);
- 1124              		.loc 16 15 24 view .LVU284
- 1125 001e 194E     		ldr	r6, .L53+8
+ 1179              		.loc 16 15 24 view .LVU301
+ 1180 001e 194E     		ldr	r6, .L53+8
   13:Pedal.cpp     **** DaisyPetal hw;
- 1126              		.loc 16 13 12 view .LVU285
- 1127 0020 194A     		ldr	r2, .L53+12
- 1128 0022 2046     		mov	r0, r4
- 1129 0024 1949     		ldr	r1, .L53+16
- 1130 0026 FFF7FEFF 		bl	__aeabi_atexit
- 1131              	.LVL63:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 46
+
+
+ 1181              		.loc 16 13 12 view .LVU302
+ 1182 0020 194A     		ldr	r2, .L53+12
+ 1183 0022 2046     		mov	r0, r4
+ 1184 0024 1949     		ldr	r1, .L53+16
+ 1185 0026 FFF7FEFF 		bl	__aeabi_atexit
+ 1186              	.LVL68:
   14:Pedal.cpp     **** Delay delay;
- 1132              		.loc 16 14 7 view .LVU286
- 1133 002a 1948     		ldr	r0, .L53+20
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 45
-
-
- 1134 002c FFF7FEFF 		bl	_ZN5DelayC1Ev
- 1135              	.LVL64:
+ 1187              		.loc 16 14 7 view .LVU303
+ 1188 002a 1948     		ldr	r0, .L53+20
+ 1189 002c FFF7FEFF 		bl	_ZN5DelayC1Ev
+ 1190              	.LVL69:
   15:Pedal.cpp     **** ToneFilter tone(48000.f);
- 1136              		.loc 16 15 24 view .LVU287
- 1137 0030 9FED180A 		vldr.32	s0, .L53+24
- 1138 0034 3046     		mov	r0, r6
+ 1191              		.loc 16 15 24 view .LVU304
+ 1192 0030 9FED180A 		vldr.32	s0, .L53+24
+ 1193 0034 3046     		mov	r0, r6
   20:Pedal.cpp     **** Parameter toneParam;
- 1139              		.loc 16 20 11 view .LVU288
- 1140 0036 184C     		ldr	r4, .L53+28
+ 1194              		.loc 16 20 11 view .LVU305
+ 1195 0036 184C     		ldr	r4, .L53+28
   15:Pedal.cpp     **** ToneFilter tone(48000.f);
- 1141              		.loc 16 15 24 view .LVU289
- 1142 0038 FFF7FEFF 		bl	_ZN10ToneFilterC1Ef
- 1143              	.LVL65:
+ 1196              		.loc 16 15 24 view .LVU306
+ 1197 0038 FFF7FEFF 		bl	_ZN10ToneFilterC1Ef
+ 1198              	.LVL70:
   15:Pedal.cpp     **** ToneFilter tone(48000.f);
- 1144              		.loc 16 15 12 view .LVU290
- 1145 003c 124A     		ldr	r2, .L53+12
- 1146 003e 1749     		ldr	r1, .L53+32
- 1147 0040 3046     		mov	r0, r6
- 1148 0042 FFF7FEFF 		bl	__aeabi_atexit
- 1149              	.LVL66:
- 1150              	.LBB424:
- 1151              	.LBI424:
+ 1199              		.loc 16 15 12 view .LVU307
+ 1200 003c 124A     		ldr	r2, .L53+12
+ 1201 003e 1749     		ldr	r1, .L53+32
+ 1202 0040 3046     		mov	r0, r6
+ 1203 0042 FFF7FEFF 		bl	__aeabi_atexit
+ 1204              	.LVL71:
+ 1205              	.LBB424:
+ 1206              	.LBI424:
   22:../../DaisySP//Source/Dynamics/balance.h ****     ~Balance() {}
- 1152              		.loc 11 22 5 is_stmt 1 view .LVU291
+ 1207              		.loc 11 22 5 is_stmt 1 view .LVU308
   22:../../DaisySP//Source/Dynamics/balance.h ****     ~Balance() {}
- 1153              		.loc 11 22 5 is_stmt 0 view .LVU292
- 1154              	.LBE424:
+ 1208              		.loc 11 22 5 is_stmt 0 view .LVU309
+ 1209              	.LBE424:
   16:Pedal.cpp     **** Balance balance;
- 1155              		.loc 16 16 9 view .LVU293
- 1156 0046 104A     		ldr	r2, .L53+12
- 1157 0048 1549     		ldr	r1, .L53+36
- 1158 004a 1648     		ldr	r0, .L53+40
- 1159 004c FFF7FEFF 		bl	__aeabi_atexit
- 1160              	.LVL67:
- 1161              	.LBB425:
- 1162              	.LBI425:
+ 1210              		.loc 16 16 9 view .LVU310
+ 1211 0046 104A     		ldr	r2, .L53+12
+ 1212 0048 1549     		ldr	r1, .L53+36
+ 1213 004a 1648     		ldr	r0, .L53+40
+ 1214 004c FFF7FEFF 		bl	__aeabi_atexit
+ 1215              	.LVL72:
+ 1216              	.LBB425:
+ 1217              	.LBI425:
   36:../../DaisySP//Source/Dynamics/crossfade.h ****     ~CrossFade() {}
- 1163              		.loc 12 36 5 is_stmt 1 view .LVU294
+ 1218              		.loc 12 36 5 is_stmt 1 view .LVU311
   36:../../DaisySP//Source/Dynamics/crossfade.h ****     ~CrossFade() {}
- 1164              		.loc 12 36 5 is_stmt 0 view .LVU295
- 1165              	.LBE425:
+ 1219              		.loc 12 36 5 is_stmt 0 view .LVU312
+ 1220              	.LBE425:
   17:Pedal.cpp     **** static CrossFade crossFade;
- 1166              		.loc 16 17 18 view .LVU296
- 1167 0050 0D4A     		ldr	r2, .L53+12
- 1168 0052 1549     		ldr	r1, .L53+44
- 1169 0054 1548     		ldr	r0, .L53+48
- 1170 0056 FFF7FEFF 		bl	__aeabi_atexit
- 1171              	.LVL68:
-  18:Pedal.cpp     **** DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
- 1172              		.loc 16 18 54 is_stmt 1 view .LVU297
-  18:Pedal.cpp     **** DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
- 1173              		.loc 16 18 43 is_stmt 0 view .LVU298
- 1174 005a 0B4A     		ldr	r2, .L53+12
- 1175 005c 1449     		ldr	r1, .L53+52
- 1176 005e 2846     		mov	r0, r5
- 1177 0060 FFF7FEFF 		bl	__aeabi_atexit
- 1178              	.LVL69:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 46
+ 1221              		.loc 16 17 18 view .LVU313
+ 1222 0050 0D4A     		ldr	r2, .L53+12
+ 1223 0052 1549     		ldr	r1, .L53+44
+ 1224 0054 1548     		ldr	r0, .L53+48
+ 1225 0056 FFF7FEFF 		bl	__aeabi_atexit
+ 1226              	.LVL73:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 47
 
 
- 1179              	.LBB426:
- 1180              	.LBI426:
+  18:Pedal.cpp     **** DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
+ 1227              		.loc 16 18 54 is_stmt 1 view .LVU314
+  18:Pedal.cpp     **** DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
+ 1228              		.loc 16 18 43 is_stmt 0 view .LVU315
+ 1229 005a 0B4A     		ldr	r2, .L53+12
+ 1230 005c 1449     		ldr	r1, .L53+52
+ 1231 005e 2846     		mov	r0, r5
+ 1232 0060 FFF7FEFF 		bl	__aeabi_atexit
+ 1233              	.LVL74:
+ 1234              	.LBB426:
+ 1235              	.LBI426:
   25:../../libDaisy//src/hid/parameter.h ****     /** Destructor */
- 1181              		.loc 1 25 5 is_stmt 1 view .LVU299
- 1182              	.LBB427:
- 1183              	.LBB428:
- 1184              	.LBI428:
+ 1236              		.loc 1 25 5 is_stmt 1 view .LVU316
+ 1237              	.LBB427:
+ 1238              	.LBB428:
+ 1239              	.LBI428:
   21:../../libDaisy//src/hid/ctrl.h ****     /** destructor */
- 1185              		.loc 2 21 5 view .LVU300
+ 1240              		.loc 2 21 5 view .LVU317
   21:../../libDaisy//src/hid/ctrl.h ****     /** destructor */
- 1186              		.loc 2 21 5 is_stmt 0 view .LVU301
- 1187              	.LBE428:
- 1188              	.LBE427:
- 1189              	.LBE426:
+ 1241              		.loc 2 21 5 is_stmt 0 view .LVU318
+ 1242              	.LBE428:
+ 1243              	.LBE427:
+ 1244              	.LBE426:
   20:Pedal.cpp     **** Parameter toneParam;
- 1190              		.loc 16 20 11 view .LVU302
- 1191 0064 2146     		mov	r1, r4
- 1192 0066 084A     		ldr	r2, .L53+12
- 1193 0068 1248     		ldr	r0, .L53+56
- 1194 006a FFF7FEFF 		bl	__aeabi_atexit
- 1195              	.LVL70:
- 1196              	.LBB429:
- 1197              	.LBI429:
+ 1245              		.loc 16 20 11 view .LVU319
+ 1246 0064 2146     		mov	r1, r4
+ 1247 0066 084A     		ldr	r2, .L53+12
+ 1248 0068 1248     		ldr	r0, .L53+56
+ 1249 006a FFF7FEFF 		bl	__aeabi_atexit
+ 1250              	.LVL75:
+ 1251              	.LBB429:
+ 1252              	.LBI429:
   25:../../libDaisy//src/hid/parameter.h ****     /** Destructor */
- 1198              		.loc 1 25 5 is_stmt 1 view .LVU303
- 1199              	.LBB430:
- 1200              	.LBB431:
- 1201              	.LBI431:
+ 1253              		.loc 1 25 5 is_stmt 1 view .LVU320
+ 1254              	.LBB430:
+ 1255              	.LBB431:
+ 1256              	.LBI431:
   21:../../libDaisy//src/hid/ctrl.h ****     /** destructor */
- 1202              		.loc 2 21 5 view .LVU304
+ 1257              		.loc 2 21 5 view .LVU321
   21:../../libDaisy//src/hid/ctrl.h ****     /** destructor */
- 1203              		.loc 2 21 5 is_stmt 0 view .LVU305
- 1204              	.LBE431:
- 1205              	.LBE430:
- 1206              	.LBE429:
+ 1258              		.loc 2 21 5 is_stmt 0 view .LVU322
+ 1259              	.LBE431:
+ 1260              	.LBE430:
+ 1261              	.LBE429:
   21:Pedal.cpp     **** Parameter bpmParam;
- 1207              		.loc 16 21 11 view .LVU306
- 1208 006e 2146     		mov	r1, r4
- 1209 0070 054A     		ldr	r2, .L53+12
- 1210 0072 1148     		ldr	r0, .L53+60
- 1211              	.LBE434:
- 1212              	.LBE438:
- 1213              		.loc 16 140 1 view .LVU307
- 1214 0074 BDE87040 		pop	{r4, r5, r6, lr}
- 1215              		.cfi_restore 14
- 1216              		.cfi_restore 6
- 1217              		.cfi_restore 5
- 1218              		.cfi_restore 4
- 1219              		.cfi_def_cfa_offset 0
- 1220              	.LBB439:
- 1221              	.LBB435:
+ 1262              		.loc 16 21 11 view .LVU323
+ 1263 006e 2146     		mov	r1, r4
+ 1264 0070 054A     		ldr	r2, .L53+12
+ 1265 0072 1148     		ldr	r0, .L53+60
+ 1266              	.LBE434:
+ 1267              	.LBE438:
+ 1268              		.loc 16 140 1 view .LVU324
+ 1269 0074 BDE87040 		pop	{r4, r5, r6, lr}
+ 1270              		.cfi_restore 14
+ 1271              		.cfi_restore 6
+ 1272              		.cfi_restore 5
+ 1273              		.cfi_restore 4
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 48
+
+
+ 1274              		.cfi_def_cfa_offset 0
+ 1275              	.LBB439:
+ 1276              	.LBB435:
   21:Pedal.cpp     **** Parameter bpmParam;
- 1222              		.loc 16 21 11 view .LVU308
- 1223 0078 FFF7FEBF 		b	__aeabi_atexit
- 1224              	.LVL71:
- 1225              	.L54:
- 1226              		.align	2
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 47
+ 1277              		.loc 16 21 11 view .LVU325
+ 1278 0078 FFF7FEBF 		b	__aeabi_atexit
+ 1279              	.LVL76:
+ 1280              	.L54:
+ 1281              		.align	2
+ 1282              	.L53:
+ 1283 007c 00000000 		.word	.LANCHOR0
+ 1284 0080 00000000 		.word	.LANCHOR12
+ 1285 0084 00000000 		.word	.LANCHOR10
+ 1286 0088 00000000 		.word	__dso_handle
+ 1287 008c 00000000 		.word	_ZN5daisy10DaisyPetalD1Ev
+ 1288 0090 00000000 		.word	.LANCHOR3
+ 1289 0094 00803B47 		.word	1195081728
+ 1290 0098 00000000 		.word	_ZN5daisy9ParameterD1Ev
+ 1291 009c 00000000 		.word	_ZN10ToneFilterD1Ev
+ 1292 00a0 00000000 		.word	_ZN7daisysp7BalanceD1Ev
+ 1293 00a4 00000000 		.word	.LANCHOR5
+ 1294 00a8 00000000 		.word	_ZN7daisysp9CrossFadeD1Ev
+ 1295 00ac 00000000 		.word	.LANCHOR4
+ 1296 00b0 00000000 		.word	__tcf_0
+ 1297 00b4 00000000 		.word	.LANCHOR1
+ 1298 00b8 00000000 		.word	.LANCHOR2
+ 1299              	.LBE435:
+ 1300              	.LBE439:
+ 1301              		.cfi_endproc
+ 1302              	.LFE5377:
+ 1304              		.section	.init_array,"aw",%init_array
+ 1305              		.align	2
+ 1306 0000 00000000 		.word	_GLOBAL__sub_I_hw(target1)
+ 1307              		.global	bpm
+ 1308              		.global	toneVal
+ 1309              		.global	feedback
+ 1310              		.global	dryWet
+ 1311              		.global	bypass
+ 1312              		.global	bpmParam
+ 1313              		.global	toneParam
+ 1314              		.global	delayMems
+ 1315              		.global	balance
+ 1316              		.global	tone
+ 1317              		.global	delay
+ 1318              		.global	hw
+ 1319              		.section	.rodata
+ 1320              		.align	2
+ 1321              		.set	.LANCHOR12,. + 0
+ 1322              	.LC0:
+ 1323 0000 0000     		.short	0
+ 1324 0002 0100     		.short	1
+ 1325 0004 0100     		.short	1
+ 1326 0006 0100     		.short	1
+ 1327 0008 0100     		.short	1
+ 1328 000a 0100     		.short	1
+ 1329 000c 0100     		.short	1
+ 1330 000e 0100     		.short	1
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 49
 
 
- 1227              	.L53:
- 1228 007c 00000000 		.word	.LANCHOR0
- 1229 0080 00000000 		.word	.LANCHOR10
- 1230 0084 00000000 		.word	.LANCHOR11
- 1231 0088 00000000 		.word	__dso_handle
- 1232 008c 00000000 		.word	_ZN5daisy10DaisyPetalD1Ev
- 1233 0090 00000000 		.word	.LANCHOR3
- 1234 0094 00803B47 		.word	1195081728
- 1235 0098 00000000 		.word	_ZN5daisy9ParameterD1Ev
- 1236 009c 00000000 		.word	_ZN10ToneFilterD1Ev
- 1237 00a0 00000000 		.word	_ZN7daisysp7BalanceD1Ev
- 1238 00a4 00000000 		.word	.LANCHOR5
- 1239 00a8 00000000 		.word	_ZN7daisysp9CrossFadeD1Ev
- 1240 00ac 00000000 		.word	.LANCHOR4
- 1241 00b0 00000000 		.word	__tcf_0
- 1242 00b4 00000000 		.word	.LANCHOR1
- 1243 00b8 00000000 		.word	.LANCHOR2
- 1244              	.LBE435:
- 1245              	.LBE439:
- 1246              		.cfi_endproc
- 1247              	.LFE5377:
- 1249              		.section	.init_array,"aw",%init_array
- 1250              		.align	2
- 1251 0000 00000000 		.word	_GLOBAL__sub_I_hw(target1)
- 1252              		.global	bpm
- 1253              		.global	toneVal
- 1254              		.global	feedback
- 1255              		.global	dryWet
- 1256              		.global	bypass
- 1257              		.global	bpmParam
- 1258              		.global	toneParam
- 1259              		.global	delayMems
- 1260              		.global	balance
- 1261              		.global	tone
- 1262              		.global	delay
- 1263              		.global	hw
- 1264              		.section	.rodata
- 1265              		.align	2
- 1266              		.set	.LANCHOR10,. + 0
- 1267              	.LC0:
- 1268 0000 0000     		.short	0
- 1269 0002 0100     		.short	1
- 1270 0004 0100     		.short	1
- 1271 0006 0100     		.short	1
- 1272 0008 0100     		.short	1
- 1273 000a 0100     		.short	1
- 1274 000c 0100     		.short	1
- 1275 000e 0100     		.short	1
- 1276 0010 0100     		.short	1
- 1277 0012 0100     		.short	1
- 1278 0014 0100     		.short	1
- 1279 0016 0100     		.short	1
- 1280 0018 0200     		.short	2
- 1281 001a 0200     		.short	2
- 1282 001c 0200     		.short	2
- 1283 001e 0200     		.short	2
- 1284 0020 0200     		.short	2
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 48
+ 1331 0010 0100     		.short	1
+ 1332 0012 0100     		.short	1
+ 1333 0014 0100     		.short	1
+ 1334 0016 0100     		.short	1
+ 1335 0018 0200     		.short	2
+ 1336 001a 0200     		.short	2
+ 1337 001c 0200     		.short	2
+ 1338 001e 0200     		.short	2
+ 1339 0020 0200     		.short	2
+ 1340 0022 0200     		.short	2
+ 1341 0024 0200     		.short	2
+ 1342 0026 0300     		.short	3
+ 1343 0028 0300     		.short	3
+ 1344 002a 0400     		.short	4
+ 1345 002c 0400     		.short	4
+ 1346 002e 0500     		.short	5
+ 1347 0030 0500     		.short	5
+ 1348 0032 0600     		.short	6
+ 1349 0034 0700     		.short	7
+ 1350 0036 0800     		.short	8
+ 1351 0038 0800     		.short	8
+ 1352 003a 0900     		.short	9
+ 1353 003c 0A00     		.short	10
+ 1354 003e 0B00     		.short	11
+ 1355 0040 0C00     		.short	12
+ 1356 0042 0D00     		.short	13
+ 1357 0044 0F00     		.short	15
+ 1358 0046 1000     		.short	16
+ 1359 0048 1100     		.short	17
+ 1360 004a 1200     		.short	18
+ 1361 004c 1400     		.short	20
+ 1362 004e 1500     		.short	21
+ 1363 0050 1700     		.short	23
+ 1364 0052 1900     		.short	25
+ 1365 0054 1A00     		.short	26
+ 1366 0056 1C00     		.short	28
+ 1367 0058 1E00     		.short	30
+ 1368 005a 2000     		.short	32
+ 1369 005c 2200     		.short	34
+ 1370 005e 2400     		.short	36
+ 1371 0060 2600     		.short	38
+ 1372 0062 2800     		.short	40
+ 1373 0064 2B00     		.short	43
+ 1374 0066 2D00     		.short	45
+ 1375 0068 3000     		.short	48
+ 1376 006a 3200     		.short	50
+ 1377 006c 3500     		.short	53
+ 1378 006e 3800     		.short	56
+ 1379 0070 3B00     		.short	59
+ 1380 0072 3E00     		.short	62
+ 1381 0074 4100     		.short	65
+ 1382 0076 4400     		.short	68
+ 1383 0078 4700     		.short	71
+ 1384 007a 4B00     		.short	75
+ 1385 007c 4E00     		.short	78
+ 1386 007e 5200     		.short	82
+ 1387 0080 5500     		.short	85
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 50
 
 
- 1285 0022 0200     		.short	2
- 1286 0024 0200     		.short	2
- 1287 0026 0300     		.short	3
- 1288 0028 0300     		.short	3
- 1289 002a 0400     		.short	4
- 1290 002c 0400     		.short	4
- 1291 002e 0500     		.short	5
- 1292 0030 0500     		.short	5
- 1293 0032 0600     		.short	6
- 1294 0034 0700     		.short	7
- 1295 0036 0800     		.short	8
- 1296 0038 0800     		.short	8
- 1297 003a 0900     		.short	9
- 1298 003c 0A00     		.short	10
- 1299 003e 0B00     		.short	11
- 1300 0040 0C00     		.short	12
- 1301 0042 0D00     		.short	13
- 1302 0044 0F00     		.short	15
- 1303 0046 1000     		.short	16
- 1304 0048 1100     		.short	17
- 1305 004a 1200     		.short	18
- 1306 004c 1400     		.short	20
- 1307 004e 1500     		.short	21
- 1308 0050 1700     		.short	23
- 1309 0052 1900     		.short	25
- 1310 0054 1A00     		.short	26
- 1311 0056 1C00     		.short	28
- 1312 0058 1E00     		.short	30
- 1313 005a 2000     		.short	32
- 1314 005c 2200     		.short	34
- 1315 005e 2400     		.short	36
- 1316 0060 2600     		.short	38
- 1317 0062 2800     		.short	40
- 1318 0064 2B00     		.short	43
- 1319 0066 2D00     		.short	45
- 1320 0068 3000     		.short	48
- 1321 006a 3200     		.short	50
- 1322 006c 3500     		.short	53
- 1323 006e 3800     		.short	56
- 1324 0070 3B00     		.short	59
- 1325 0072 3E00     		.short	62
- 1326 0074 4100     		.short	65
- 1327 0076 4400     		.short	68
- 1328 0078 4700     		.short	71
- 1329 007a 4B00     		.short	75
- 1330 007c 4E00     		.short	78
- 1331 007e 5200     		.short	82
- 1332 0080 5500     		.short	85
- 1333 0082 5900     		.short	89
- 1334 0084 5D00     		.short	93
- 1335 0086 6100     		.short	97
- 1336 0088 6500     		.short	101
- 1337 008a 6900     		.short	105
- 1338 008c 6E00     		.short	110
- 1339 008e 7200     		.short	114
- 1340 0090 7700     		.short	119
- 1341 0092 7B00     		.short	123
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 49
+ 1388 0082 5900     		.short	89
+ 1389 0084 5D00     		.short	93
+ 1390 0086 6100     		.short	97
+ 1391 0088 6500     		.short	101
+ 1392 008a 6900     		.short	105
+ 1393 008c 6E00     		.short	110
+ 1394 008e 7200     		.short	114
+ 1395 0090 7700     		.short	119
+ 1396 0092 7B00     		.short	123
+ 1397 0094 8000     		.short	128
+ 1398 0096 8500     		.short	133
+ 1399 0098 8A00     		.short	138
+ 1400 009a 8F00     		.short	143
+ 1401 009c 9500     		.short	149
+ 1402 009e 9A00     		.short	154
+ 1403 00a0 9F00     		.short	159
+ 1404 00a2 A500     		.short	165
+ 1405 00a4 AB00     		.short	171
+ 1406 00a6 B100     		.short	177
+ 1407 00a8 B700     		.short	183
+ 1408 00aa BD00     		.short	189
+ 1409 00ac C300     		.short	195
+ 1410 00ae CA00     		.short	202
+ 1411 00b0 D000     		.short	208
+ 1412 00b2 D700     		.short	215
+ 1413 00b4 DE00     		.short	222
+ 1414 00b6 E500     		.short	229
+ 1415 00b8 EC00     		.short	236
+ 1416 00ba F300     		.short	243
+ 1417 00bc FA00     		.short	250
+ 1418 00be 0201     		.short	258
+ 1419 00c0 0A01     		.short	266
+ 1420 00c2 1101     		.short	273
+ 1421 00c4 1901     		.short	281
+ 1422 00c6 2201     		.short	290
+ 1423 00c8 2A01     		.short	298
+ 1424 00ca 3201     		.short	306
+ 1425 00cc 3B01     		.short	315
+ 1426 00ce 4401     		.short	324
+ 1427 00d0 4C01     		.short	332
+ 1428 00d2 5501     		.short	341
+ 1429 00d4 5F01     		.short	351
+ 1430 00d6 6801     		.short	360
+ 1431 00d8 7101     		.short	369
+ 1432 00da 7B01     		.short	379
+ 1433 00dc 8501     		.short	389
+ 1434 00de 8F01     		.short	399
+ 1435 00e0 9901     		.short	409
+ 1436 00e2 A301     		.short	419
+ 1437 00e4 AE01     		.short	430
+ 1438 00e6 B801     		.short	440
+ 1439 00e8 C301     		.short	451
+ 1440 00ea CE01     		.short	462
+ 1441 00ec D901     		.short	473
+ 1442 00ee E501     		.short	485
+ 1443 00f0 F001     		.short	496
+ 1444 00f2 FC01     		.short	508
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 51
 
 
- 1342 0094 8000     		.short	128
- 1343 0096 8500     		.short	133
- 1344 0098 8A00     		.short	138
- 1345 009a 8F00     		.short	143
- 1346 009c 9500     		.short	149
- 1347 009e 9A00     		.short	154
- 1348 00a0 9F00     		.short	159
- 1349 00a2 A500     		.short	165
- 1350 00a4 AB00     		.short	171
- 1351 00a6 B100     		.short	177
- 1352 00a8 B700     		.short	183
- 1353 00aa BD00     		.short	189
- 1354 00ac C300     		.short	195
- 1355 00ae CA00     		.short	202
- 1356 00b0 D000     		.short	208
- 1357 00b2 D700     		.short	215
- 1358 00b4 DE00     		.short	222
- 1359 00b6 E500     		.short	229
- 1360 00b8 EC00     		.short	236
- 1361 00ba F300     		.short	243
- 1362 00bc FA00     		.short	250
- 1363 00be 0201     		.short	258
- 1364 00c0 0A01     		.short	266
- 1365 00c2 1101     		.short	273
- 1366 00c4 1901     		.short	281
- 1367 00c6 2201     		.short	290
- 1368 00c8 2A01     		.short	298
- 1369 00ca 3201     		.short	306
- 1370 00cc 3B01     		.short	315
- 1371 00ce 4401     		.short	324
- 1372 00d0 4C01     		.short	332
- 1373 00d2 5501     		.short	341
- 1374 00d4 5F01     		.short	351
- 1375 00d6 6801     		.short	360
- 1376 00d8 7101     		.short	369
- 1377 00da 7B01     		.short	379
- 1378 00dc 8501     		.short	389
- 1379 00de 8F01     		.short	399
- 1380 00e0 9901     		.short	409
- 1381 00e2 A301     		.short	419
- 1382 00e4 AE01     		.short	430
- 1383 00e6 B801     		.short	440
- 1384 00e8 C301     		.short	451
- 1385 00ea CE01     		.short	462
- 1386 00ec D901     		.short	473
- 1387 00ee E501     		.short	485
- 1388 00f0 F001     		.short	496
- 1389 00f2 FC01     		.short	508
- 1390 00f4 0802     		.short	520
- 1391 00f6 1402     		.short	532
- 1392 00f8 2002     		.short	544
- 1393 00fa 2C02     		.short	556
- 1394 00fc 3902     		.short	569
- 1395 00fe 4602     		.short	582
- 1396 0100 5202     		.short	594
- 1397 0102 6002     		.short	608
- 1398 0104 6D02     		.short	621
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 50
+ 1445 00f4 0802     		.short	520
+ 1446 00f6 1402     		.short	532
+ 1447 00f8 2002     		.short	544
+ 1448 00fa 2C02     		.short	556
+ 1449 00fc 3902     		.short	569
+ 1450 00fe 4602     		.short	582
+ 1451 0100 5202     		.short	594
+ 1452 0102 6002     		.short	608
+ 1453 0104 6D02     		.short	621
+ 1454 0106 7A02     		.short	634
+ 1455 0108 8802     		.short	648
+ 1456 010a 9602     		.short	662
+ 1457 010c A402     		.short	676
+ 1458 010e B202     		.short	690
+ 1459 0110 C002     		.short	704
+ 1460 0112 CF02     		.short	719
+ 1461 0114 DE02     		.short	734
+ 1462 0116 ED02     		.short	749
+ 1463 0118 FC02     		.short	764
+ 1464 011a 0B03     		.short	779
+ 1465 011c 1B03     		.short	795
+ 1466 011e 2B03     		.short	811
+ 1467 0120 3B03     		.short	827
+ 1468 0122 4B03     		.short	843
+ 1469 0124 5B03     		.short	859
+ 1470 0126 6C03     		.short	876
+ 1471 0128 7D03     		.short	893
+ 1472 012a 8E03     		.short	910
+ 1473 012c 9F03     		.short	927
+ 1474 012e B003     		.short	944
+ 1475 0130 C203     		.short	962
+ 1476 0132 D403     		.short	980
+ 1477 0134 E603     		.short	998
+ 1478 0136 F803     		.short	1016
+ 1479 0138 0A04     		.short	1034
+ 1480 013a 1D04     		.short	1053
+ 1481 013c 3004     		.short	1072
+ 1482 013e 4304     		.short	1091
+ 1483 0140 5604     		.short	1110
+ 1484 0142 6A04     		.short	1130
+ 1485 0144 7E04     		.short	1150
+ 1486 0146 9204     		.short	1170
+ 1487 0148 A604     		.short	1190
+ 1488 014a BA04     		.short	1210
+ 1489 014c CF04     		.short	1231
+ 1490 014e E404     		.short	1252
+ 1491 0150 F904     		.short	1273
+ 1492 0152 0E05     		.short	1294
+ 1493 0154 2405     		.short	1316
+ 1494 0156 3A05     		.short	1338
+ 1495 0158 5005     		.short	1360
+ 1496 015a 6605     		.short	1382
+ 1497 015c 7C05     		.short	1404
+ 1498 015e 9305     		.short	1427
+ 1499 0160 AA05     		.short	1450
+ 1500 0162 C105     		.short	1473
+ 1501 0164 D905     		.short	1497
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 52
 
 
- 1399 0106 7A02     		.short	634
- 1400 0108 8802     		.short	648
- 1401 010a 9602     		.short	662
- 1402 010c A402     		.short	676
- 1403 010e B202     		.short	690
- 1404 0110 C002     		.short	704
- 1405 0112 CF02     		.short	719
- 1406 0114 DE02     		.short	734
- 1407 0116 ED02     		.short	749
- 1408 0118 FC02     		.short	764
- 1409 011a 0B03     		.short	779
- 1410 011c 1B03     		.short	795
- 1411 011e 2B03     		.short	811
- 1412 0120 3B03     		.short	827
- 1413 0122 4B03     		.short	843
- 1414 0124 5B03     		.short	859
- 1415 0126 6C03     		.short	876
- 1416 0128 7D03     		.short	893
- 1417 012a 8E03     		.short	910
- 1418 012c 9F03     		.short	927
- 1419 012e B003     		.short	944
- 1420 0130 C203     		.short	962
- 1421 0132 D403     		.short	980
- 1422 0134 E603     		.short	998
- 1423 0136 F803     		.short	1016
- 1424 0138 0A04     		.short	1034
- 1425 013a 1D04     		.short	1053
- 1426 013c 3004     		.short	1072
- 1427 013e 4304     		.short	1091
- 1428 0140 5604     		.short	1110
- 1429 0142 6A04     		.short	1130
- 1430 0144 7E04     		.short	1150
- 1431 0146 9204     		.short	1170
- 1432 0148 A604     		.short	1190
- 1433 014a BA04     		.short	1210
- 1434 014c CF04     		.short	1231
- 1435 014e E404     		.short	1252
- 1436 0150 F904     		.short	1273
- 1437 0152 0E05     		.short	1294
- 1438 0154 2405     		.short	1316
- 1439 0156 3A05     		.short	1338
- 1440 0158 5005     		.short	1360
- 1441 015a 6605     		.short	1382
- 1442 015c 7C05     		.short	1404
- 1443 015e 9305     		.short	1427
- 1444 0160 AA05     		.short	1450
- 1445 0162 C105     		.short	1473
- 1446 0164 D905     		.short	1497
- 1447 0166 F005     		.short	1520
- 1448 0168 0806     		.short	1544
- 1449 016a 2006     		.short	1568
- 1450 016c 3906     		.short	1593
- 1451 016e 5106     		.short	1617
- 1452 0170 6A06     		.short	1642
- 1453 0172 8306     		.short	1667
- 1454 0174 9D06     		.short	1693
- 1455 0176 B606     		.short	1718
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 51
+ 1502 0166 F005     		.short	1520
+ 1503 0168 0806     		.short	1544
+ 1504 016a 2006     		.short	1568
+ 1505 016c 3906     		.short	1593
+ 1506 016e 5106     		.short	1617
+ 1507 0170 6A06     		.short	1642
+ 1508 0172 8306     		.short	1667
+ 1509 0174 9D06     		.short	1693
+ 1510 0176 B606     		.short	1718
+ 1511 0178 D006     		.short	1744
+ 1512 017a EA06     		.short	1770
+ 1513 017c 0507     		.short	1797
+ 1514 017e 1F07     		.short	1823
+ 1515 0180 3A07     		.short	1850
+ 1516 0182 5507     		.short	1877
+ 1517 0184 7107     		.short	1905
+ 1518 0186 8C07     		.short	1932
+ 1519 0188 A807     		.short	1960
+ 1520 018a C407     		.short	1988
+ 1521 018c E107     		.short	2017
+ 1522 018e FD07     		.short	2045
+ 1523 0190 1A08     		.short	2074
+ 1524 0192 3708     		.short	2103
+ 1525 0194 5508     		.short	2133
+ 1526 0196 7208     		.short	2162
+ 1527 0198 9008     		.short	2192
+ 1528 019a AF08     		.short	2223
+ 1529 019c CD08     		.short	2253
+ 1530 019e EC08     		.short	2284
+ 1531 01a0 0B09     		.short	2315
+ 1532 01a2 2A09     		.short	2346
+ 1533 01a4 4A09     		.short	2378
+ 1534 01a6 6A09     		.short	2410
+ 1535 01a8 8A09     		.short	2442
+ 1536 01aa AA09     		.short	2474
+ 1537 01ac CB09     		.short	2507
+ 1538 01ae EC09     		.short	2540
+ 1539 01b0 0D0A     		.short	2573
+ 1540 01b2 2E0A     		.short	2606
+ 1541 01b4 500A     		.short	2640
+ 1542 01b6 720A     		.short	2674
+ 1543 01b8 940A     		.short	2708
+ 1544 01ba B70A     		.short	2743
+ 1545 01bc DA0A     		.short	2778
+ 1546 01be FD0A     		.short	2813
+ 1547 01c0 210B     		.short	2849
+ 1548 01c2 440B     		.short	2884
+ 1549 01c4 680B     		.short	2920
+ 1550 01c6 8D0B     		.short	2957
+ 1551 01c8 B10B     		.short	2993
+ 1552 01ca D60B     		.short	3030
+ 1553 01cc FB0B     		.short	3067
+ 1554 01ce 210C     		.short	3105
+ 1555 01d0 470C     		.short	3143
+ 1556 01d2 6D0C     		.short	3181
+ 1557 01d4 930C     		.short	3219
+ 1558 01d6 BA0C     		.short	3258
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 53
 
 
- 1456 0178 D006     		.short	1744
- 1457 017a EA06     		.short	1770
- 1458 017c 0507     		.short	1797
- 1459 017e 1F07     		.short	1823
- 1460 0180 3A07     		.short	1850
- 1461 0182 5507     		.short	1877
- 1462 0184 7107     		.short	1905
- 1463 0186 8C07     		.short	1932
- 1464 0188 A807     		.short	1960
- 1465 018a C407     		.short	1988
- 1466 018c E107     		.short	2017
- 1467 018e FD07     		.short	2045
- 1468 0190 1A08     		.short	2074
- 1469 0192 3708     		.short	2103
- 1470 0194 5508     		.short	2133
- 1471 0196 7208     		.short	2162
- 1472 0198 9008     		.short	2192
- 1473 019a AF08     		.short	2223
- 1474 019c CD08     		.short	2253
- 1475 019e EC08     		.short	2284
- 1476 01a0 0B09     		.short	2315
- 1477 01a2 2A09     		.short	2346
- 1478 01a4 4A09     		.short	2378
- 1479 01a6 6A09     		.short	2410
- 1480 01a8 8A09     		.short	2442
- 1481 01aa AA09     		.short	2474
- 1482 01ac CB09     		.short	2507
- 1483 01ae EC09     		.short	2540
- 1484 01b0 0D0A     		.short	2573
- 1485 01b2 2E0A     		.short	2606
- 1486 01b4 500A     		.short	2640
- 1487 01b6 720A     		.short	2674
- 1488 01b8 940A     		.short	2708
- 1489 01ba B70A     		.short	2743
- 1490 01bc DA0A     		.short	2778
- 1491 01be FD0A     		.short	2813
- 1492 01c0 210B     		.short	2849
- 1493 01c2 440B     		.short	2884
- 1494 01c4 680B     		.short	2920
- 1495 01c6 8D0B     		.short	2957
- 1496 01c8 B10B     		.short	2993
- 1497 01ca D60B     		.short	3030
- 1498 01cc FB0B     		.short	3067
- 1499 01ce 210C     		.short	3105
- 1500 01d0 470C     		.short	3143
- 1501 01d2 6D0C     		.short	3181
- 1502 01d4 930C     		.short	3219
- 1503 01d6 BA0C     		.short	3258
- 1504 01d8 E10C     		.short	3297
- 1505 01da 080D     		.short	3336
- 1506 01dc 300D     		.short	3376
- 1507 01de 580D     		.short	3416
- 1508 01e0 800D     		.short	3456
- 1509 01e2 A80D     		.short	3496
- 1510 01e4 D10D     		.short	3537
- 1511 01e6 FA0D     		.short	3578
- 1512 01e8 230E     		.short	3619
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 52
-
-
- 1513 01ea 4D0E     		.short	3661
- 1514 01ec 770E     		.short	3703
- 1515 01ee A10E     		.short	3745
- 1516 01f0 CC0E     		.short	3788
- 1517 01f2 F70E     		.short	3831
- 1518 01f4 220F     		.short	3874
- 1519 01f6 4E0F     		.short	3918
- 1520 01f8 7A0F     		.short	3962
- 1521 01fa A60F     		.short	4006
- 1522 01fc D20F     		.short	4050
- 1523 01fe FF0F     		.short	4095
- 1524              		.section	.bss._ZL9crossFade,"aw",%nobits
- 1525              		.align	2
- 1526              		.set	.LANCHOR4,. + 0
- 1529              	_ZL9crossFade:
- 1530 0000 00000000 		.space	8
- 1530      00000000 
- 1531              		.section	.bss.balance,"aw",%nobits
- 1532              		.align	2
- 1533              		.set	.LANCHOR5,. + 0
- 1536              	balance:
- 1537 0000 00000000 		.space	28
- 1537      00000000 
- 1537      00000000 
- 1537      00000000 
- 1537      00000000 
- 1538              		.section	.bss.bpm,"aw",%nobits
- 1539              		.align	2
- 1540              		.set	.LANCHOR9,. + 0
- 1543              	bpm:
- 1544 0000 00000000 		.space	4
- 1545              		.section	.bss.bpmParam,"aw",%nobits
- 1546              		.align	2
- 1547              		.set	.LANCHOR2,. + 0
- 1550              	bpmParam:
- 1551 0000 00000000 		.space	56
- 1551      00000000 
- 1551      00000000 
- 1551      00000000 
- 1551      00000000 
- 1552              		.section	.bss.delay,"aw",%nobits
- 1553              		.align	2
- 1554              		.set	.LANCHOR3,. + 0
- 1557              	delay:
- 1558 0000 00000000 		.space	76
- 1558      00000000 
- 1558      00000000 
- 1558      00000000 
- 1558      00000000 
- 1559              		.section	.bss.dryWet,"aw",%nobits
- 1560              		.align	2
- 1561              		.set	.LANCHOR7,. + 0
- 1564              	dryWet:
- 1565 0000 00000000 		.space	4
- 1566              		.section	.bss.feedback,"aw",%nobits
- 1567              		.align	2
- 1568              		.set	.LANCHOR8,. + 0
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 53
-
-
- 1571              	feedback:
- 1572 0000 00000000 		.space	4
- 1573              		.section	.bss.hw,"aw",%nobits
- 1574              		.align	2
- 1575              		.set	.LANCHOR0,. + 0
- 1578              	hw:
- 1579 0000 00000000 		.space	1756
- 1579      00000000 
- 1579      00000000 
- 1579      00000000 
- 1579      00000000 
- 1580              		.section	.bss.tone,"aw",%nobits
- 1581              		.align	2
- 1582              		.set	.LANCHOR11,. + 0
- 1585              	tone:
- 1586 0000 00000000 		.space	60
- 1586      00000000 
- 1586      00000000 
- 1586      00000000 
- 1586      00000000 
- 1587              		.section	.bss.toneParam,"aw",%nobits
- 1588              		.align	2
- 1589              		.set	.LANCHOR1,. + 0
- 1592              	toneParam:
- 1593 0000 00000000 		.space	56
- 1593      00000000 
- 1593      00000000 
- 1593      00000000 
- 1593      00000000 
- 1594              		.section	.bss.toneVal,"aw",%nobits
- 1595              		.align	2
- 1598              	toneVal:
+ 1559 01d8 E10C     		.short	3297
+ 1560 01da 080D     		.short	3336
+ 1561 01dc 300D     		.short	3376
+ 1562 01de 580D     		.short	3416
+ 1563 01e0 800D     		.short	3456
+ 1564 01e2 A80D     		.short	3496
+ 1565 01e4 D10D     		.short	3537
+ 1566 01e6 FA0D     		.short	3578
+ 1567 01e8 230E     		.short	3619
+ 1568 01ea 4D0E     		.short	3661
+ 1569 01ec 770E     		.short	3703
+ 1570 01ee A10E     		.short	3745
+ 1571 01f0 CC0E     		.short	3788
+ 1572 01f2 F70E     		.short	3831
+ 1573 01f4 220F     		.short	3874
+ 1574 01f6 4E0F     		.short	3918
+ 1575 01f8 7A0F     		.short	3962
+ 1576 01fa A60F     		.short	4006
+ 1577 01fc D20F     		.short	4050
+ 1578 01fe FF0F     		.short	4095
+ 1579              		.section	.bss._ZL9crossFade,"aw",%nobits
+ 1580              		.align	2
+ 1581              		.set	.LANCHOR4,. + 0
+ 1584              	_ZL9crossFade:
+ 1585 0000 00000000 		.space	8
+ 1585      00000000 
+ 1586              		.section	.bss.balance,"aw",%nobits
+ 1587              		.align	2
+ 1588              		.set	.LANCHOR5,. + 0
+ 1591              	balance:
+ 1592 0000 00000000 		.space	28
+ 1592      00000000 
+ 1592      00000000 
+ 1592      00000000 
+ 1592      00000000 
+ 1593              		.section	.bss.bpm,"aw",%nobits
+ 1594              		.align	2
+ 1595              		.set	.LANCHOR11,. + 0
+ 1598              	bpm:
  1599 0000 00000000 		.space	4
- 1600              		.section	.data.bypass,"aw"
- 1601              		.set	.LANCHOR6,. + 0
- 1604              	bypass:
- 1605 0000 01       		.byte	1
- 1606              		.section	.sdram_bss,"aw"
- 1607              		.align	2
- 1610              	delayMems:
- 1611 0000 00000000 		.space	1536048
- 1611      00000000 
- 1611      00000000 
- 1611      00000000 
- 1611      00000000 
- 1612              		.text
- 1613              	.Letext0:
- 1614              		.file 21 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/machine/_default_types.h"
- 1615              		.file 22 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/_stdint.h"
- 1616              		.file 23 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdint.h"
- 1617              		.file 24 "/Library/DaisyToolchain/0.2.0/arm/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
- 1618              		.file 25 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath"
- 1619              		.file 26 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h"
- 1620              		.file 27 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdlib"
- 1621              		.file 28 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdint"
- 1622              		.file 29 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/type_traits"
- 1623              		.file 30 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/debug/debug.h"
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 54
+ 1600              		.section	.bss.bpmParam,"aw",%nobits
+ 1601              		.align	2
+ 1602              		.set	.LANCHOR2,. + 0
+ 1605              	bpmParam:
+ 1606 0000 00000000 		.space	56
+ 1606      00000000 
+ 1606      00000000 
+ 1606      00000000 
+ 1606      00000000 
+ 1607              		.section	.bss.delay,"aw",%nobits
+ 1608              		.align	2
+ 1609              		.set	.LANCHOR3,. + 0
+ 1612              	delay:
+ 1613 0000 00000000 		.space	76
+ 1613      00000000 
+ 1613      00000000 
+ 1613      00000000 
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 54
 
 
- 1624              		.file 31 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v
- 1625              		.file 32 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/algorithmfwd.h"
- 1626              		.file 33 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h"
- 1627              		.file 34 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/exception_ptr.h"
- 1628              		.file 35 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdarg"
- 1629              		.file 36 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdio"
- 1630              		.file 37 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstring"
- 1631              		.file 38 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cwchar"
- 1632              		.file 39 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/clocale"
- 1633              		.file 40 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h"
- 1634              		.file 41 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator.h"
- 1635              		.file 42 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/predefined_ops.h
- 1636              		.file 43 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/_types.h"
- 1637              		.file 44 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/reent.h"
- 1638              		.file 45 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/lock.h"
- 1639              		.file 46 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/math.h"
- 1640              		.file 47 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdlib.h"
- 1641              		.file 48 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/math.h"
- 1642              		.file 49 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/stdlib.h"
- 1643              		.file 50 "../../libDaisy//src/daisy_core.h"
- 1644              		.file 51 "../../libDaisy//src/per/tim.h"
- 1645              		.file 52 "../../libDaisy//src/per/sai.h"
- 1646              		.file 53 "../../libDaisy//src/util/wav_format.h"
- 1647              		.file 54 "../../libDaisy//src/hid/led.h"
- 1648              		.file 55 "../../libDaisy//src/util/color.h"
- 1649              		.file 56 "../../libDaisy//src/hid/rgb_led.h"
- 1650              		.file 57 "../../libDaisy//src/dev/max11300.h"
- 1651              		.file 58 "../../libDaisy//src/per/gpio.h"
- 1652              		.file 59 "../../libDaisy//src/dev/sdram.h"
- 1653              		.file 60 "/Library/DaisyToolchain/0.2.0/arm/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
- 1654              		.file 61 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdio.h"
- 1655              		.file 62 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/string.h"
- 1656              		.file 63 "../../DaisySP//Source/Control/adenv.h"
- 1657              		.file 64 "../../DaisySP//Source/Utility/dsp.h"
- 1658              		.file 65 "../../DaisySP//Source/Utility/delayline.h"
- 1659              		.file 66 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/wchar.h"
- 1660              		.file 67 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/locale.h"
- 1661              		.file 68 "Terrarium.h"
- 1662              		.file 69 "Delay.h"
- 1663              		.file 70 "../../libDaisy//src/dev/sr_595.h"
- 1664              		.file 71 "<built-in>"
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 55
+ 1613      00000000 
+ 1614              		.section	.bss.dryWet,"aw",%nobits
+ 1615              		.align	2
+ 1616              		.set	.LANCHOR7,. + 0
+ 1619              	dryWet:
+ 1620 0000 00000000 		.space	4
+ 1621              		.section	.bss.feedback,"aw",%nobits
+ 1622              		.align	2
+ 1623              		.set	.LANCHOR8,. + 0
+ 1626              	feedback:
+ 1627 0000 00000000 		.space	4
+ 1628              		.section	.bss.hw,"aw",%nobits
+ 1629              		.align	2
+ 1630              		.set	.LANCHOR0,. + 0
+ 1633              	hw:
+ 1634 0000 00000000 		.space	1756
+ 1634      00000000 
+ 1634      00000000 
+ 1634      00000000 
+ 1634      00000000 
+ 1635              		.section	.bss.tone,"aw",%nobits
+ 1636              		.align	2
+ 1637              		.set	.LANCHOR10,. + 0
+ 1640              	tone:
+ 1641 0000 00000000 		.space	60
+ 1641      00000000 
+ 1641      00000000 
+ 1641      00000000 
+ 1641      00000000 
+ 1642              		.section	.bss.toneParam,"aw",%nobits
+ 1643              		.align	2
+ 1644              		.set	.LANCHOR1,. + 0
+ 1647              	toneParam:
+ 1648 0000 00000000 		.space	56
+ 1648      00000000 
+ 1648      00000000 
+ 1648      00000000 
+ 1648      00000000 
+ 1649              		.section	.bss.toneVal,"aw",%nobits
+ 1650              		.align	2
+ 1651              		.set	.LANCHOR9,. + 0
+ 1654              	toneVal:
+ 1655 0000 00000000 		.space	4
+ 1656              		.section	.data.bypass,"aw"
+ 1657              		.set	.LANCHOR6,. + 0
+ 1660              	bypass:
+ 1661 0000 01       		.byte	1
+ 1662              		.section	.sdram_bss,"aw"
+ 1663              		.align	2
+ 1666              	delayMems:
+ 1667 0000 00000000 		.space	1536048
+ 1667      00000000 
+ 1667      00000000 
+ 1667      00000000 
+ 1667      00000000 
+ 1668              		.text
+ 1669              	.Letext0:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 55
+
+
+ 1670              		.file 21 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/machine/_default_types.h"
+ 1671              		.file 22 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/_stdint.h"
+ 1672              		.file 23 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdint.h"
+ 1673              		.file 24 "/Library/DaisyToolchain/0.2.0/arm/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
+ 1674              		.file 25 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath"
+ 1675              		.file 26 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h"
+ 1676              		.file 27 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdlib"
+ 1677              		.file 28 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdint"
+ 1678              		.file 29 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/type_traits"
+ 1679              		.file 30 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/debug/debug.h"
+ 1680              		.file 31 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v
+ 1681              		.file 32 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/algorithmfwd.h"
+ 1682              		.file 33 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h"
+ 1683              		.file 34 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/exception_ptr.h"
+ 1684              		.file 35 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdarg"
+ 1685              		.file 36 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdio"
+ 1686              		.file 37 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstring"
+ 1687              		.file 38 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cwchar"
+ 1688              		.file 39 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/clocale"
+ 1689              		.file 40 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h"
+ 1690              		.file 41 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator.h"
+ 1691              		.file 42 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/predefined_ops.h
+ 1692              		.file 43 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/_types.h"
+ 1693              		.file 44 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/reent.h"
+ 1694              		.file 45 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/lock.h"
+ 1695              		.file 46 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/math.h"
+ 1696              		.file 47 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdlib.h"
+ 1697              		.file 48 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/math.h"
+ 1698              		.file 49 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/stdlib.h"
+ 1699              		.file 50 "../../libDaisy//src/daisy_core.h"
+ 1700              		.file 51 "../../libDaisy//src/per/tim.h"
+ 1701              		.file 52 "../../libDaisy//src/per/sai.h"
+ 1702              		.file 53 "../../libDaisy//src/util/wav_format.h"
+ 1703              		.file 54 "../../libDaisy//src/hid/led.h"
+ 1704              		.file 55 "../../libDaisy//src/util/color.h"
+ 1705              		.file 56 "../../libDaisy//src/hid/rgb_led.h"
+ 1706              		.file 57 "../../libDaisy//src/dev/max11300.h"
+ 1707              		.file 58 "../../libDaisy//src/per/gpio.h"
+ 1708              		.file 59 "../../libDaisy//src/dev/sdram.h"
+ 1709              		.file 60 "/Library/DaisyToolchain/0.2.0/arm/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
+ 1710              		.file 61 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdio.h"
+ 1711              		.file 62 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/string.h"
+ 1712              		.file 63 "../../DaisySP//Source/Control/adenv.h"
+ 1713              		.file 64 "../../DaisySP//Source/Utility/dsp.h"
+ 1714              		.file 65 "../../DaisySP//Source/Utility/delayline.h"
+ 1715              		.file 66 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/wchar.h"
+ 1716              		.file 67 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/locale.h"
+ 1717              		.file 68 "Terrarium.h"
+ 1718              		.file 69 "Delay.h"
+ 1719              		.file 70 "../../libDaisy//src/dev/sr_595.h"
+ 1720              		.file 71 "<built-in>"
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 56
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 Pedal.cpp
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:19     .text._ZN5daisy9ParameterD2Ev:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:26     .text._ZN5daisy9ParameterD2Ev:0000000000000000 _ZN5daisy9ParameterD2Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:26     .text._ZN5daisy9ParameterD2Ev:0000000000000000 _ZN5daisy9ParameterD1Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:49     .text._ZN5daisy10DaisyPetalD2Ev:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:56     .text._ZN5daisy10DaisyPetalD2Ev:0000000000000000 _ZN5daisy10DaisyPetalD2Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:56     .text._ZN5daisy10DaisyPetalD2Ev:0000000000000000 _ZN5daisy10DaisyPetalD1Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:118    .text._ZN7daisysp7BalanceD2Ev:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:125    .text._ZN7daisysp7BalanceD2Ev:0000000000000000 _ZN7daisysp7BalanceD2Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:125    .text._ZN7daisysp7BalanceD2Ev:0000000000000000 _ZN7daisysp7BalanceD1Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:142    .text._ZN7daisysp9CrossFadeD2Ev:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:149    .text._ZN7daisysp9CrossFadeD2Ev:0000000000000000 _ZN7daisysp9CrossFadeD2Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:149    .text._ZN7daisysp9CrossFadeD2Ev:0000000000000000 _ZN7daisysp9CrossFadeD1Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:166    .text._ZN10ToneFilterD2Ev:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:173    .text._ZN10ToneFilterD2Ev:0000000000000000 _ZN10ToneFilterD2Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:173    .text._ZN10ToneFilterD2Ev:0000000000000000 _ZN10ToneFilterD1Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:202    .text.__tcf_0:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:208    .text.__tcf_0:0000000000000000 __tcf_0
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:222    .text._Z10initParamsv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:229    .text._Z10initParamsv:0000000000000000 _Z10initParamsv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:300    .text._Z10initParamsv:0000000000000058 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:308    .text.startup.main:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:315    .text.startup.main:0000000000000000 main
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:437    .text.startup.main:0000000000000058 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1610   .sdram_bss:0000000000000000 delayMems
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:745    .text._Z13AudioCallbackPKPKfPPfj:0000000000000000 _Z13AudioCallbackPKPKfPPfj
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:448    .text._Z15processControlsv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:455    .text._Z15processControlsv:0000000000000000 _Z15processControlsv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:724    .text._Z15processControlsv:00000000000000d8 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:738    .text._Z13AudioCallbackPKPKfPPfj:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:921    .text._Z13AudioCallbackPKPKfPPfj:0000000000000080 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:929    .text.startup._GLOBAL__sub_I_hw:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:935    .text.startup._GLOBAL__sub_I_hw:0000000000000000 _GLOBAL__sub_I_hw
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1228   .text.startup._GLOBAL__sub_I_hw:000000000000007c $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1250   .init_array:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1543   .bss.bpm:0000000000000000 bpm
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1598   .bss.toneVal:0000000000000000 toneVal
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1571   .bss.feedback:0000000000000000 feedback
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1564   .bss.dryWet:0000000000000000 dryWet
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1604   .data.bypass:0000000000000000 bypass
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1550   .bss.bpmParam:0000000000000000 bpmParam
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1592   .bss.toneParam:0000000000000000 toneParam
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1536   .bss.balance:0000000000000000 balance
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1585   .bss.tone:0000000000000000 tone
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1557   .bss.delay:0000000000000000 delay
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1578   .bss.hw:0000000000000000 hw
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1265   .rodata:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1525   .bss._ZL9crossFade:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1529   .bss._ZL9crossFade:0000000000000000 _ZL9crossFade
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1532   .bss.balance:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1539   .bss.bpm:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1546   .bss.bpmParam:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1553   .bss.delay:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1560   .bss.dryWet:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1567   .bss.feedback:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1574   .bss.hw:0000000000000000 $d
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s 			page 56
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:19     .text._ZN5daisy9ParameterD2Ev:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:26     .text._ZN5daisy9ParameterD2Ev:0000000000000000 _ZN5daisy9ParameterD2Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:26     .text._ZN5daisy9ParameterD2Ev:0000000000000000 _ZN5daisy9ParameterD1Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:49     .text._ZN5daisy10DaisyPetalD2Ev:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:56     .text._ZN5daisy10DaisyPetalD2Ev:0000000000000000 _ZN5daisy10DaisyPetalD2Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:56     .text._ZN5daisy10DaisyPetalD2Ev:0000000000000000 _ZN5daisy10DaisyPetalD1Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:118    .text._ZN7daisysp7BalanceD2Ev:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:125    .text._ZN7daisysp7BalanceD2Ev:0000000000000000 _ZN7daisysp7BalanceD2Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:125    .text._ZN7daisysp7BalanceD2Ev:0000000000000000 _ZN7daisysp7BalanceD1Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:142    .text._ZN7daisysp9CrossFadeD2Ev:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:149    .text._ZN7daisysp9CrossFadeD2Ev:0000000000000000 _ZN7daisysp9CrossFadeD2Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:149    .text._ZN7daisysp9CrossFadeD2Ev:0000000000000000 _ZN7daisysp9CrossFadeD1Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:166    .text._ZN10ToneFilterD2Ev:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:173    .text._ZN10ToneFilterD2Ev:0000000000000000 _ZN10ToneFilterD2Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:173    .text._ZN10ToneFilterD2Ev:0000000000000000 _ZN10ToneFilterD1Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:202    .text.__tcf_0:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:208    .text.__tcf_0:0000000000000000 __tcf_0
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:222    .text._Z10initParamsv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:229    .text._Z10initParamsv:0000000000000000 _Z10initParamsv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:300    .text._Z10initParamsv:0000000000000058 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:308    .text.startup.main:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:315    .text.startup.main:0000000000000000 main
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:437    .text.startup.main:0000000000000058 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1666   .sdram_bss:0000000000000000 delayMems
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:763    .text._Z13AudioCallbackPKPKfPPfj:0000000000000000 _Z13AudioCallbackPKPKfPPfj
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:448    .text._Z15processControlsv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:455    .text._Z15processControlsv:0000000000000000 _Z15processControlsv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:739    .text._Z15processControlsv:00000000000000ec $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:756    .text._Z13AudioCallbackPKPKfPPfj:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:974    .text._Z13AudioCallbackPKPKfPPfj:00000000000000b8 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:984    .text.startup._GLOBAL__sub_I_hw:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:990    .text.startup._GLOBAL__sub_I_hw:0000000000000000 _GLOBAL__sub_I_hw
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1283   .text.startup._GLOBAL__sub_I_hw:000000000000007c $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1305   .init_array:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1598   .bss.bpm:0000000000000000 bpm
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1654   .bss.toneVal:0000000000000000 toneVal
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1626   .bss.feedback:0000000000000000 feedback
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1619   .bss.dryWet:0000000000000000 dryWet
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1660   .data.bypass:0000000000000000 bypass
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1605   .bss.bpmParam:0000000000000000 bpmParam
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1647   .bss.toneParam:0000000000000000 toneParam
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1591   .bss.balance:0000000000000000 balance
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1640   .bss.tone:0000000000000000 tone
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1612   .bss.delay:0000000000000000 delay
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1633   .bss.hw:0000000000000000 hw
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1320   .rodata:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1580   .bss._ZL9crossFade:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1584   .bss._ZL9crossFade:0000000000000000 _ZL9crossFade
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1587   .bss.balance:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1594   .bss.bpm:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1601   .bss.bpmParam:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1608   .bss.delay:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1615   .bss.dryWet:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1622   .bss.feedback:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1629   .bss.hw:0000000000000000 $d
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s 			page 57
 
 
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1581   .bss.tone:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1588   .bss.toneParam:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1595   .bss.toneVal:0000000000000000 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccURt8Yx.s:1607   .sdram_bss:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1636   .bss.tone:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1643   .bss.toneParam:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1650   .bss.toneVal:0000000000000000 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccjifgCM.s:1663   .sdram_bss:0000000000000000 $d
                            .group:0000000000000000 _ZN5daisy9ParameterD5Ev
                            .group:0000000000000000 _ZN5daisy10DaisyPetalD5Ev
                            .group:0000000000000000 _ZN7daisysp7BalanceD5Ev
@@ -3310,10 +3380,14 @@ _ZN5Delay11disableHeadERKi
 _ZN5daisy13AnalogControl7ProcessEv
 _ZN5Delay11setFeedbackERKf
 _ZN5daisy9Parameter7ProcessEv
+_ZN10ToneFilter7setFreqEf
 _ZN5Delay10enableHeadERKi
 _ZN5daisy10DaisyPetal21ProcessAnalogControlsEv
 _ZN5daisy10DaisyPetal22ProcessDigitalControlsEv
 _ZN5Delay7processEf
+_ZN10ToneFilter7processEf
+_ZN10ToneFilter9getFactorEv
+_ZN7daisysp7Balance7ProcessEff
 _ZN7daisysp9CrossFade7ProcessERfS1_
 memcpy
 __aeabi_atexit
