@@ -215,7 +215,8 @@ build/Pedal.o: Pedal.cpp \
  ../../DaisySP//Source/Utility/metro.h \
  ../../DaisySP//Source/Utility/port.h \
  ../../DaisySP//Source/Utility/samplehold.h \
- ../../DaisySP//Source/Utility/smooth_random.h Terrarium.h Delay.h
+ ../../DaisySP//Source/Utility/smooth_random.h Terrarium.h Delay.h \
+ ToneFilter.h
 ../../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h:
 ../../libDaisy//Drivers/CMSIS/Include/core_cm7.h:
@@ -466,3 +467,4 @@ build/Pedal.o: Pedal.cpp \
 ../../DaisySP//Source/Utility/smooth_random.h:
 Terrarium.h:
 Delay.h:
+ToneFilter.h:
