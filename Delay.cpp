@@ -53,18 +53,14 @@ void Delay::setFeedback(const float& feed)
 
 float Delay::process(float in)
 {
-    // if(clearing)
-    //     return 0;
-    // else
-    //{
+
 
         float allDelaySignals = 0;
 
         for (int i = 0; i < NUM_OF_DELAY_HEADS; i++)
         {
             delayHeads[i].feedback = this->feedback;
-            //The (i+0.25-i*0.75) just sets the delay intervals to 
-            // (1/16 note, 1/8 note, dotted 1/8 note, 1/4 note - or 0.25,0.5,0.75,1) for i=0,1,2,3
+            //The (i+0.25-i*0.75) just sets the delay intervals to (1/16 note, 1/8 note, dotted 1/8 note, 1/4 note - or 0.25,0.5,0.75,1) for i=0,1,2,3
             delayHeads[i].delayTarget = (i+0.25-i*0.75)* (48000*(60/bpm));
             if(delayHeadOn[i])
                 allDelaySignals += delayHeads[i].process(in);
@@ -95,7 +91,11 @@ void Delay::disableHead(const int& headNum)
     if(headNum >= NUM_OF_DELAY_HEADS || headNum < 0)
         return;
     else
+    {
         delayHeadOn[headNum] = false;
+        delayHeads[headNum].feedback = 0;
+        delayHeads[headNum].process(0);
+    }
 }
 
 void Delay::clear()

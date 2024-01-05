@@ -108,7 +108,12 @@ void processControls()
 
 	/***************PROCESS FOOTSWITCHES*****************/
 	if(hw.switches[Terrarium::FOOTSWITCH_2].RisingEdge())
+	{
 		bypass = !bypass;
+		
+		if(bypass)
+			delay.clear();
+	}
 	if(hw.switches[Terrarium::FOOTSWITCH_1].RisingEdge())
 		tapping = !tapping;
 

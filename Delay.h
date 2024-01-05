@@ -39,12 +39,13 @@ class Delay
                 
                 return readSample;
             }
+
             float processReverse(float in)
             {
                 float readSample;
 
                 fonepole(currentDelay, delayTarget, .0002f); 
-                
+
                 delayReverse->SetDelay1(currentDelay);
 
                 readSample = delayReverse->ReadRev();
@@ -56,32 +57,46 @@ class Delay
             }
         };
     public:
-
-        void initDelay(DelayLine<float, MAX_DELAY> delayMems[4]);
-
-        void initDelayReverse(DelayLineReverse<float, MAX_DELAY> delayMems[4]);
         /**
          * @brief Constructs the delay heads
          */
         Delay();
+
+        /**
+         * @brief Initializes the delay heads
+         * 
+         * @param delayMems Delay lines that will be used by the delay heads
+         */
+        void initDelay(DelayLine<float, MAX_DELAY> delayMems[4]);
+
+        /**
+         * @brief Initializes the reverse delay heads
+         * 
+         * @param delayMems Delay lines that will be used by the delay heads
+         */
+        void initDelayReverse(DelayLineReverse<float, MAX_DELAY> delayMems[4]);
+
         /**
          * @brief Stops all the delays from playing but does not delete their sound, 
          * meaning if you toggle a head, it will keep playing previous input
          * 
          */
         void stopAll();
+
         /**
          * @brief Sets the bpm for delay
          * 
          * @param bpm The new bpm for delay
          */
         void setBPM(float bpm);
+
         /**
          * @brief Set the Feedback of delay
          * 
          * @param feed The new feedback for delay
          */
         void setFeedback(const float& feed);
+
         /**
          * @brief Will proccess all delays using delayline class from DaisySP
          * 
@@ -89,35 +104,41 @@ class Delay
          * @return Summation of all processed delay signals
          */
         float process(float in);
+
         /**
          * @brief Will toggle on/off a single delay head
          * 
          * @param headNumber The delay head to toggle on/off
          */
         void toggleHead(const int& headNum);
+        
         /**
          * @brief Enable a single delay head
          * 
          * @param headNum Delay head to enable
          */
         void enableHead(const int& headNum);
+        
         /**
-         * @brief Disable a single delay head
+         * @brief Disable a single delay head and clears its delays
          * 
          * @param headNum Delay head to Disable
          */
         void disableHead(const int& headNum);
+        
         /**
          * @brief Get the current bpm of delay
          * 
          * @return BPM 
          */
         float getBPM();
+        
         /**
          * @brief Clears the delay signals 
          * 
          */
         void clear();
+        
     private:
         bool delayHeadOn[NUM_OF_DELAY_HEADS]; // Each delay head will be turned on/off independently
         float bpm;                            // The bpm being used being used by all heads, might be useful if you add other features that need bpm
