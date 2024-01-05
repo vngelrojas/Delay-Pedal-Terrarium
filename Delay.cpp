@@ -10,6 +10,15 @@ void Delay::initDelay(DelayLine<float, MAX_DELAY> delayMems[4])
     }
 }
 
+void Delay::initDelayReverse(DelayLineReverse<float, MAX_DELAY> delayMems[4])
+{
+    for (int i = 0; i < 4; i++)
+    {
+        delayMems[i].Init();
+        delayHeads[i].delayReverse = &delayMems[i];
+    }
+}
+
 Delay::Delay()
 {
     //delayMems = temp;

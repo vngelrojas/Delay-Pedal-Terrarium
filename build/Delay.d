@@ -215,7 +215,8 @@ build/Delay.o: Delay.cpp \
  ../../libDaisy//src/per/qspi.h \
  ../../libDaisy//src/util/VoctCalibration.h \
  ../../libDaisy//src/util/WaveTableLoader.h \
- ../../libDaisy//src/sys/fatfs.h ../../libDaisy//src/util/WavWriter.h
+ ../../libDaisy//src/sys/fatfs.h ../../libDaisy//src/util/WavWriter.h \
+ delayline_reverse.h
 ../../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h:
 ../../libDaisy//Drivers/CMSIS/Include/core_cm7.h:
@@ -464,3 +465,4 @@ Delay.h:
 ../../libDaisy//src/util/WaveTableLoader.h:
 ../../libDaisy//src/sys/fatfs.h:
 ../../libDaisy//src/util/WavWriter.h:
+delayline_reverse.h:

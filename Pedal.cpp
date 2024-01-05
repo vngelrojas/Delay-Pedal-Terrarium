@@ -10,6 +10,8 @@ using namespace daisysp;
 using namespace terrarium;
 
 
+
+
 DaisyPetal hw;
 Delay delay;
 Balance balance;
@@ -17,6 +19,8 @@ TapTempo tapTempo;
 ToneFilter tone(48000.f);
 static CrossFade crossFade;
 DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
+
+//DelayLineReverse<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
 
 Parameter toneParam;
 Parameter bpmParam;
@@ -26,6 +30,8 @@ float dryWet;
 float feedback;
 float toneVal;
 float bpm;
+float color;
+
 
 
 /**
@@ -57,10 +63,10 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 			float preFilterDelays = allDelaySignals;
 
 			allDelaySignals = tone.process(allDelaySignals);
-            allDelaySignals = balance.Process(allDelaySignals,preFilterDelays*tone.getFactor());
+			
+            //allDelaySignals = balance.Process(allDelaySignals,preFilterDelays*tone.getFactor());
 
 			finalMix = crossFade.Process(nonConstInput, allDelaySignals);
-
 
 
 			out[0][i] = finalMix;
@@ -78,6 +84,7 @@ int main(void)
 	hw.StartAdc();
 
 	delay.initDelay(delayMems);
+	//delay.initDelayReverse(delayMems);
 	delay.setBPM(90);
 	crossFade.Init();
 	crossFade.SetCurve(CROSSFADE_CPOW);
@@ -150,6 +157,8 @@ void processControls()
 		tapTempo.setBPM(bpmFromKnob);
 		delay.setBPM(bpm);
 	}
+
+	color = hw.knob[Terrarium::KNOB_5].Process();
 	
 	/*********************************************/
 

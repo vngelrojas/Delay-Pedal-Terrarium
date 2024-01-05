@@ -1,5 +1,7 @@
 #include "daisysp.h"
 #include "daisy_seed.h"
+#include "delayline_reverse.h"
+
 #pragma once
 using namespace daisysp;
 using namespace daisy;
@@ -16,6 +18,7 @@ class Delay
         struct DelayHead
         {
             DelayLine<float, MAX_DELAY> *delay; // Will point to a delayMem
+            DelayLineReverse<float, MAX_DELAY> *delayReverse; // Will point to a delayMem
             float currentDelay;                 // The current delay 
             float delayTarget;                  // The delay target that currentDelay will ramp up/down to 
             float feedback;                     // Feedback level of the delay
@@ -36,10 +39,27 @@ class Delay
                 
                 return readSample;
             }
+            float processReverse(float in)
+            {
+                float readSample;
+
+                fonepole(currentDelay, delayTarget, .0002f); 
+                
+                delayReverse->SetDelay1(currentDelay);
+
+                readSample = delayReverse->ReadRev();
+
+                delayReverse->Write((feedback * readSample) + in);
+
+                return readSample;
+
+            }
         };
     public:
 
         void initDelay(DelayLine<float, MAX_DELAY> delayMems[4]);
+
+        void initDelayReverse(DelayLineReverse<float, MAX_DELAY> delayMems[4]);
         /**
          * @brief Constructs the delay heads
          */
