@@ -22,6 +22,7 @@ class Delay
             float currentDelay;                 // The current delay 
             float delayTarget;                  // The delay target that currentDelay will ramp up/down to 
             float feedback;                     // Feedback level of the delay
+            float modulation = 0;                   // Modulation level of the delay
 
             float process(float in)
             {
@@ -31,7 +32,7 @@ class Delay
                 // This smoothes out the delay when you turn the delay control?
                 fonepole(currentDelay, delayTarget, .0002f); 
                 // Set delay time
-                delay->SetDelay(currentDelay);          
+                delay->SetDelay(currentDelay + modulation);          
                 readSample = delay->Read(); // Read in the next sample from the delay line
 
                 // Write the readSample * the feedback amount + the input sample into the delay line
@@ -138,11 +139,19 @@ class Delay
          * 
          */
         void clear();
+
+        /**
+         * @brief Sets the modulation of the delay
+         * 
+         * @param mod The new modulation of the delay
+         */
+        void setModulation(const float& mod);
         
     private:
         bool delayHeadOn[NUM_OF_DELAY_HEADS]; // Each delay head will be turned on/off independently
         float bpm;                            // The bpm being used being used by all heads, might be useful if you add other features that need bpm
         float feedback;                       // The feedback of delays
+        float modulation;                     // The modulation of delays
     public:
         DelayHead delayHeads[NUM_OF_DELAY_HEADS]; // Array of however many delays you want 
 

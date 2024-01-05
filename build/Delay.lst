@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -40,9 +40,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   33              		@ frame_needed = 0, uses_anonymous_args = 0
    6:Delay.cpp     ****     for (int i = 0; i < 4; i++)
   34              		.loc 1 6 5 view .LVU1
-  35              	.LBB20:
+  35              	.LBB26:
   36              		.loc 1 6 23 view .LVU2
-  37              	.LBE20:
+  37              	.LBE26:
    5:Delay.cpp     ****     for (int i = 0; i < 4; i++)
   38              		.loc 1 5 1 is_stmt 0 view .LVU3
   39 0000 38B5     		push	{r3, r4, r5, lr}
@@ -57,15 +57,15 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   48 000a 0D44     		add	r5, r5, r1
   49              	.LVL1:
   50              	.L2:
-  51              	.LBB33:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 2
+  51              	.LBB39:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 2
 
 
    7:Delay.cpp     ****     {
    8:Delay.cpp     ****         delayMems[i].Init();
   52              		.loc 1 8 9 is_stmt 1 discriminator 2 view .LVU4
-  53              	.LBB21:
-  54              	.LBI21:
+  53              	.LBB27:
+  54              	.LBI27:
   55              		.file 2 "../../DaisySP//Source/Utility/delayline.h"
    1:../../DaisySP//Source/Utility/delayline.h **** #pragma once
    2:../../DaisySP//Source/Utility/delayline.h **** #ifndef DSY_DELAY_H
@@ -95,14 +95,14 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   26:../../DaisySP//Source/Utility/delayline.h ****     */
   27:../../DaisySP//Source/Utility/delayline.h ****     void Init() { Reset(); }
   56              		.loc 2 27 10 discriminator 2 view .LVU5
-  57              	.LBB22:
-  58              	.LBI22:
+  57              	.LBB28:
+  58              	.LBI28:
   28:../../DaisySP//Source/Utility/delayline.h ****     /** clears buffer, sets write ptr to 0, and delay to 1 sample.
   29:../../DaisySP//Source/Utility/delayline.h ****     */
   30:../../DaisySP//Source/Utility/delayline.h ****     void Reset()
   59              		.loc 2 30 10 discriminator 2 view .LVU6
-  60              	.LBB23:
-  61              	.LBB24:
+  60              	.LBB29:
+  61              	.LBB30:
   31:../../DaisySP//Source/Utility/delayline.h ****     {
   32:../../DaisySP//Source/Utility/delayline.h ****         for(size_t i = 0; i < max_size; i++)
   62              		.loc 2 32 29 discriminator 2 view .LVU7
@@ -112,56 +112,56 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   64 000c 1846     		mov	r0, r3
   65 000e 0B4A     		ldr	r2, .L6+4
   66 0010 0021     		movs	r1, #0
-  67              	.LBE24:
-  68              	.LBE23:
-  69              	.LBE22:
-  70              	.LBE21:
+  67              	.LBE30:
+  68              	.LBE29:
+  69              	.LBE28:
+  70              	.LBE27:
    6:Delay.cpp     ****     {
   71              		.loc 1 6 23 discriminator 2 view .LVU9
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 3
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 3
 
 
-  72 0012 1434     		adds	r4, r4, #20
-  73              	.LBB31:
-  74              	.LBB29:
-  75              	.LBB27:
-  76              	.LBB25:
+  72 0012 1834     		adds	r4, r4, #24
+  73              	.LBB37:
+  74              	.LBB35:
+  75              	.LBB33:
+  76              	.LBB31:
   77              		.loc 2 34 22 discriminator 2 view .LVU10
   78 0014 FFF7FEFF 		bl	memset
   79              	.LVL2:
   80              		.loc 2 34 22 discriminator 2 view .LVU11
-  81              	.LBE25:
+  81              	.LBE31:
   35:../../DaisySP//Source/Utility/delayline.h ****         }
   36:../../DaisySP//Source/Utility/delayline.h ****         write_ptr_ = 0;
   37:../../DaisySP//Source/Utility/delayline.h ****         delay_     = 1;
   82              		.loc 2 37 20 discriminator 2 view .LVU12
   83 0018 0121     		movs	r1, #1
-  84              	.LBB26:
+  84              	.LBB32:
   34:../../DaisySP//Source/Utility/delayline.h ****         }
   85              		.loc 2 34 22 discriminator 2 view .LVU13
   86 001a 0346     		mov	r3, r0
   87              	.LVL3:
   34:../../DaisySP//Source/Utility/delayline.h ****         }
   88              		.loc 2 34 22 discriminator 2 view .LVU14
-  89              	.LBE26:
+  89              	.LBE32:
   36:../../DaisySP//Source/Utility/delayline.h ****         delay_     = 1;
   90              		.loc 2 36 20 discriminator 2 view .LVU15
   91 001c 0020     		movs	r0, #0
-  92              	.LBE27:
-  93              	.LBE29:
-  94              	.LBE31:
+  92              	.LBE33:
+  93              	.LBE35:
+  94              	.LBE37:
    9:Delay.cpp     ****         delayHeads[i].delay = &delayMems[i];
   95              		.loc 1 9 29 discriminator 2 view .LVU16
   96 001e A3F10C02 		sub	r2, r3, #12
-  97              	.LBB32:
-  98              	.LBB30:
-  99              	.LBB28:
+  97              	.LBB38:
+  98              	.LBB36:
+  99              	.LBB34:
  100              		.loc 2 37 20 discriminator 2 view .LVU17
  101 0022 43E90201 		strd	r0, r1, [r3, #-8]
  102              		.loc 2 37 20 discriminator 2 view .LVU18
- 103              	.LBE28:
- 104              	.LBE30:
- 105              	.LBE32:
+ 103              	.LBE34:
+ 104              	.LBE36:
+ 105              	.LBE38:
  106              		.loc 1 9 9 is_stmt 1 discriminator 2 view .LVU19
    6:Delay.cpp     ****     {
  107              		.loc 1 6 23 is_stmt 0 discriminator 2 view .LVU20
@@ -175,10 +175,10 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
  113 002e 03F20C43 		addw	r3, r3, #1036
  114 0032 AB42     		cmp	r3, r5
  115 0034 EAD1     		bne	.L2
- 116              	.LBE33:
+ 116              	.LBE39:
   10:Delay.cpp     ****     }
   11:Delay.cpp     **** }
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 4
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 4
 
 
  117              		.loc 1 11 1 is_stmt 0 view .LVU24
@@ -209,9 +209,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
  141              		@ frame_needed = 0, uses_anonymous_args = 0
   15:Delay.cpp     ****     for (int i = 0; i < 4; i++)
  142              		.loc 1 15 5 view .LVU26
- 143              	.LBB40:
+ 143              	.LBB46:
  144              		.loc 1 15 23 view .LVU27
- 145              	.LBE40:
+ 145              	.LBE46:
   14:Delay.cpp     ****     for (int i = 0; i < 4; i++)
  146              		.loc 1 14 1 is_stmt 0 view .LVU28
  147 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
@@ -232,13 +232,13 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
  161 000c 0F44     		add	r7, r7, r1
  162              	.LVL5:
  163              	.L9:
- 164              	.LBB54:
+ 164              	.LBB60:
   16:Delay.cpp     ****     {
   17:Delay.cpp     ****         delayMems[i].Init();
  165              		.loc 1 17 9 is_stmt 1 discriminator 2 view .LVU30
- 166              	.LBB41:
- 167              	.LBI41:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 5
+ 166              	.LBB47:
+ 167              	.LBI47:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 5
 
 
  168              		.file 3 "delayline_reverse.h"
@@ -285,8 +285,8 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   41:delayline_reverse.h ****     */
   42:delayline_reverse.h ****     void Init() 
  169              		.loc 3 42 10 discriminator 2 view .LVU31
- 170              	.LBB42:
- 171              	.LBI42:
+ 170              	.LBB48:
+ 171              	.LBI48:
   43:delayline_reverse.h ****     { 
   44:delayline_reverse.h ****         Reset(); 
   45:delayline_reverse.h ****     }
@@ -294,11 +294,11 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   47:delayline_reverse.h ****     */
   48:delayline_reverse.h ****     void Reset()
  172              		.loc 3 48 10 discriminator 2 view .LVU32
- 173              	.LBB43:
+ 173              	.LBB49:
   49:delayline_reverse.h ****     {
   50:delayline_reverse.h **** 
   51:delayline_reverse.h ****         delay1_  = 25000; //min Reverse delay time
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 6
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 6
 
 
   52:delayline_reverse.h ****         fadetime = 24000;    //in samples = 0.5 seconds
@@ -307,7 +307,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   51:delayline_reverse.h ****         fadetime = 24000;    //in samples = 0.5 seconds
  176              		.loc 3 51 18 discriminator 2 view .LVU34
  177 0012 46F2A811 		movw	r1, #25000
- 178              	.LBB44:
+ 178              	.LBB50:
   53:delayline_reverse.h ****         
   54:delayline_reverse.h ****         for(size_t i = 0; i < max_size; i++)
   55:delayline_reverse.h ****         {
@@ -315,53 +315,53 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
  179              		.loc 3 56 22 discriminator 2 view .LVU35
  180 0016 04F11800 		add	r0, r4, #24
  181 001a 0E4A     		ldr	r2, .L12+8
- 182              	.LBE44:
+ 182              	.LBE50:
   51:delayline_reverse.h ****         fadetime = 24000;    //in samples = 0.5 seconds
  183              		.loc 3 51 18 discriminator 2 view .LVU36
  184 001c 2161     		str	r1, [r4, #16]
- 185              	.LBB45:
+ 185              	.LBB51:
  186              		.loc 3 56 22 discriminator 2 view .LVU37
  187 001e 0021     		movs	r1, #0
- 188              	.LBE45:
+ 188              	.LBE51:
   52:delayline_reverse.h ****         
  189              		.loc 3 52 18 discriminator 2 view .LVU38
  190 0020 2B60     		str	r3, [r5]
  191              	.LVL6:
- 192              	.LBB46:
+ 192              	.LBB52:
   54:delayline_reverse.h ****         {
  193              		.loc 3 54 29 is_stmt 1 discriminator 2 view .LVU39
- 194              	.LBE46:
- 195              	.LBE43:
- 196              	.LBE42:
- 197              	.LBE41:
+ 194              	.LBE52:
+ 195              	.LBE49:
+ 196              	.LBE48:
+ 197              	.LBE47:
   15:Delay.cpp     ****     {
  198              		.loc 1 15 23 is_stmt 0 discriminator 2 view .LVU40
- 199 0022 1436     		adds	r6, r6, #20
- 200              	.LBB52:
- 201              	.LBB50:
- 202              	.LBB48:
- 203              	.LBB47:
+ 199 0022 1836     		adds	r6, r6, #24
+ 200              	.LBB58:
+ 201              	.LBB56:
+ 202              	.LBB54:
+ 203              	.LBB53:
  204              		.loc 3 56 22 discriminator 2 view .LVU41
  205 0024 FFF7FEFF 		bl	memset
  206              	.LVL7:
  207              		.loc 3 56 22 discriminator 2 view .LVU42
- 208              	.LBE47:
+ 208              	.LBE53:
   57:delayline_reverse.h ****         }
   58:delayline_reverse.h ****         write_ptr_ = 0;
  209              		.loc 3 58 20 discriminator 2 view .LVU43
  210 0028 0023     		movs	r3, #0
- 211              	.LBE48:
- 212              	.LBE50:
- 213              	.LBE52:
+ 211              	.LBE54:
+ 212              	.LBE56:
+ 213              	.LBE58:
   15:Delay.cpp     ****     {
  214              		.loc 1 15 23 discriminator 2 view .LVU44
  215 002a 0B4A     		ldr	r2, .L12+12
- 216              	.LBB53:
- 217              	.LBB51:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 7
+ 216              	.LBB59:
+ 217              	.LBB57:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 7
 
 
- 218              	.LBB49:
+ 218              	.LBB55:
   59:delayline_reverse.h ****         read_ptr1_ = 0;
   60:delayline_reverse.h ****         read_ptr2_ = 0;
   61:delayline_reverse.h ****         headDiff_ = 0;
@@ -388,9 +388,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
  232 003a 2B73     		strb	r3, [r5, #12]
  233              	.LVL8:
  234              		.loc 3 64 17 discriminator 2 view .LVU52
- 235              	.LBE49:
- 236              	.LBE51:
- 237              	.LBE53:
+ 235              	.LBE55:
+ 236              	.LBE57:
+ 237              	.LBE59:
   18:Delay.cpp     ****         delayHeads[i].delayReverse = &delayMems[i];
  238              		.loc 1 18 9 is_stmt 1 discriminator 2 view .LVU53
   15:Delay.cpp     ****     {
@@ -405,7 +405,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
  245 0042 1444     		add	r4, r4, r2
  246 0044 BC42     		cmp	r4, r7
  247 0046 E2D1     		bne	.L9
- 248              	.LBE54:
+ 248              	.LBE60:
   19:Delay.cpp     ****     }
   20:Delay.cpp     **** }
  249              		.loc 1 20 1 is_stmt 0 view .LVU58
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
  256 0054 00DC0500 		.word	384000
  257 0058 28DC0500 		.word	384040
  258              		.cfi_endproc
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 8
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 8
 
 
  259              	.LFE4801:
@@ -431,7 +431,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
  267              		.thumb_func
  269              	_ZN5DelayC2Ev:
  270              	.LVL9:
- 271              	.LFB4803:
+ 271              	.LFB4806:
   21:Delay.cpp     **** 
   22:Delay.cpp     **** Delay::Delay()
  272              		.loc 1 22 1 is_stmt 1 view -0
@@ -439,383 +439,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
  274              		@ args = 0, pretend = 0, frame = 0
  275              		@ frame_needed = 0, uses_anonymous_args = 0
  276              		@ link register save eliminated.
- 277              	.LBB55:
-  23:Delay.cpp     **** {
-  24:Delay.cpp     ****     //delayMems = temp;
-  25:Delay.cpp     ****     for(int i = 0; i < 4; i++)
- 278              		.loc 1 25 5 view .LVU60
- 279              	.LBB56:
- 280              		.loc 1 25 22 view .LVU61
-  26:Delay.cpp     ****     {
-  27:Delay.cpp     ****         // Init the feedback
-  28:Delay.cpp     ****         delayHeads[i].feedback = 0; 
- 281              		.loc 1 28 9 view .LVU62
- 282              		.loc 1 28 32 is_stmt 0 view .LVU63
- 283 0000 0022     		movs	r2, #0
- 284              	.LBE56:
-  29:Delay.cpp     ****         // Make sure they are all off
-  30:Delay.cpp     ****         delayHeadOn[i] = false;
-  31:Delay.cpp     ****     }
-  32:Delay.cpp     ****     bpm = 20;
- 285              		.loc 1 32 9 view .LVU64
- 286 0002 0649     		ldr	r1, .L16
- 287              	.LBE55:
-  22:Delay.cpp     **** {
- 288              		.loc 1 22 1 view .LVU65
- 289 0004 10B4     		push	{r4}
- 290              		.cfi_def_cfa_offset 4
- 291              		.cfi_offset 4, -4
- 292              	.LBB59:
- 293              	.LBB57:
-  30:Delay.cpp     ****     }
- 294              		.loc 1 30 24 view .LVU66
- 295 0006 0024     		movs	r4, #0
-  28:Delay.cpp     ****         // Make sure they are all off
- 296              		.loc 1 28 32 view .LVU67
- 297 0008 C261     		str	r2, [r0, #28]	@ float
-  30:Delay.cpp     ****     }
- 298              		.loc 1 30 9 is_stmt 1 view .LVU68
-  25:Delay.cpp     ****     {
- 299              		.loc 1 25 5 view .LVU69
- 300              	.LVL10:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 9
-
-
-  25:Delay.cpp     ****     {
- 301              		.loc 1 25 22 view .LVU70
-  28:Delay.cpp     ****         // Make sure they are all off
- 302              		.loc 1 28 9 view .LVU71
-  28:Delay.cpp     ****         // Make sure they are all off
- 303              		.loc 1 28 32 is_stmt 0 view .LVU72
- 304 000a 0263     		str	r2, [r0, #48]	@ float
-  30:Delay.cpp     ****     }
- 305              		.loc 1 30 9 is_stmt 1 view .LVU73
-  25:Delay.cpp     ****     {
- 306              		.loc 1 25 5 view .LVU74
- 307              	.LVL11:
-  25:Delay.cpp     ****     {
- 308              		.loc 1 25 22 view .LVU75
-  28:Delay.cpp     ****         // Make sure they are all off
- 309              		.loc 1 28 9 view .LVU76
-  30:Delay.cpp     ****     }
- 310              		.loc 1 30 24 is_stmt 0 view .LVU77
- 311 000c 0460     		str	r4, [r0]
-  28:Delay.cpp     ****         // Make sure they are all off
- 312              		.loc 1 28 32 view .LVU78
- 313 000e 4264     		str	r2, [r0, #68]	@ float
-  30:Delay.cpp     ****     }
- 314              		.loc 1 30 9 is_stmt 1 view .LVU79
-  25:Delay.cpp     ****     {
- 315              		.loc 1 25 5 view .LVU80
- 316              	.LVL12:
-  25:Delay.cpp     ****     {
- 317              		.loc 1 25 22 view .LVU81
-  28:Delay.cpp     ****         // Make sure they are all off
- 318              		.loc 1 28 9 view .LVU82
- 319              	.LBE57:
- 320              	.LBE59:
-  33:Delay.cpp     **** 
-  34:Delay.cpp     **** }
- 321              		.loc 1 34 1 is_stmt 0 view .LVU83
- 322 0010 5DF8044B 		ldr	r4, [sp], #4
- 323              		.cfi_restore 4
- 324              		.cfi_def_cfa_offset 0
- 325              	.LBB60:
- 326              	.LBB58:
-  28:Delay.cpp     ****         // Make sure they are all off
- 327              		.loc 1 28 32 view .LVU84
- 328 0014 8265     		str	r2, [r0, #88]	@ float
-  30:Delay.cpp     ****     }
- 329              		.loc 1 30 9 is_stmt 1 view .LVU85
-  25:Delay.cpp     ****     {
- 330              		.loc 1 25 5 view .LVU86
- 331              	.LVL13:
-  25:Delay.cpp     ****     {
- 332              		.loc 1 25 22 view .LVU87
- 333              	.LBE58:
-  32:Delay.cpp     **** 
- 334              		.loc 1 32 5 view .LVU88
-  32:Delay.cpp     **** 
- 335              		.loc 1 32 9 is_stmt 0 view .LVU89
- 336 0016 4160     		str	r1, [r0, #4]	@ float
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 10
-
-
- 337              	.LBE60:
- 338              		.loc 1 34 1 view .LVU90
- 339 0018 7047     		bx	lr
- 340              	.L17:
- 341 001a 00BF     		.align	2
- 342              	.L16:
- 343 001c 0000A041 		.word	1101004800
- 344              		.cfi_endproc
- 345              	.LFE4803:
- 347              		.global	_ZN5DelayC1Ev
- 348              		.thumb_set _ZN5DelayC1Ev,_ZN5DelayC2Ev
- 349              		.section	.text._ZN5Delay7stopAllEv,"ax",%progbits
- 350              		.align	1
- 351              		.p2align 2,,3
- 352              		.global	_ZN5Delay7stopAllEv
- 353              		.syntax unified
- 354              		.thumb
- 355              		.thumb_func
- 357              	_ZN5Delay7stopAllEv:
- 358              	.LVL14:
- 359              	.LFB4805:
-  35:Delay.cpp     **** 
-  36:Delay.cpp     **** void Delay::stopAll()
-  37:Delay.cpp     **** {
- 360              		.loc 1 37 1 is_stmt 1 view -0
- 361              		.cfi_startproc
- 362              		@ args = 0, pretend = 0, frame = 0
- 363              		@ frame_needed = 0, uses_anonymous_args = 0
- 364              		@ link register save eliminated.
-  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
- 365              		.loc 1 38 5 view .LVU92
- 366              	.LBB61:
- 367              		.loc 1 38 21 view .LVU93
-  39:Delay.cpp     ****         delayHeadOn[i] = false;
- 368              		.loc 1 39 9 view .LVU94
-  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
- 369              		.loc 1 38 5 view .LVU95
-  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
- 370              		.loc 1 38 21 view .LVU96
- 371              		.loc 1 39 9 view .LVU97
-  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
- 372              		.loc 1 38 5 view .LVU98
-  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
- 373              		.loc 1 38 21 view .LVU99
- 374              		.loc 1 39 9 view .LVU100
-  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
- 375              		.loc 1 38 5 view .LVU101
-  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
- 376              		.loc 1 38 21 view .LVU102
- 377              		.loc 1 39 9 view .LVU103
- 378              		.loc 1 39 24 is_stmt 0 view .LVU104
- 379 0000 0023     		movs	r3, #0
- 380 0002 0360     		str	r3, [r0]
-  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
- 381              		.loc 1 38 5 is_stmt 1 view .LVU105
- 382              	.LVL15:
-  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 11
-
-
- 383              		.loc 1 38 21 view .LVU106
- 384              	.LBE61:
-  40:Delay.cpp     **** }
- 385              		.loc 1 40 1 is_stmt 0 view .LVU107
- 386 0004 7047     		bx	lr
- 387              		.cfi_endproc
- 388              	.LFE4805:
- 390 0006 00BF     		.section	.text._ZN5Delay6setBPMEf,"ax",%progbits
- 391              		.align	1
- 392              		.p2align 2,,3
- 393              		.global	_ZN5Delay6setBPMEf
- 394              		.syntax unified
- 395              		.thumb
- 396              		.thumb_func
- 398              	_ZN5Delay6setBPMEf:
- 399              	.LVL16:
- 400              	.LFB4806:
-  41:Delay.cpp     **** 
-  42:Delay.cpp     **** void Delay::setBPM(float bpm)
-  43:Delay.cpp     **** {
- 401              		.loc 1 43 1 is_stmt 1 view -0
- 402              		.cfi_startproc
- 403              		@ args = 0, pretend = 0, frame = 0
- 404              		@ frame_needed = 0, uses_anonymous_args = 0
- 405              		@ link register save eliminated.
-  44:Delay.cpp     ****     this->bpm = bpm;
- 406              		.loc 1 44 5 view .LVU109
- 407              		.loc 1 44 15 is_stmt 0 view .LVU110
- 408 0000 80ED010A 		vstr.32	s0, [r0, #4]
-  45:Delay.cpp     **** }
- 409              		.loc 1 45 1 view .LVU111
- 410 0004 7047     		bx	lr
- 411              		.cfi_endproc
- 412              	.LFE4806:
- 414 0006 00BF     		.section	.text._ZN5Delay11setFeedbackERKf,"ax",%progbits
- 415              		.align	1
- 416              		.p2align 2,,3
- 417              		.global	_ZN5Delay11setFeedbackERKf
- 418              		.syntax unified
- 419              		.thumb
- 420              		.thumb_func
- 422              	_ZN5Delay11setFeedbackERKf:
- 423              	.LVL17:
- 424              	.LFB4807:
-  46:Delay.cpp     **** 
-  47:Delay.cpp     **** void Delay::setFeedback(const float& feed)                           
-  48:Delay.cpp     **** {
- 425              		.loc 1 48 1 is_stmt 1 view -0
- 426              		.cfi_startproc
- 427              		@ args = 0, pretend = 0, frame = 0
- 428              		@ frame_needed = 0, uses_anonymous_args = 0
- 429              		@ link register save eliminated.
-  49:Delay.cpp     ****     
-  50:Delay.cpp     ****     this->feedback = feed;
- 430              		.loc 1 50 5 view .LVU113
- 431              		.loc 1 50 22 is_stmt 0 view .LVU114
- 432 0000 0B68     		ldr	r3, [r1]	@ float
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 12
-
-
- 433              		.loc 1 50 20 view .LVU115
- 434 0002 8360     		str	r3, [r0, #8]	@ float
-  51:Delay.cpp     **** 
-  52:Delay.cpp     **** }
- 435              		.loc 1 52 1 view .LVU116
- 436 0004 7047     		bx	lr
- 437              		.cfi_endproc
- 438              	.LFE4807:
- 440 0006 00BF     		.section	.text._ZN5Delay7processEf,"ax",%progbits
- 441              		.align	1
- 442              		.p2align 2,,3
- 443              		.global	_ZN5Delay7processEf
- 444              		.syntax unified
- 445              		.thumb
- 446              		.thumb_func
- 448              	_ZN5Delay7processEf:
- 449              	.LVL18:
- 450              	.LFB4808:
-  53:Delay.cpp     **** 
-  54:Delay.cpp     **** float Delay::process(float in)
-  55:Delay.cpp     **** {
- 451              		.loc 1 55 1 is_stmt 1 view -0
- 452              		.cfi_startproc
- 453              		@ args = 0, pretend = 0, frame = 0
- 454              		@ frame_needed = 0, uses_anonymous_args = 0
-  56:Delay.cpp     ****     // if(clearing)
-  57:Delay.cpp     ****     //     return 0;
-  58:Delay.cpp     ****     // else
-  59:Delay.cpp     ****     //{
-  60:Delay.cpp     **** 
-  61:Delay.cpp     ****         float allDelaySignals = 0;
- 455              		.loc 1 61 9 view .LVU118
-  62:Delay.cpp     **** 
-  63:Delay.cpp     ****         for (int i = 0; i < NUM_OF_DELAY_HEADS; i++)
- 456              		.loc 1 63 9 view .LVU119
- 457              	.LBB73:
- 458              		.loc 1 63 27 view .LVU120
- 459              	.LBE73:
-  55:Delay.cpp     ****     // if(clearing)
- 460              		.loc 1 55 1 is_stmt 0 view .LVU121
- 461 0000 2DE9F047 		push	{r4, r5, r6, r7, r8, r9, r10, lr}
- 462              		.cfi_def_cfa_offset 32
- 463              		.cfi_offset 4, -32
- 464              		.cfi_offset 5, -28
- 465              		.cfi_offset 6, -24
- 466              		.cfi_offset 7, -20
- 467              		.cfi_offset 8, -16
- 468              		.cfi_offset 9, -12
- 469              		.cfi_offset 10, -8
- 470              		.cfi_offset 14, -4
- 471              	.LBB121:
- 472              		.loc 1 63 18 view .LVU122
- 473 0004 0022     		movs	r2, #0
- 474              	.LBE121:
-  61:Delay.cpp     **** 
- 475              		.loc 1 61 15 view .LVU123
- 476 0006 DFED3E2A 		vldr.32	s5, .L30
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 13
-
-
- 477 000a 0346     		mov	r3, r0
- 478 000c 00F1FF3E 		add	lr, r0, #-1
- 479              	.LVL19:
- 480              	.L23:
- 481              	.LBB122:
-  64:Delay.cpp     ****         {
-  65:Delay.cpp     ****             delayHeads[i].feedback = this->feedback;
- 482              		.loc 1 65 13 is_stmt 1 view .LVU124
- 483              		.loc 1 65 44 is_stmt 0 view .LVU125
- 484 0010 8168     		ldr	r1, [r0, #8]	@ float
-  66:Delay.cpp     ****             //The (i+0.25-i*0.75) just sets the delay intervals to 
-  67:Delay.cpp     ****             // (1/16 note, 1/8 note, dotted 1/8 note, 1/4 note - or 0.25,0.5,0.75,1) for i=0,1,2,3
-  68:Delay.cpp     ****             delayHeads[i].delayTarget = (i+0.25-i*0.75)* (48000*(60/bpm));
- 485              		.loc 1 68 43 view .LVU126
- 486 0012 07EE902A 		vmov	s15, r2	@ int
- 487              		.loc 1 68 68 view .LVU127
- 488 0016 9FED3B3A 		vldr.32	s6, .L30+4
- 489              		.loc 1 68 43 view .LVU128
- 490 001a B5EE006B 		vmov.f64	d6, #2.5e-1
-  65:Delay.cpp     ****             //The (i+0.25-i*0.75) just sets the delay intervals to 
- 491              		.loc 1 65 36 view .LVU129
- 492 001e D961     		str	r1, [r3, #28]	@ float
- 493              		.loc 1 68 13 is_stmt 1 view .LVU130
- 494              		.loc 1 68 43 is_stmt 0 view .LVU131
- 495 0020 B8EEE75B 		vcvt.f64.s32	d5, s15
- 496              		.loc 1 68 68 view .LVU132
- 497 0024 D0ED013A 		vldr.32	s7, [r0, #4]
- 498              		.loc 1 68 48 view .LVU133
- 499 0028 B6EE084B 		vmov.f64	d4, #7.5e-1
- 500              		.loc 1 68 64 view .LVU134
- 501 002c 9FED367A 		vldr.32	s14, .L30+8
-  63:Delay.cpp     ****         {
- 502              		.loc 1 63 9 view .LVU135
- 503 0030 0132     		adds	r2, r2, #1
- 504              	.LVL20:
- 505              		.loc 1 68 68 view .LVU136
- 506 0032 C3EE237A 		vdiv.f32	s15, s6, s7
- 507              	.LVL21:
-  69:Delay.cpp     ****             if(delayHeadOn[i])
- 508              		.loc 1 69 13 view .LVU137
- 509 0036 1EF8011F 		ldrb	r1, [lr, #1]!	@ zero_extendqisi2
-  68:Delay.cpp     ****             if(delayHeadOn[i])
- 510              		.loc 1 68 43 view .LVU138
- 511 003a 35EE066B 		vadd.f64	d6, d5, d6
-  68:Delay.cpp     ****             if(delayHeadOn[i])
- 512              		.loc 1 68 48 view .LVU139
- 513 003e A5EE446B 		vfms.f64	d6, d5, d4
-  68:Delay.cpp     ****             if(delayHeadOn[i])
- 514              		.loc 1 68 64 view .LVU140
- 515 0042 27EE877A 		vmul.f32	s14, s15, s14
- 516 0046 B7EEC77A 		vcvt.f64.f32	d7, s14
-  68:Delay.cpp     ****             if(delayHeadOn[i])
- 517              		.loc 1 68 56 view .LVU141
- 518 004a 27EE067B 		vmul.f64	d7, d7, d6
- 519 004e B7EEC77B 		vcvt.f32.f64	s14, d7
-  68:Delay.cpp     ****             if(delayHeadOn[i])
- 520              		.loc 1 68 39 view .LVU142
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 14
-
-
- 521 0052 83ED067A 		vstr.32	s14, [r3, #24]
- 522              		.loc 1 69 13 is_stmt 1 view .LVU143
- 523 0056 39B9     		cbnz	r1, .L29
- 524              	.L22:
-  63:Delay.cpp     ****         {
- 525              		.loc 1 63 9 discriminator 2 view .LVU144
- 526              	.LVL22:
-  63:Delay.cpp     ****         {
- 527              		.loc 1 63 27 discriminator 2 view .LVU145
- 528 0058 042A     		cmp	r2, #4
- 529 005a 03F11403 		add	r3, r3, #20
- 530 005e D7D1     		bne	.L23
-  63:Delay.cpp     ****         {
- 531              		.loc 1 63 27 is_stmt 0 discriminator 2 view .LVU146
- 532              	.LBE122:
-  70:Delay.cpp     ****                 allDelaySignals += delayHeads[i].process(in);
-  71:Delay.cpp     ****         }
-  72:Delay.cpp     **** 
-  73:Delay.cpp     ****         return allDelaySignals;
- 533              		.loc 1 73 9 is_stmt 1 view .LVU147
-  74:Delay.cpp     ****     //}
-  75:Delay.cpp     **** }
- 534              		.loc 1 75 1 is_stmt 0 view .LVU148
- 535 0060 B0EE620A 		vmov.f32	s0, s5
- 536              	.LVL23:
- 537              		.loc 1 75 1 view .LVU149
- 538 0064 BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
- 539              	.LVL24:
- 540              	.L29:
- 541              	.LBB123:
-  70:Delay.cpp     ****                 allDelaySignals += delayHeads[i].process(in);
- 542              		.loc 1 70 17 is_stmt 1 view .LVU150
- 543              	.LBB74:
- 544              	.LBI74:
- 545              		.file 4 "Delay.h"
+ 277              	.LBB61:
+ 278              	.LBB62:
+ 279              		.file 4 "Delay.h"
    1:Delay.h       **** #include "daisysp.h"
    2:Delay.h       **** #include "daisy_seed.h"
    3:Delay.h       **** #include "delayline_reverse.h"
@@ -834,30 +460,478 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   16:Delay.h       **** {
   17:Delay.h       ****     private:
   18:Delay.h       ****         struct DelayHead
+ 280              		.loc 4 18 16 is_stmt 0 view .LVU60
+ 281 0000 0022     		movs	r2, #0
+ 282              	.LBE62:
+ 283              	.LBE61:
+ 284              	.LBB67:
+  23:Delay.cpp     **** {
+  24:Delay.cpp     ****     //delayMems = temp;
+  25:Delay.cpp     ****     for(int i = 0; i < 4; i++)
+  26:Delay.cpp     ****     {
+  27:Delay.cpp     ****         // Init the feedback
+  28:Delay.cpp     ****         delayHeads[i].feedback = 0; 
+  29:Delay.cpp     ****         // Make sure they are all off
+  30:Delay.cpp     ****         delayHeadOn[i] = false;
+  31:Delay.cpp     ****     }
+  32:Delay.cpp     ****     bpm = 20;
+ 285              		.loc 1 32 9 view .LVU61
+ 286 0002 0849     		ldr	r1, .L16
+ 287              	.LBE67:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 9
+
+
+  22:Delay.cpp     **** {
+ 288              		.loc 1 22 1 view .LVU62
+ 289 0004 10B4     		push	{r4}
+ 290              		.cfi_def_cfa_offset 4
+ 291              		.cfi_offset 4, -4
+ 292              	.LBB71:
+ 293              	.LBB68:
+  30:Delay.cpp     ****     }
+ 294              		.loc 1 30 24 view .LVU63
+ 295 0006 0024     		movs	r4, #0
+ 296              	.LBE68:
+ 297              	.LBE71:
+  22:Delay.cpp     **** {
+ 298              		.loc 1 22 14 is_stmt 1 view .LVU64
+ 299              	.LVL10:
+ 300              	.LBB72:
+ 301              	.LBI61:
+ 302              		.loc 4 18 16 view .LVU65
+ 303              	.LBB63:
+ 304 0008 4262     		str	r2, [r0, #36]	@ float
+ 305              	.LVL11:
+ 306              		.loc 4 18 16 is_stmt 0 view .LVU66
+ 307              	.LBE63:
+ 308              	.LBE72:
+  22:Delay.cpp     **** {
+ 309              		.loc 1 22 14 is_stmt 1 view .LVU67
+  22:Delay.cpp     **** {
+ 310              		.loc 1 22 14 view .LVU68
+ 311              	.LBB73:
+ 312              		.loc 4 18 16 view .LVU69
+ 313              	.LBB64:
+ 314 000a C263     		str	r2, [r0, #60]	@ float
+ 315              	.LVL12:
+ 316              		.loc 4 18 16 is_stmt 0 view .LVU70
+ 317              	.LBE64:
+ 318              	.LBE73:
+  22:Delay.cpp     **** {
+ 319              		.loc 1 22 14 is_stmt 1 view .LVU71
+  22:Delay.cpp     **** {
+ 320              		.loc 1 22 14 view .LVU72
+ 321              	.LBB74:
+ 322              		.loc 4 18 16 view .LVU73
+ 323              	.LBE74:
+ 324              	.LBB75:
+ 325              	.LBB69:
+  30:Delay.cpp     ****     }
+ 326              		.loc 1 30 24 is_stmt 0 view .LVU74
+ 327 000c 0460     		str	r4, [r0]
+ 328              	.LBE69:
+ 329              	.LBE75:
+ 330              	.LBB76:
+ 331              	.LBB65:
+ 332              		.loc 4 18 16 view .LVU75
+ 333 000e 4265     		str	r2, [r0, #84]	@ float
+ 334              	.LVL13:
+ 335              		.loc 4 18 16 view .LVU76
+ 336              	.LBE65:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 10
+
+
+ 337              	.LBE76:
+  22:Delay.cpp     **** {
+ 338              		.loc 1 22 14 is_stmt 1 view .LVU77
+  22:Delay.cpp     **** {
+ 339              		.loc 1 22 14 view .LVU78
+ 340              	.LBB77:
+ 341              		.loc 4 18 16 view .LVU79
+ 342              	.LBE77:
+  33:Delay.cpp     **** 
+  34:Delay.cpp     **** }
+ 343              		.loc 1 34 1 is_stmt 0 view .LVU80
+ 344 0010 5DF8044B 		ldr	r4, [sp], #4
+ 345              		.cfi_restore 4
+ 346              		.cfi_def_cfa_offset 0
+ 347              	.LBB78:
+ 348              	.LBB66:
+ 349              		.loc 4 18 16 view .LVU81
+ 350 0014 C266     		str	r2, [r0, #108]	@ float
+ 351              	.LVL14:
+ 352              		.loc 4 18 16 view .LVU82
+ 353              	.LBE66:
+ 354              	.LBE78:
+  22:Delay.cpp     **** {
+ 355              		.loc 1 22 14 is_stmt 1 view .LVU83
+  22:Delay.cpp     **** {
+ 356              		.loc 1 22 14 view .LVU84
+ 357              	.LBB79:
+ 358              	.LBB70:
+  25:Delay.cpp     ****     {
+ 359              		.loc 1 25 22 view .LVU85
+  28:Delay.cpp     ****         // Make sure they are all off
+ 360              		.loc 1 28 9 view .LVU86
+  28:Delay.cpp     ****         // Make sure they are all off
+ 361              		.loc 1 28 32 is_stmt 0 view .LVU87
+ 362 0016 0262     		str	r2, [r0, #32]	@ float
+  30:Delay.cpp     ****     }
+ 363              		.loc 1 30 9 is_stmt 1 view .LVU88
+  25:Delay.cpp     ****     {
+ 364              		.loc 1 25 5 view .LVU89
+ 365              	.LVL15:
+  25:Delay.cpp     ****     {
+ 366              		.loc 1 25 22 view .LVU90
+  28:Delay.cpp     ****         // Make sure they are all off
+ 367              		.loc 1 28 9 view .LVU91
+  28:Delay.cpp     ****         // Make sure they are all off
+ 368              		.loc 1 28 32 is_stmt 0 view .LVU92
+ 369 0018 8263     		str	r2, [r0, #56]	@ float
+  30:Delay.cpp     ****     }
+ 370              		.loc 1 30 9 is_stmt 1 view .LVU93
+  25:Delay.cpp     ****     {
+ 371              		.loc 1 25 5 view .LVU94
+ 372              	.LVL16:
+  25:Delay.cpp     ****     {
+ 373              		.loc 1 25 22 view .LVU95
+  28:Delay.cpp     ****         // Make sure they are all off
+ 374              		.loc 1 28 9 view .LVU96
+  28:Delay.cpp     ****         // Make sure they are all off
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 11
+
+
+ 375              		.loc 1 28 32 is_stmt 0 view .LVU97
+ 376 001a 0265     		str	r2, [r0, #80]	@ float
+  30:Delay.cpp     ****     }
+ 377              		.loc 1 30 9 is_stmt 1 view .LVU98
+  25:Delay.cpp     ****     {
+ 378              		.loc 1 25 5 view .LVU99
+ 379              	.LVL17:
+  25:Delay.cpp     ****     {
+ 380              		.loc 1 25 22 view .LVU100
+  28:Delay.cpp     ****         // Make sure they are all off
+ 381              		.loc 1 28 9 view .LVU101
+  28:Delay.cpp     ****         // Make sure they are all off
+ 382              		.loc 1 28 32 is_stmt 0 view .LVU102
+ 383 001c 8266     		str	r2, [r0, #104]	@ float
+  30:Delay.cpp     ****     }
+ 384              		.loc 1 30 9 is_stmt 1 view .LVU103
+  25:Delay.cpp     ****     {
+ 385              		.loc 1 25 5 view .LVU104
+ 386              	.LVL18:
+  25:Delay.cpp     ****     {
+ 387              		.loc 1 25 22 view .LVU105
+ 388              	.LBE70:
+  32:Delay.cpp     **** 
+ 389              		.loc 1 32 5 view .LVU106
+  32:Delay.cpp     **** 
+ 390              		.loc 1 32 9 is_stmt 0 view .LVU107
+ 391 001e 4160     		str	r1, [r0, #4]	@ float
+ 392              	.LBE79:
+ 393              		.loc 1 34 1 view .LVU108
+ 394 0020 7047     		bx	lr
+ 395              	.L17:
+ 396 0022 00BF     		.align	2
+ 397              	.L16:
+ 398 0024 0000A041 		.word	1101004800
+ 399              		.cfi_endproc
+ 400              	.LFE4806:
+ 402              		.global	_ZN5DelayC1Ev
+ 403              		.thumb_set _ZN5DelayC1Ev,_ZN5DelayC2Ev
+ 404              		.section	.text._ZN5Delay7stopAllEv,"ax",%progbits
+ 405              		.align	1
+ 406              		.p2align 2,,3
+ 407              		.global	_ZN5Delay7stopAllEv
+ 408              		.syntax unified
+ 409              		.thumb
+ 410              		.thumb_func
+ 412              	_ZN5Delay7stopAllEv:
+ 413              	.LVL19:
+ 414              	.LFB4808:
+  35:Delay.cpp     **** 
+  36:Delay.cpp     **** void Delay::stopAll()
+  37:Delay.cpp     **** {
+ 415              		.loc 1 37 1 is_stmt 1 view -0
+ 416              		.cfi_startproc
+ 417              		@ args = 0, pretend = 0, frame = 0
+ 418              		@ frame_needed = 0, uses_anonymous_args = 0
+ 419              		@ link register save eliminated.
+  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 12
+
+
+ 420              		.loc 1 38 5 view .LVU110
+ 421              	.LBB80:
+ 422              		.loc 1 38 21 view .LVU111
+  39:Delay.cpp     ****         delayHeadOn[i] = false;
+ 423              		.loc 1 39 9 view .LVU112
+  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
+ 424              		.loc 1 38 5 view .LVU113
+  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
+ 425              		.loc 1 38 21 view .LVU114
+ 426              		.loc 1 39 9 view .LVU115
+  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
+ 427              		.loc 1 38 5 view .LVU116
+  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
+ 428              		.loc 1 38 21 view .LVU117
+ 429              		.loc 1 39 9 view .LVU118
+  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
+ 430              		.loc 1 38 5 view .LVU119
+  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
+ 431              		.loc 1 38 21 view .LVU120
+ 432              		.loc 1 39 9 view .LVU121
+ 433              		.loc 1 39 24 is_stmt 0 view .LVU122
+ 434 0000 0023     		movs	r3, #0
+ 435 0002 0360     		str	r3, [r0]
+  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
+ 436              		.loc 1 38 5 is_stmt 1 view .LVU123
+ 437              	.LVL20:
+  38:Delay.cpp     ****     for(int i = 0;i < NUM_OF_DELAY_HEADS;i++)
+ 438              		.loc 1 38 21 view .LVU124
+ 439              	.LBE80:
+  40:Delay.cpp     **** }
+ 440              		.loc 1 40 1 is_stmt 0 view .LVU125
+ 441 0004 7047     		bx	lr
+ 442              		.cfi_endproc
+ 443              	.LFE4808:
+ 445 0006 00BF     		.section	.text._ZN5Delay6setBPMEf,"ax",%progbits
+ 446              		.align	1
+ 447              		.p2align 2,,3
+ 448              		.global	_ZN5Delay6setBPMEf
+ 449              		.syntax unified
+ 450              		.thumb
+ 451              		.thumb_func
+ 453              	_ZN5Delay6setBPMEf:
+ 454              	.LVL21:
+ 455              	.LFB4809:
+  41:Delay.cpp     **** 
+  42:Delay.cpp     **** void Delay::setBPM(float bpm)
+  43:Delay.cpp     **** {
+ 456              		.loc 1 43 1 is_stmt 1 view -0
+ 457              		.cfi_startproc
+ 458              		@ args = 0, pretend = 0, frame = 0
+ 459              		@ frame_needed = 0, uses_anonymous_args = 0
+ 460              		@ link register save eliminated.
+  44:Delay.cpp     ****     this->bpm = bpm;
+ 461              		.loc 1 44 5 view .LVU127
+ 462              		.loc 1 44 15 is_stmt 0 view .LVU128
+ 463 0000 80ED010A 		vstr.32	s0, [r0, #4]
+  45:Delay.cpp     **** }
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 13
+
+
+ 464              		.loc 1 45 1 view .LVU129
+ 465 0004 7047     		bx	lr
+ 466              		.cfi_endproc
+ 467              	.LFE4809:
+ 469 0006 00BF     		.section	.text._ZN5Delay11setFeedbackERKf,"ax",%progbits
+ 470              		.align	1
+ 471              		.p2align 2,,3
+ 472              		.global	_ZN5Delay11setFeedbackERKf
+ 473              		.syntax unified
+ 474              		.thumb
+ 475              		.thumb_func
+ 477              	_ZN5Delay11setFeedbackERKf:
+ 478              	.LVL22:
+ 479              	.LFB4810:
+  46:Delay.cpp     **** 
+  47:Delay.cpp     **** void Delay::setFeedback(const float& feed)                           
+  48:Delay.cpp     **** {
+ 480              		.loc 1 48 1 is_stmt 1 view -0
+ 481              		.cfi_startproc
+ 482              		@ args = 0, pretend = 0, frame = 0
+ 483              		@ frame_needed = 0, uses_anonymous_args = 0
+ 484              		@ link register save eliminated.
+  49:Delay.cpp     ****     
+  50:Delay.cpp     ****     this->feedback = feed;
+ 485              		.loc 1 50 5 view .LVU131
+ 486              		.loc 1 50 22 is_stmt 0 view .LVU132
+ 487 0000 0B68     		ldr	r3, [r1]	@ float
+ 488              		.loc 1 50 20 view .LVU133
+ 489 0002 8360     		str	r3, [r0, #8]	@ float
+  51:Delay.cpp     **** 
+  52:Delay.cpp     **** }
+ 490              		.loc 1 52 1 view .LVU134
+ 491 0004 7047     		bx	lr
+ 492              		.cfi_endproc
+ 493              	.LFE4810:
+ 495 0006 00BF     		.section	.text._ZN5Delay7processEf,"ax",%progbits
+ 496              		.align	1
+ 497              		.p2align 2,,3
+ 498              		.global	_ZN5Delay7processEf
+ 499              		.syntax unified
+ 500              		.thumb
+ 501              		.thumb_func
+ 503              	_ZN5Delay7processEf:
+ 504              	.LVL23:
+ 505              	.LFB4811:
+  53:Delay.cpp     **** 
+  54:Delay.cpp     **** float Delay::process(float in)
+  55:Delay.cpp     **** {
+ 506              		.loc 1 55 1 is_stmt 1 view -0
+ 507              		.cfi_startproc
+ 508              		@ args = 0, pretend = 0, frame = 0
+ 509              		@ frame_needed = 0, uses_anonymous_args = 0
+  56:Delay.cpp     **** 
+  57:Delay.cpp     **** 
+  58:Delay.cpp     ****         float allDelaySignals = 0;
+ 510              		.loc 1 58 9 view .LVU136
+  59:Delay.cpp     **** 
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 14
+
+
+  60:Delay.cpp     ****         for (int i = 0; i < NUM_OF_DELAY_HEADS; i++)
+ 511              		.loc 1 60 9 view .LVU137
+ 512              	.LBB92:
+ 513              		.loc 1 60 27 view .LVU138
+ 514              	.LBE92:
+  55:Delay.cpp     **** 
+ 515              		.loc 1 55 1 is_stmt 0 view .LVU139
+ 516 0000 2DE9F047 		push	{r4, r5, r6, r7, r8, r9, r10, lr}
+ 517              		.cfi_def_cfa_offset 32
+ 518              		.cfi_offset 4, -32
+ 519              		.cfi_offset 5, -28
+ 520              		.cfi_offset 6, -24
+ 521              		.cfi_offset 7, -20
+ 522              		.cfi_offset 8, -16
+ 523              		.cfi_offset 9, -12
+ 524              		.cfi_offset 10, -8
+ 525              		.cfi_offset 14, -4
+ 526              	.LBB140:
+ 527              		.loc 1 60 18 view .LVU140
+ 528 0004 0022     		movs	r2, #0
+ 529              	.LBE140:
+  58:Delay.cpp     **** 
+ 530              		.loc 1 58 15 view .LVU141
+ 531 0006 9FED412A 		vldr.32	s4, .L30
+ 532 000a 0346     		mov	r3, r0
+ 533 000c 00F1FF3E 		add	lr, r0, #-1
+ 534              	.LVL24:
+ 535              	.L23:
+ 536              	.LBB141:
+  61:Delay.cpp     ****         {
+  62:Delay.cpp     ****             delayHeads[i].feedback = this->feedback;
+ 537              		.loc 1 62 13 is_stmt 1 view .LVU142
+ 538              		.loc 1 62 44 is_stmt 0 view .LVU143
+ 539 0010 8168     		ldr	r1, [r0, #8]	@ float
+  63:Delay.cpp     ****             delayHeads[i].modulation = this->modulation;
+  64:Delay.cpp     ****             //The (i+0.25-i*0.75) just sets the delay intervals to (1/16 note, 1/8 note, dotted 1/8
+  65:Delay.cpp     ****             delayHeads[i].delayTarget = (i+0.25-i*0.75)* (48000*(60/bpm));
+ 540              		.loc 1 65 43 view .LVU144
+ 541 0012 07EE902A 		vmov	s15, r2	@ int
+ 542              		.loc 1 65 68 view .LVU145
+ 543 0016 DFED3E2A 		vldr.32	s5, .L30+4
+ 544              		.loc 1 65 43 view .LVU146
+ 545 001a B5EE006B 		vmov.f64	d6, #2.5e-1
+  62:Delay.cpp     ****             delayHeads[i].modulation = this->modulation;
+ 546              		.loc 1 62 36 view .LVU147
+ 547 001e 1962     		str	r1, [r3, #32]	@ float
+  63:Delay.cpp     ****             delayHeads[i].modulation = this->modulation;
+ 548              		.loc 1 63 13 is_stmt 1 view .LVU148
+ 549              		.loc 1 65 43 is_stmt 0 view .LVU149
+ 550 0020 B8EEE74B 		vcvt.f64.s32	d4, s15
+  63:Delay.cpp     ****             delayHeads[i].modulation = this->modulation;
+ 551              		.loc 1 63 46 view .LVU150
+ 552 0024 D0ED035A 		vldr.32	s11, [r0, #12]
+ 553              		.loc 1 65 48 view .LVU151
+ 554 0028 B6EE083B 		vmov.f64	d3, #7.5e-1
+ 555              		.loc 1 65 64 view .LVU152
+ 556 002c 9FED397A 		vldr.32	s14, .L30+8
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 15
+
+
+  60:Delay.cpp     ****         {
+ 557              		.loc 1 60 9 view .LVU153
+ 558 0030 0132     		adds	r2, r2, #1
+ 559              	.LVL25:
+  63:Delay.cpp     ****             delayHeads[i].modulation = this->modulation;
+ 560              		.loc 1 63 38 view .LVU154
+ 561 0032 C3ED095A 		vstr.32	s11, [r3, #36]
+ 562              		.loc 1 65 13 is_stmt 1 view .LVU155
+ 563              		.loc 1 65 43 is_stmt 0 view .LVU156
+ 564 0036 34EE066B 		vadd.f64	d6, d4, d6
+ 565              		.loc 1 65 68 view .LVU157
+ 566 003a 90ED015A 		vldr.32	s10, [r0, #4]
+  66:Delay.cpp     ****             if(delayHeadOn[i])
+ 567              		.loc 1 66 13 view .LVU158
+ 568 003e 1EF8011F 		ldrb	r1, [lr, #1]!	@ zero_extendqisi2
+  65:Delay.cpp     ****             if(delayHeadOn[i])
+ 569              		.loc 1 65 68 view .LVU159
+ 570 0042 C2EE857A 		vdiv.f32	s15, s5, s10
+ 571              	.LVL26:
+  65:Delay.cpp     ****             if(delayHeadOn[i])
+ 572              		.loc 1 65 48 view .LVU160
+ 573 0046 A4EE436B 		vfms.f64	d6, d4, d3
+  65:Delay.cpp     ****             if(delayHeadOn[i])
+ 574              		.loc 1 65 64 view .LVU161
+ 575 004a 27EE877A 		vmul.f32	s14, s15, s14
+ 576 004e B7EEC77A 		vcvt.f64.f32	d7, s14
+  65:Delay.cpp     ****             if(delayHeadOn[i])
+ 577              		.loc 1 65 56 view .LVU162
+ 578 0052 27EE067B 		vmul.f64	d7, d7, d6
+ 579 0056 B7EEC77B 		vcvt.f32.f64	s14, d7
+  65:Delay.cpp     ****             if(delayHeadOn[i])
+ 580              		.loc 1 65 39 view .LVU163
+ 581 005a 83ED077A 		vstr.32	s14, [r3, #28]
+ 582              		.loc 1 66 13 is_stmt 1 view .LVU164
+ 583 005e 39B9     		cbnz	r1, .L29
+ 584              	.L22:
+  60:Delay.cpp     ****         {
+ 585              		.loc 1 60 9 discriminator 2 view .LVU165
+ 586              	.LVL27:
+  60:Delay.cpp     ****         {
+ 587              		.loc 1 60 27 discriminator 2 view .LVU166
+ 588 0060 042A     		cmp	r2, #4
+ 589 0062 03F11803 		add	r3, r3, #24
+ 590 0066 D3D1     		bne	.L23
+  60:Delay.cpp     ****         {
+ 591              		.loc 1 60 27 is_stmt 0 discriminator 2 view .LVU167
+ 592              	.LBE141:
+  67:Delay.cpp     ****                 allDelaySignals += delayHeads[i].process(in);
+  68:Delay.cpp     ****         }
+  69:Delay.cpp     **** 
+  70:Delay.cpp     ****         return allDelaySignals;
+ 593              		.loc 1 70 9 is_stmt 1 view .LVU168
+  71:Delay.cpp     ****     //}
+  72:Delay.cpp     **** }
+ 594              		.loc 1 72 1 is_stmt 0 view .LVU169
+ 595 0068 B0EE420A 		vmov.f32	s0, s4
+ 596              	.LVL28:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 16
+
+
+ 597              		.loc 1 72 1 view .LVU170
+ 598 006c BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
+ 599              	.LVL29:
+ 600              	.L29:
+ 601              	.LBB142:
+  67:Delay.cpp     ****                 allDelaySignals += delayHeads[i].process(in);
+ 602              		.loc 1 67 17 is_stmt 1 view .LVU171
+ 603              	.LBB93:
+ 604              	.LBI93:
   19:Delay.h       ****         {
   20:Delay.h       ****             DelayLine<float, MAX_DELAY> *delay; // Will point to a delayMem
   21:Delay.h       ****             DelayLineReverse<float, MAX_DELAY> *delayReverse; // Will point to a delayMem
   22:Delay.h       ****             float currentDelay;                 // The current delay 
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 15
-
-
   23:Delay.h       ****             float delayTarget;                  // The delay target that currentDelay will ramp up/
   24:Delay.h       ****             float feedback;                     // Feedback level of the delay
-  25:Delay.h       **** 
-  26:Delay.h       ****             float process(float in)
- 546              		.loc 4 26 19 view .LVU151
- 547              	.LBB75:
-  27:Delay.h       ****             {
-  28:Delay.h       **** 
-  29:Delay.h       ****                 float readSample; // Will store a sample from the delay line
- 548              		.loc 4 29 17 view .LVU152
-  30:Delay.h       **** 
-  31:Delay.h       ****                 // This smoothes out the delay when you turn the delay control?
-  32:Delay.h       ****                 fonepole(currentDelay, delayTarget, .0002f); 
- 549              		.loc 4 32 17 view .LVU153
- 550              	.LBB76:
- 551              	.LBI76:
- 552              		.file 5 "../../DaisySP//Source/Utility/dsp.h"
+  25:Delay.h       ****             float modulation = 0;                   // Modulation level of the delay
+  26:Delay.h       **** 
+  27:Delay.h       ****             float process(float in)
+ 605              		.loc 4 27 19 view .LVU172
+ 606              	.LBB94:
+  28:Delay.h       ****             {
+  29:Delay.h       **** 
+  30:Delay.h       ****                 float readSample; // Will store a sample from the delay line
+ 607              		.loc 4 30 17 view .LVU173
+  31:Delay.h       **** 
+  32:Delay.h       ****                 // This smoothes out the delay when you turn the delay control?
+  33:Delay.h       ****                 fonepole(currentDelay, delayTarget, .0002f); 
+ 608              		.loc 4 33 17 view .LVU174
+ 609              	.LBB95:
+ 610              	.LBI95:
+ 611              		.file 5 "../../DaisySP//Source/Utility/dsp.h"
    1:../../DaisySP//Source/Utility/dsp.h **** /** Helpful defines, functions, and other utilities for use in/with daisysp modules.
    2:../../DaisySP//Source/Utility/dsp.h **** */
    3:../../DaisySP//Source/Utility/dsp.h **** #pragma once
@@ -884,6 +958,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   24:../../DaisySP//Source/Utility/dsp.h **** static constexpr float kRandFrac = 1.f / (float)RAND_MAX;
   25:../../DaisySP//Source/Utility/dsp.h **** 
   26:../../DaisySP//Source/Utility/dsp.h **** //Convert from semitones to other units. e.g. 2 ^ (kOneTwelfth * x)
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 17
+
+
   27:../../DaisySP//Source/Utility/dsp.h **** static constexpr float kOneTwelfth = 1.f / 12.f;
   28:../../DaisySP//Source/Utility/dsp.h **** 
   29:../../DaisySP//Source/Utility/dsp.h **** /** efficient floating point min/max
@@ -898,9 +975,6 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   38:../../DaisySP//Source/Utility/dsp.h ****     r = (a > b) ? a : b;
   39:../../DaisySP//Source/Utility/dsp.h **** #endif // __arm__
   40:../../DaisySP//Source/Utility/dsp.h ****     return r;
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 16
-
-
   41:../../DaisySP//Source/Utility/dsp.h **** }
   42:../../DaisySP//Source/Utility/dsp.h **** 
   43:../../DaisySP//Source/Utility/dsp.h **** inline float fmin(float a, float b)
@@ -944,6 +1018,9 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   81:../../DaisySP//Source/Utility/dsp.h ****     l  = *lp;
   82:../../DaisySP//Source/Utility/dsp.h ****     l -= 0x3F800000;
   83:../../DaisySP//Source/Utility/dsp.h ****     l >>= (n = 1);
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 18
+
+
   84:../../DaisySP//Source/Utility/dsp.h ****     l += 0x3F800000;
   85:../../DaisySP//Source/Utility/dsp.h ****     *lp = l;
   86:../../DaisySP//Source/Utility/dsp.h ****     return f;
@@ -958,9 +1035,6 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   95:../../DaisySP//Source/Utility/dsp.h **** }
   96:../../DaisySP//Source/Utility/dsp.h **** 
   97:../../DaisySP//Source/Utility/dsp.h **** /* Original code for fastlog2f by Dr. Paul Beckmann from the ARM community forum, adapted from the 
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 17
-
-
   98:../../DaisySP//Source/Utility/dsp.h **** About 25% performance increase over std::log10f
   99:../../DaisySP//Source/Utility/dsp.h **** */
  100:../../DaisySP//Source/Utility/dsp.h **** inline float fastlog2f(float f)
@@ -999,28 +1073,32 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
  133:../../DaisySP//Source/Utility/dsp.h **** coeff = 1.0 / (time * sample_rate) ; where time is in seconds
  134:../../DaisySP//Source/Utility/dsp.h **** */
  135:../../DaisySP//Source/Utility/dsp.h **** inline void fonepole(float &out, float in, float coeff)
- 553              		.loc 5 135 13 view .LVU154
- 554              	.LBB77:
+ 612              		.loc 5 135 13 view .LVU175
+ 613              	.LBB96:
  136:../../DaisySP//Source/Utility/dsp.h **** {
  137:../../DaisySP//Source/Utility/dsp.h ****     out += coeff * (in - out);
- 555              		.loc 5 137 5 view .LVU155
- 556              		.loc 5 137 9 is_stmt 0 view .LVU156
- 557 0068 D3ED057A 		vldr.32	s15, [r3, #20]
- 558 006c DFED276A 		vldr.32	s13, .L30+12
- 559              		.loc 5 137 24 view .LVU157
- 560 0070 37EE677A 		vsub.f32	s14, s14, s15
- 561              	.LVL25:
- 562              		.loc 5 137 24 view .LVU158
- 563              	.LBE77:
- 564              	.LBE76:
- 565              	.LBB80:
- 566              	.LBB81:
+ 614              		.loc 5 137 5 view .LVU176
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 19
+
+
+ 615              		.loc 5 137 9 is_stmt 0 view .LVU177
+ 616 0070 D3ED067A 		vldr.32	s15, [r3, #24]
+ 617 0074 9FED286A 		vldr.32	s12, .L30+12
+ 618              		.loc 5 137 24 view .LVU178
+ 619 0078 37EE677A 		vsub.f32	s14, s14, s15
+ 620              	.LVL30:
+ 621              		.loc 5 137 24 view .LVU179
+ 622              	.LBE96:
+ 623              	.LBE95:
+  34:Delay.h       ****                 // Set delay time
+  35:Delay.h       ****                 delay->SetDelay(currentDelay + modulation);          
+ 624              		.loc 4 35 17 view .LVU180
+ 625 007c 1C69     		ldr	r4, [r3, #16]
+ 626              	.LBB99:
+ 627              	.LBB100:
   38:../../DaisySP//Source/Utility/delayline.h ****     }
   39:../../DaisySP//Source/Utility/delayline.h **** 
   40:../../DaisySP//Source/Utility/delayline.h ****     /** sets the delay time in samples
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 18
-
-
   41:../../DaisySP//Source/Utility/delayline.h ****         If a float is passed in, a fractional component will be calculated for interpolating the de
   42:../../DaisySP//Source/Utility/delayline.h ****     */
   43:../../DaisySP//Source/Utility/delayline.h ****     inline void SetDelay(size_t delay)
@@ -1037,28 +1115,12 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   54:../../DaisySP//Source/Utility/delayline.h ****         int32_t int_delay = static_cast<int32_t>(delay);
   55:../../DaisySP//Source/Utility/delayline.h ****         frac_             = delay - static_cast<float>(int_delay);
   56:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
- 567              		.loc 2 56 60 view .LVU159
- 568 0074 264D     		ldr	r5, .L30+16
- 569              	.LBE81:
- 570              	.LBE80:
-  33:Delay.h       ****                 // Set delay time
-  34:Delay.h       ****                 delay->SetDelay(currentDelay);          
- 571              		.loc 4 34 17 view .LVU160
- 572 0076 DC68     		ldr	r4, [r3, #12]
-  35:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
-  36:Delay.h       **** 
-  37:Delay.h       ****                 // Write the readSample * the feedback amount + the input sample into the delay lin
-  38:Delay.h       ****                 delay->Write((feedback * readSample) + in); 
- 573              		.loc 4 38 29 view .LVU161
- 574 0078 93ED076A 		vldr.32	s12, [r3, #28]
- 575              	.LBB86:
- 576              	.LBB78:
- 577              		.loc 5 137 9 view .LVU162
- 578 007c E7EE267A 		vfma.f32	s15, s14, s13
- 579              	.LBE78:
- 580              	.LBE86:
- 581              	.LBB87:
- 582              	.LBB88:
+ 628              		.loc 2 56 60 view .LVU181
+ 629 007e 274D     		ldr	r5, .L30+16
+ 630              	.LBE100:
+ 631              	.LBE99:
+ 632              	.LBB104:
+ 633              	.LBB105:
   57:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
   58:../../DaisySP//Source/Utility/delayline.h ****     }
   59:../../DaisySP//Source/Utility/delayline.h **** 
@@ -1075,830 +1137,1234 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 1
   70:../../DaisySP//Source/Utility/delayline.h ****     inline const T Read() const
   71:../../DaisySP//Source/Utility/delayline.h ****     {
   72:../../DaisySP//Source/Utility/delayline.h ****         T a = line_[(write_ptr_ + delay_) % max_size];
- 583              		.loc 2 72 22 view .LVU163
- 584 0080 6668     		ldr	r6, [r4, #4]
- 585              		.loc 2 72 43 view .LVU164
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 19
+ 634              		.loc 2 72 22 view .LVU182
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 20
 
 
- 586 0082 244F     		ldr	r7, .L30+20
- 587              	.LBE88:
- 588              	.LBE87:
- 589              	.LBB95:
- 590              	.LBB96:
-  65:../../DaisySP//Source/Utility/delayline.h ****     }
- 591              		.loc 2 65 45 view .LVU165
- 592 0084 06EB050C 		add	ip, r6, r5
- 593              	.LBE96:
- 594              	.LBE95:
- 595              	.LBB102:
- 596              	.LBB82:
-  54:../../DaisySP//Source/Utility/delayline.h ****         frac_             = delay - static_cast<float>(int_delay);
- 597              		.loc 2 54 17 view .LVU166
- 598 0088 BDEEE77A 		vcvt.s32.f32	s14, s15
- 599              	.LBE82:
- 600              	.LBE102:
- 601              	.LBB103:
- 602              	.LBB79:
- 603              		.loc 5 137 9 view .LVU167
- 604 008c C3ED057A 		vstr.32	s15, [r3, #20]
- 605              	.LVL26:
- 606              		.loc 5 137 9 view .LVU168
- 607              	.LBE79:
- 608              	.LBE103:
-  34:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
- 609              		.loc 4 34 17 is_stmt 1 view .LVU169
- 610              	.LBB104:
- 611              	.LBI80:
-  52:../../DaisySP//Source/Utility/delayline.h ****     {
- 612              		.loc 2 52 17 view .LVU170
- 613              	.LBB83:
-  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 614              		.loc 2 56 60 is_stmt 0 view .LVU171
- 615 0090 17EE101A 		vmov	r1, s14	@ int
-  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
- 616              		.loc 2 55 37 view .LVU172
- 617 0094 B8EEC77A 		vcvt.f32.s32	s14, s14
- 618              	.LVL27:
-  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 619              		.loc 2 56 60 view .LVU173
- 620 0098 A942     		cmp	r1, r5
-  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
- 621              		.loc 2 55 35 view .LVU174
- 622 009a 77EEC77A 		vsub.f32	s15, s15, s14
- 623              	.LVL28:
-  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 624              		.loc 2 56 60 view .LVU175
- 625 009e 28BF     		it	cs
- 626 00a0 2946     		movcs	r1, r5
- 627              	.LVL29:
-  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 628              		.loc 2 56 60 view .LVU176
- 629              	.LBE83:
- 630              	.LBE104:
- 631              	.LBB105:
- 632              	.LBB89:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 20
-
-
- 633              		.loc 2 72 43 view .LVU177
- 634 00a2 1D4D     		ldr	r5, .L30+24
- 635              	.LBE89:
+ 635 0080 6668     		ldr	r6, [r4, #4]
  636              	.LBE105:
- 637              	.LBB106:
- 638              	.LBB84:
-  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 639              		.loc 2 56 16 view .LVU178
- 640 00a4 A160     		str	r1, [r4, #8]
- 641              	.LVL30:
-  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 642              		.loc 2 56 16 view .LVU179
- 643              	.LBE84:
- 644              	.LBE106:
-  35:Delay.h       **** 
- 645              		.loc 4 35 17 is_stmt 1 view .LVU180
- 646              	.LBB107:
- 647              	.LBI87:
-  70:../../DaisySP//Source/Utility/delayline.h ****     {
- 648              		.loc 2 70 20 view .LVU181
- 649              	.LBB90:
- 650              		.loc 2 72 33 is_stmt 0 view .LVU182
- 651 00a6 3144     		add	r1, r1, r6
- 652              	.LBE90:
- 653              	.LBE107:
- 654              	.LBB108:
- 655              	.LBB85:
-  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
- 656              		.loc 2 55 27 view .LVU183
- 657 00a8 C4ED007A 		vstr.32	s15, [r4]
- 658              	.LBE85:
- 659              	.LBE108:
- 660              	.LBB109:
- 661              	.LBB97:
-  64:../../DaisySP//Source/Utility/delayline.h ****         write_ptr_        = (write_ptr_ - 1 + max_size) % max_size;
- 662              		.loc 2 64 27 view .LVU184
- 663 00ac 04EB8606 		add	r6, r4, r6, lsl #2
- 664              	.LBE97:
- 665              	.LBE109:
- 666              	.LBB110:
- 667              	.LBB91:
- 668              		.loc 2 72 43 view .LVU185
- 669 00b0 A5FB01A9 		umull	r10, r9, r5, r1
-  73:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 670              		.loc 2 73 42 view .LVU186
- 671 00b4 01F10108 		add	r8, r1, #1
-  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 672              		.loc 2 72 43 view .LVU187
- 673 00b8 4FEAD929 		lsr	r9, r9, #11
- 674 00bc 07FB1911 		mls	r1, r7, r9, r1
-  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 675              		.loc 2 72 11 view .LVU188
- 676 00c0 04EB8101 		add	r1, r4, r1, lsl #2
- 677 00c4 91ED037A 		vldr.32	s14, [r1, #12]
- 678              	.LVL31:
- 679              		.loc 2 73 47 view .LVU189
- 680 00c8 A5FB0891 		umull	r9, r1, r5, r8
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 21
-
-
- 681              	.LBE91:
- 682              	.LBE110:
- 683              	.LBB111:
- 684              	.LBB98:
+ 637              	.LBE104:
+ 638              	.LBB113:
+ 639              	.LBB97:
+ 640              		.loc 5 137 9 view .LVU183
+ 641 0082 E7EE067A 		vfma.f32	s15, s14, s12
+ 642              	.LBE97:
+ 643              	.LBE113:
+  36:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
+  37:Delay.h       **** 
+  38:Delay.h       ****                 // Write the readSample * the feedback amount + the input sample into the delay lin
+  39:Delay.h       ****                 delay->Write((feedback * readSample) + in); 
+ 644              		.loc 4 39 29 view .LVU184
+ 645 0086 D3ED086A 		vldr.32	s13, [r3, #32]
+ 646              	.LBB114:
+ 647              	.LBB115:
   65:../../DaisySP//Source/Utility/delayline.h ****     }
- 685              		.loc 2 65 57 view .LVU190
- 686 00cc A5FB0C95 		umull	r9, r5, r5, ip
- 687              	.LBE98:
- 688              	.LBE111:
- 689              	.LBB112:
- 690              	.LBB92:
- 691              		.loc 2 73 47 view .LVU191
- 692 00d0 C90A     		lsrs	r1, r1, #11
- 693              	.LBE92:
- 694              	.LBE112:
- 695              	.LBB113:
- 696              	.LBB99:
-  65:../../DaisySP//Source/Utility/delayline.h ****     }
- 697              		.loc 2 65 57 view .LVU192
- 698 00d2 ED0A     		lsrs	r5, r5, #11
- 699              	.LBE99:
- 700              	.LBE113:
- 701              	.LBB114:
- 702              	.LBB93:
- 703              		.loc 2 73 47 view .LVU193
- 704 00d4 07FB1188 		mls	r8, r7, r1, r8
- 705              	.LVL32:
- 706              		.loc 2 73 47 view .LVU194
- 707              	.LBE93:
- 708              	.LBE114:
- 709              	.LBB115:
- 710              	.LBB100:
-  65:../../DaisySP//Source/Utility/delayline.h ****     }
- 711              		.loc 2 65 57 view .LVU195
- 712 00d8 07FB15C5 		mls	r5, r7, r5, ip
- 713              	.LBE100:
- 714              	.LBE115:
- 715              	.LBB116:
- 716              	.LBB94:
- 717              		.loc 2 73 11 view .LVU196
- 718 00dc 04EB8808 		add	r8, r4, r8, lsl #2
-  74:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
- 719              		.loc 2 74 23 view .LVU197
- 720 00e0 D8ED036A 		vldr.32	s13, [r8, #12]
- 721 00e4 76EEC76A 		vsub.f32	s13, s13, s14
- 722              		.loc 2 74 30 view .LVU198
- 723 00e8 A7EEA67A 		vfma.f32	s14, s15, s13
- 724              	.LVL33:
- 725              		.loc 2 74 30 view .LVU199
- 726              	.LBE94:
- 727              	.LBE116:
- 728              		.loc 4 38 17 is_stmt 1 view .LVU200
- 729              		.loc 4 38 29 is_stmt 0 view .LVU201
- 730 00ec F0EE407A 		vmov.f32	s15, s0
- 731 00f0 E6EE077A 		vfma.f32	s15, s12, s14
- 732              	.LVL34:
- 733              	.LBB117:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 22
-
-
- 734              	.LBI95:
-  62:../../DaisySP//Source/Utility/delayline.h ****     {
- 735              		.loc 2 62 17 is_stmt 1 view .LVU202
- 736              	.LBE117:
- 737              	.LBE75:
- 738              	.LBE74:
-  70:Delay.cpp     ****         }
- 739              		.loc 1 70 33 is_stmt 0 view .LVU203
- 740 00f4 72EE872A 		vadd.f32	s5, s5, s14
- 741              	.LVL35:
- 742              	.LBB120:
- 743              	.LBB119:
- 744              	.LBB118:
- 745              	.LBB101:
-  64:../../DaisySP//Source/Utility/delayline.h ****         write_ptr_        = (write_ptr_ - 1 + max_size) % max_size;
- 746              		.loc 2 64 27 view .LVU204
- 747 00f8 C6ED037A 		vstr.32	s15, [r6, #12]
-  65:../../DaisySP//Source/Utility/delayline.h ****     }
- 748              		.loc 2 65 27 view .LVU205
- 749 00fc 6560     		str	r5, [r4, #4]
- 750              	.LVL36:
-  65:../../DaisySP//Source/Utility/delayline.h ****     }
- 751              		.loc 2 65 27 view .LVU206
- 752              	.LBE101:
- 753              	.LBE118:
-  39:Delay.h       ****                 
-  40:Delay.h       ****                 return readSample;
- 754              		.loc 4 40 17 is_stmt 1 view .LVU207
- 755              		.loc 4 40 17 is_stmt 0 view .LVU208
- 756              	.LBE119:
- 757              	.LBE120:
- 758 00fe ABE7     		b	.L22
- 759              	.L31:
- 760              		.align	2
- 761              	.L30:
- 762 0100 00000000 		.word	0
- 763 0104 00007042 		.word	1114636288
- 764 0108 00803B47 		.word	1195081728
- 765 010c 17B75139 		.word	961656599
- 766 0110 FF760100 		.word	95999
- 767 0114 00770100 		.word	96000
- 768 0118 F1197605 		.word	91625969
- 769              	.LBE123:
- 770              		.cfi_endproc
- 771              	.LFE4808:
- 773              		.section	.text._ZN5Delay10toggleHeadERKi,"ax",%progbits
- 774              		.align	1
- 775              		.p2align 2,,3
- 776              		.global	_ZN5Delay10toggleHeadERKi
- 777              		.syntax unified
- 778              		.thumb
- 779              		.thumb_func
- 781              	_ZN5Delay10toggleHeadERKi:
- 782              	.LVL37:
- 783              	.LFB4809:
-  76:Delay.cpp     **** 
-  77:Delay.cpp     **** void Delay::toggleHead(const int& headNum)
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 23
-
-
-  78:Delay.cpp     **** {
- 784              		.loc 1 78 1 is_stmt 1 view -0
- 785              		.cfi_startproc
- 786              		@ args = 0, pretend = 0, frame = 0
- 787              		@ frame_needed = 0, uses_anonymous_args = 0
- 788              		@ link register save eliminated.
-  79:Delay.cpp     ****     if(headNum >= NUM_OF_DELAY_HEADS || headNum < 0)
- 789              		.loc 1 79 5 view .LVU210
- 790              		.loc 1 79 8 is_stmt 0 view .LVU211
- 791 0000 0B68     		ldr	r3, [r1]
- 792              		.loc 1 79 5 view .LVU212
- 793 0002 032B     		cmp	r3, #3
- 794 0004 03D8     		bhi	.L32
-  80:Delay.cpp     ****         return;
-  81:Delay.cpp     ****     else
-  82:Delay.cpp     ****         delayHeadOn[headNum] = !delayHeadOn[headNum];
- 795              		.loc 1 82 9 is_stmt 1 view .LVU213
- 796              		.loc 1 82 32 is_stmt 0 view .LVU214
- 797 0006 C25C     		ldrb	r2, [r0, r3]	@ zero_extendqisi2
- 798 0008 82F00102 		eor	r2, r2, #1
- 799              		.loc 1 82 30 view .LVU215
- 800 000c C254     		strb	r2, [r0, r3]
- 801              	.L32:
-  83:Delay.cpp     **** }
- 802              		.loc 1 83 1 view .LVU216
- 803 000e 7047     		bx	lr
- 804              		.cfi_endproc
- 805              	.LFE4809:
- 807              		.section	.text._ZN5Delay10enableHeadERKi,"ax",%progbits
- 808              		.align	1
- 809              		.p2align 2,,3
- 810              		.global	_ZN5Delay10enableHeadERKi
- 811              		.syntax unified
- 812              		.thumb
- 813              		.thumb_func
- 815              	_ZN5Delay10enableHeadERKi:
- 816              	.LVL38:
- 817              	.LFB4810:
-  84:Delay.cpp     **** 
-  85:Delay.cpp     **** void Delay::enableHead(const int& headNum)
-  86:Delay.cpp     **** {
- 818              		.loc 1 86 1 is_stmt 1 view -0
- 819              		.cfi_startproc
- 820              		@ args = 0, pretend = 0, frame = 0
- 821              		@ frame_needed = 0, uses_anonymous_args = 0
- 822              		@ link register save eliminated.
-  87:Delay.cpp     ****     if(headNum >= NUM_OF_DELAY_HEADS || headNum < 0)
- 823              		.loc 1 87 5 view .LVU218
- 824              		.loc 1 87 8 is_stmt 0 view .LVU219
- 825 0000 0B68     		ldr	r3, [r1]
- 826              		.loc 1 87 5 view .LVU220
- 827 0002 032B     		cmp	r3, #3
- 828 0004 01D8     		bhi	.L34
-  88:Delay.cpp     ****         return;
-  89:Delay.cpp     ****     else
-  90:Delay.cpp     ****         delayHeadOn[headNum] = true;
- 829              		.loc 1 90 9 is_stmt 1 view .LVU221
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 24
-
-
- 830              		.loc 1 90 30 is_stmt 0 view .LVU222
- 831 0006 0122     		movs	r2, #1
- 832 0008 C254     		strb	r2, [r0, r3]
- 833              	.L34:
-  91:Delay.cpp     **** }
- 834              		.loc 1 91 1 view .LVU223
- 835 000a 7047     		bx	lr
- 836              		.cfi_endproc
- 837              	.LFE4810:
- 839              		.section	.text._ZN5Delay11disableHeadERKi,"ax",%progbits
- 840              		.align	1
- 841              		.p2align 2,,3
- 842              		.global	_ZN5Delay11disableHeadERKi
- 843              		.syntax unified
- 844              		.thumb
- 845              		.thumb_func
- 847              	_ZN5Delay11disableHeadERKi:
- 848              	.LVL39:
- 849              	.LFB4811:
-  92:Delay.cpp     **** 
-  93:Delay.cpp     **** void Delay::disableHead(const int& headNum)
-  94:Delay.cpp     **** {
- 850              		.loc 1 94 1 is_stmt 1 view -0
- 851              		.cfi_startproc
- 852              		@ args = 0, pretend = 0, frame = 0
- 853              		@ frame_needed = 0, uses_anonymous_args = 0
- 854              		@ link register save eliminated.
-  95:Delay.cpp     ****     if(headNum >= NUM_OF_DELAY_HEADS || headNum < 0)
- 855              		.loc 1 95 5 view .LVU225
- 856              		.loc 1 95 8 is_stmt 0 view .LVU226
- 857 0000 0B68     		ldr	r3, [r1]
- 858              		.loc 1 95 5 view .LVU227
- 859 0002 032B     		cmp	r3, #3
- 860 0004 01D8     		bhi	.L36
-  96:Delay.cpp     ****         return;
-  97:Delay.cpp     ****     else
-  98:Delay.cpp     ****         delayHeadOn[headNum] = false;
- 861              		.loc 1 98 9 is_stmt 1 view .LVU228
- 862              		.loc 1 98 30 is_stmt 0 view .LVU229
- 863 0006 0022     		movs	r2, #0
- 864 0008 C254     		strb	r2, [r0, r3]
- 865              	.L36:
-  99:Delay.cpp     **** }
- 866              		.loc 1 99 1 view .LVU230
- 867 000a 7047     		bx	lr
- 868              		.cfi_endproc
- 869              	.LFE4811:
- 871              		.section	.text._ZN5Delay5clearEv,"ax",%progbits
- 872              		.align	1
- 873              		.p2align 2,,3
- 874              		.global	_ZN5Delay5clearEv
- 875              		.syntax unified
- 876              		.thumb
- 877              		.thumb_func
- 879              	_ZN5Delay5clearEv:
- 880              	.LVL40:
- 881              	.LFB4812:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 25
-
-
- 100:Delay.cpp     **** 
- 101:Delay.cpp     **** void Delay::clear()
- 102:Delay.cpp     **** {
- 882              		.loc 1 102 1 is_stmt 1 view -0
- 883              		.cfi_startproc
- 884              		@ args = 0, pretend = 0, frame = 0
- 885              		@ frame_needed = 0, uses_anonymous_args = 0
- 103:Delay.cpp     ****     
- 104:Delay.cpp     ****     for (int i = 0; i < NUM_OF_DELAY_HEADS; i++)
- 886              		.loc 1 104 5 view .LVU232
- 887              	.LBB135:
- 888              		.loc 1 104 23 view .LVU233
- 889              	.LBE135:
- 102:Delay.cpp     ****     
- 890              		.loc 1 102 1 is_stmt 0 view .LVU234
- 891 0000 2DE9F047 		push	{r4, r5, r6, r7, r8, r9, r10, lr}
- 892              		.cfi_def_cfa_offset 32
- 893              		.cfi_offset 4, -32
- 894              		.cfi_offset 5, -28
- 895              		.cfi_offset 6, -24
- 896              		.cfi_offset 7, -20
- 897              		.cfi_offset 8, -16
- 898              		.cfi_offset 9, -12
- 899              		.cfi_offset 10, -8
- 900              		.cfi_offset 14, -4
- 901 0004 0246     		mov	r2, r0
- 902 0006 00F15005 		add	r5, r0, #80
- 903              	.LVL41:
- 904              	.L39:
- 905              	.LBB189:
- 105:Delay.cpp     ****     {
- 106:Delay.cpp     ****         feedback = 0;
- 906              		.loc 1 106 9 is_stmt 1 discriminator 2 view .LVU235
- 907              		.loc 1 106 18 is_stmt 0 discriminator 2 view .LVU236
- 908 000a 9FED2A7A 		vldr.32	s14, .L42
- 104:Delay.cpp     ****     {
- 909              		.loc 1 104 23 discriminator 2 view .LVU237
- 910 000e 1432     		adds	r2, r2, #20
- 911              	.LBB136:
- 912              	.LBB137:
- 913              	.LBB138:
- 914              	.LBB139:
- 915              		.loc 5 137 9 discriminator 2 view .LVU238
- 916 0010 9FED296A 		vldr.32	s12, .L42+4
- 917              	.LBE139:
- 918              	.LBE138:
- 919              	.LBE137:
- 920              	.LBE136:
- 921              		.loc 1 106 18 discriminator 2 view .LVU239
- 922 0014 80ED027A 		vstr.32	s14, [r0, #8]
- 107:Delay.cpp     ****         delayHeads[i].feedback = 0;
- 923              		.loc 1 107 9 is_stmt 1 discriminator 2 view .LVU240
- 924              	.LBB186:
- 925              	.LBB183:
- 926              	.LBB145:
- 927              	.LBB140:
- 928              		.loc 5 137 9 is_stmt 0 discriminator 2 view .LVU241
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 26
-
-
- 929 0018 D2ED007A 		vldr.32	s15, [r2]
- 930              		.loc 5 137 24 discriminator 2 view .LVU242
- 931 001c D2ED016A 		vldr.32	s13, [r2, #4]
- 932              	.LBE140:
- 933              	.LBE145:
-  34:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
- 934              		.loc 4 34 17 discriminator 2 view .LVU243
- 935 0020 52F8081C 		ldr	r1, [r2, #-8]
- 936              	.LBB146:
- 937              	.LBB141:
- 938              		.loc 5 137 24 discriminator 2 view .LVU244
- 939 0024 76EEE76A 		vsub.f32	s13, s13, s15
- 940              	.LBE141:
- 941              	.LBE146:
- 942              	.LBB147:
- 943              	.LBB148:
-  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 944              		.loc 2 56 60 discriminator 2 view .LVU245
- 945 0028 244E     		ldr	r6, .L42+8
- 946              	.LBE148:
- 947              	.LBE147:
- 948              	.LBB153:
- 949              	.LBB154:
-  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 950              		.loc 2 72 22 discriminator 2 view .LVU246
- 951 002a 4B68     		ldr	r3, [r1, #4]
-  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 952              		.loc 2 72 43 discriminator 2 view .LVU247
- 953 002c 244C     		ldr	r4, .L42+12
- 954              	.LBE154:
- 955              	.LBE153:
- 956              	.LBB160:
- 957              	.LBB142:
- 958              		.loc 5 137 9 discriminator 2 view .LVU248
- 959 002e E6EE867A 		vfma.f32	s15, s13, s12
- 960              	.LBE142:
- 961              	.LBE160:
- 962              	.LBB161:
- 963              	.LBB162:
-  65:../../DaisySP//Source/Utility/delayline.h ****     }
- 964              		.loc 2 65 45 discriminator 2 view .LVU249
- 965 0032 03EB0609 		add	r9, r3, r6
-  64:../../DaisySP//Source/Utility/delayline.h ****         write_ptr_        = (write_ptr_ - 1 + max_size) % max_size;
- 966              		.loc 2 64 27 discriminator 2 view .LVU250
- 967 0036 01EB830E 		add	lr, r1, r3, lsl #2
- 968              	.LBE162:
- 969              	.LBE161:
- 970              	.LBE183:
- 971              	.LBE186:
- 972              		.loc 1 107 32 discriminator 2 view .LVU251
- 973 003a 82ED027A 		vstr.32	s14, [r2, #8]
- 108:Delay.cpp     ****         delayHeads[i].process(0);
- 974              		.loc 1 108 9 is_stmt 1 discriminator 2 view .LVU252
- 975              	.LVL42:
- 976              	.LBB187:
- 977              	.LBI136:
-  26:Delay.h       ****             {
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 27
-
-
- 978              		.loc 4 26 19 discriminator 2 view .LVU253
- 979              	.LBB184:
-  29:Delay.h       **** 
- 980              		.loc 4 29 17 discriminator 2 view .LVU254
-  32:Delay.h       ****                 // Set delay time
- 981              		.loc 4 32 17 discriminator 2 view .LVU255
- 982              	.LBB167:
- 983              	.LBI138:
- 135:../../DaisySP//Source/Utility/dsp.h **** {
- 984              		.loc 5 135 13 discriminator 2 view .LVU256
- 985              	.LBB143:
- 986              		.loc 5 137 5 discriminator 2 view .LVU257
- 987              	.LBE143:
- 988              	.LBE167:
- 989              	.LBB168:
- 990              	.LBB155:
-  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 991              		.loc 2 72 43 is_stmt 0 discriminator 2 view .LVU258
- 992 003e 214F     		ldr	r7, .L42+16
- 993              	.LBE155:
- 994              	.LBE168:
- 995              	.LBB169:
- 996              	.LBB149:
-  54:../../DaisySP//Source/Utility/delayline.h ****         frac_             = delay - static_cast<float>(int_delay);
- 997              		.loc 2 54 17 discriminator 2 view .LVU259
- 998 0040 FDEEE76A 		vcvt.s32.f32	s13, s15
- 999              	.LBE149:
- 1000              	.LBE169:
- 1001              	.LBB170:
- 1002              	.LBB144:
- 1003              		.loc 5 137 9 discriminator 2 view .LVU260
- 1004 0044 C2ED007A 		vstr.32	s15, [r2]
- 1005              	.LVL43:
- 1006              		.loc 5 137 9 discriminator 2 view .LVU261
- 1007              	.LBE144:
- 1008              	.LBE170:
-  34:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
- 1009              		.loc 4 34 17 is_stmt 1 discriminator 2 view .LVU262
- 1010              	.LBB171:
- 1011              	.LBI147:
+ 648              		.loc 2 65 45 view .LVU185
+ 649 008a 06EB050C 		add	ip, r6, r5
+ 650              	.LBE115:
+ 651              	.LBE114:
+ 652              	.LBB121:
+ 653              	.LBB106:
+ 654              		.loc 2 72 43 view .LVU186
+ 655 008e 244F     		ldr	r7, .L30+20
+ 656              	.LBE106:
+ 657              	.LBE121:
+  35:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
+ 658              		.loc 4 35 32 view .LVU187
+ 659 0090 77EEA55A 		vadd.f32	s11, s15, s11
+ 660              	.LBB122:
+ 661              	.LBB98:
+ 662              		.loc 5 137 9 view .LVU188
+ 663 0094 C3ED067A 		vstr.32	s15, [r3, #24]
+ 664              	.LVL31:
+ 665              		.loc 5 137 9 view .LVU189
+ 666              	.LBE98:
+ 667              	.LBE122:
+  35:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
+ 668              		.loc 4 35 17 is_stmt 1 view .LVU190
+ 669              	.LBB123:
+ 670              	.LBI99:
   52:../../DaisySP//Source/Utility/delayline.h ****     {
- 1012              		.loc 2 52 17 discriminator 2 view .LVU263
- 1013              	.LBB150:
+ 671              		.loc 2 52 17 view .LVU191
+ 672              	.LBB101:
+  54:../../DaisySP//Source/Utility/delayline.h ****         frac_             = delay - static_cast<float>(int_delay);
+ 673              		.loc 2 54 17 is_stmt 0 view .LVU192
+ 674 0098 FDEEE57A 		vcvt.s32.f32	s15, s11
+ 675              	.LVL32:
   56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 1014              		.loc 2 56 60 is_stmt 0 discriminator 2 view .LVU264
- 1015 0048 16EE90CA 		vmov	ip, s13	@ int
+ 676              		.loc 2 56 60 view .LVU193
+ 677 009c 17EE901A 		vmov	r1, s15	@ int
   55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
- 1016              		.loc 2 55 37 discriminator 2 view .LVU265
- 1017 004c F8EEE66A 		vcvt.f32.s32	s13, s13
- 1018              	.LVL44:
-  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 1019              		.loc 2 56 60 discriminator 2 view .LVU266
- 1020 0050 6645     		cmp	r6, ip
-  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
- 1021              		.loc 2 55 35 discriminator 2 view .LVU267
- 1022 0052 77EEE67A 		vsub.f32	s15, s15, s13
- 1023              	.LVL45:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 28
+ 678              		.loc 2 55 37 view .LVU194
+ 679 00a0 F8EEE77A 		vcvt.f32.s32	s15, s15
+ 680              	.LVL33:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 21
 
 
   56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 1024              		.loc 2 56 60 discriminator 2 view .LVU268
- 1025 0056 28BF     		it	cs
- 1026 0058 6646     		movcs	r6, ip
- 1027              	.LBE150:
- 1028              	.LBE171:
- 1029              	.LBE184:
- 1030              	.LBE187:
- 104:Delay.cpp     ****     {
- 1031              		.loc 1 104 23 discriminator 2 view .LVU269
- 1032 005a AA42     		cmp	r2, r5
- 1033              	.LBB188:
- 1034              	.LBB185:
- 1035              	.LBB172:
- 1036              	.LBB156:
-  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 1037              		.loc 2 72 33 discriminator 2 view .LVU270
- 1038 005c 3344     		add	r3, r3, r6
- 1039              	.LBE156:
- 1040              	.LBE172:
- 1041              	.LBB173:
- 1042              	.LBB151:
+ 681              		.loc 2 56 60 view .LVU195
+ 682 00a4 A942     		cmp	r1, r5
+  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
+ 683              		.loc 2 55 35 view .LVU196
+ 684 00a6 75EEE75A 		vsub.f32	s11, s11, s15
+ 685              	.LVL34:
   56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 1043              		.loc 2 56 16 discriminator 2 view .LVU271
- 1044 005e 8E60     		str	r6, [r1, #8]
- 1045              	.LVL46:
+ 686              		.loc 2 56 60 view .LVU197
+ 687 00aa 28BF     		it	cs
+ 688 00ac 2946     		movcs	r1, r5
+ 689              	.LVL35:
   56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
- 1046              		.loc 2 56 16 discriminator 2 view .LVU272
- 1047              	.LBE151:
- 1048              	.LBE173:
-  35:Delay.h       **** 
- 1049              		.loc 4 35 17 is_stmt 1 discriminator 2 view .LVU273
- 1050              	.LBB174:
- 1051              	.LBI153:
+ 690              		.loc 2 56 60 view .LVU198
+ 691              	.LBE101:
+ 692              	.LBE123:
+ 693              	.LBB124:
+ 694              	.LBB107:
+ 695              		.loc 2 72 43 view .LVU199
+ 696 00ae 1D4D     		ldr	r5, .L30+24
+ 697              	.LBE107:
+ 698              	.LBE124:
+ 699              	.LBB125:
+ 700              	.LBB102:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 701              		.loc 2 56 16 view .LVU200
+ 702 00b0 A160     		str	r1, [r4, #8]
+ 703              	.LVL36:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 704              		.loc 2 56 16 view .LVU201
+ 705              	.LBE102:
+ 706              	.LBE125:
+  36:Delay.h       **** 
+ 707              		.loc 4 36 17 is_stmt 1 view .LVU202
+ 708              	.LBB126:
+ 709              	.LBI104:
   70:../../DaisySP//Source/Utility/delayline.h ****     {
- 1052              		.loc 2 70 20 discriminator 2 view .LVU274
- 1053              	.LBE174:
- 1054              	.LBB175:
- 1055              	.LBB163:
-  65:../../DaisySP//Source/Utility/delayline.h ****     }
- 1056              		.loc 2 65 57 is_stmt 0 discriminator 2 view .LVU275
- 1057 0060 A4FB09C6 		umull	ip, r6, r4, r9
- 1058              	.LBE163:
- 1059              	.LBE175:
- 1060              	.LBB176:
- 1061              	.LBB157:
-  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
- 1062              		.loc 2 73 42 discriminator 2 view .LVU276
- 1063 0064 03F1010C 		add	ip, r3, #1
-  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 1064              		.loc 2 72 43 discriminator 2 view .LVU277
- 1065 0068 A4FB03A8 		umull	r10, r8, r4, r3
- 1066              	.LBE157:
- 1067              	.LBE176:
- 1068              	.LBB177:
- 1069              	.LBB164:
-  65:../../DaisySP//Source/Utility/delayline.h ****     }
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 29
-
-
- 1070              		.loc 2 65 57 discriminator 2 view .LVU278
- 1071 006c 4FEAD626 		lsr	r6, r6, #11
- 1072              	.LBE164:
- 1073              	.LBE177:
- 1074              	.LBB178:
- 1075              	.LBB152:
-  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
- 1076              		.loc 2 55 27 discriminator 2 view .LVU279
- 1077 0070 C1ED007A 		vstr.32	s15, [r1]
- 1078              	.LBE152:
- 1079              	.LBE178:
- 1080              	.LBB179:
- 1081              	.LBB158:
-  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
- 1082              		.loc 2 73 47 discriminator 2 view .LVU280
- 1083 0074 A4FB0CA4 		umull	r10, r4, r4, ip
-  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 1084              		.loc 2 72 43 discriminator 2 view .LVU281
- 1085 0078 4FEAD828 		lsr	r8, r8, #11
- 1086              	.LBE158:
- 1087              	.LBE179:
- 1088              	.LBB180:
- 1089              	.LBB165:
-  65:../../DaisySP//Source/Utility/delayline.h ****     }
- 1090              		.loc 2 65 57 discriminator 2 view .LVU282
- 1091 007c 07FB1696 		mls	r6, r7, r6, r9
- 1092              	.LBE165:
- 1093              	.LBE180:
- 1094              	.LBB181:
- 1095              	.LBB159:
-  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
- 1096              		.loc 2 73 47 discriminator 2 view .LVU283
- 1097 0080 4FEAD424 		lsr	r4, r4, #11
-  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 1098              		.loc 2 72 43 discriminator 2 view .LVU284
- 1099 0084 07FB1833 		mls	r3, r7, r8, r3
-  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
- 1100              		.loc 2 73 47 discriminator 2 view .LVU285
- 1101 0088 07FB14C4 		mls	r4, r7, r4, ip
-  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 1102              		.loc 2 72 11 discriminator 2 view .LVU286
- 1103 008c 01EB8303 		add	r3, r1, r3, lsl #2
-  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
- 1104              		.loc 2 73 11 discriminator 2 view .LVU287
- 1105 0090 01EB8404 		add	r4, r1, r4, lsl #2
-  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
- 1106              		.loc 2 72 11 discriminator 2 view .LVU288
- 1107 0094 D3ED036A 		vldr.32	s13, [r3, #12]
- 1108              	.LVL47:
- 1109              		.loc 2 74 23 discriminator 2 view .LVU289
- 1110 0098 94ED036A 		vldr.32	s12, [r4, #12]
- 1111 009c 36EE666A 		vsub.f32	s12, s12, s13
- 1112              		.loc 2 74 30 discriminator 2 view .LVU290
- 1113 00a0 E7EE866A 		vfma.f32	s13, s15, s12
- 1114              	.LVL48:
- 1115              		.loc 2 74 30 discriminator 2 view .LVU291
- 1116              	.LBE159:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 30
-
-
- 1117              	.LBE181:
-  38:Delay.h       ****                 
- 1118              		.loc 4 38 17 is_stmt 1 discriminator 2 view .LVU292
-  38:Delay.h       ****                 
- 1119              		.loc 4 38 29 is_stmt 0 discriminator 2 view .LVU293
- 1120 00a4 A7EE267A 		vfma.f32	s14, s14, s13
- 1121              	.LVL49:
- 1122              	.LBB182:
- 1123              	.LBI161:
-  62:../../DaisySP//Source/Utility/delayline.h ****     {
- 1124              		.loc 2 62 17 is_stmt 1 discriminator 2 view .LVU294
- 1125              	.LBB166:
+ 710              		.loc 2 70 20 view .LVU203
+ 711              	.LBB108:
+ 712              		.loc 2 72 33 is_stmt 0 view .LVU204
+ 713 00b2 3144     		add	r1, r1, r6
+ 714              	.LBE108:
+ 715              	.LBE126:
+ 716              	.LBB127:
+ 717              	.LBB116:
   64:../../DaisySP//Source/Utility/delayline.h ****         write_ptr_        = (write_ptr_ - 1 + max_size) % max_size;
- 1126              		.loc 2 64 27 is_stmt 0 discriminator 2 view .LVU295
- 1127 00a8 8EED037A 		vstr.32	s14, [lr, #12]
+ 718              		.loc 2 64 27 view .LVU205
+ 719 00b4 04EB8606 		add	r6, r4, r6, lsl #2
+ 720              	.LBE116:
+ 721              	.LBE127:
+ 722              	.LBB128:
+ 723              	.LBB103:
+  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
+ 724              		.loc 2 55 27 view .LVU206
+ 725 00b8 C4ED005A 		vstr.32	s11, [r4]
+ 726              	.LBE103:
+ 727              	.LBE128:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 22
+
+
+ 728              	.LBB129:
+ 729              	.LBB109:
+ 730              		.loc 2 72 43 view .LVU207
+ 731 00bc A5FB01A9 		umull	r10, r9, r5, r1
+  73:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 732              		.loc 2 73 42 view .LVU208
+ 733 00c0 01F10108 		add	r8, r1, #1
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 734              		.loc 2 72 43 view .LVU209
+ 735 00c4 4FEAD929 		lsr	r9, r9, #11
+ 736 00c8 07FB1911 		mls	r1, r7, r9, r1
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 737              		.loc 2 72 11 view .LVU210
+ 738 00cc 04EB8101 		add	r1, r4, r1, lsl #2
+ 739 00d0 D1ED037A 		vldr.32	s15, [r1, #12]
+ 740              	.LVL37:
+ 741              		.loc 2 73 47 view .LVU211
+ 742 00d4 A5FB0891 		umull	r9, r1, r5, r8
+ 743              	.LBE109:
+ 744              	.LBE129:
+ 745              	.LBB130:
+ 746              	.LBB117:
   65:../../DaisySP//Source/Utility/delayline.h ****     }
- 1128              		.loc 2 65 27 discriminator 2 view .LVU296
- 1129 00ac 4E60     		str	r6, [r1, #4]
- 1130              	.LVL50:
+ 747              		.loc 2 65 57 view .LVU212
+ 748 00d8 A5FB0C95 		umull	r9, r5, r5, ip
+ 749              	.LBE117:
+ 750              	.LBE130:
+ 751              	.LBB131:
+ 752              	.LBB110:
+ 753              		.loc 2 73 47 view .LVU213
+ 754 00dc C90A     		lsrs	r1, r1, #11
+ 755              	.LBE110:
+ 756              	.LBE131:
+ 757              	.LBB132:
+ 758              	.LBB118:
   65:../../DaisySP//Source/Utility/delayline.h ****     }
- 1131              		.loc 2 65 27 discriminator 2 view .LVU297
- 1132              	.LBE166:
- 1133              	.LBE182:
- 1134              		.loc 4 40 17 is_stmt 1 discriminator 2 view .LVU298
- 1135              		.loc 4 40 17 is_stmt 0 discriminator 2 view .LVU299
- 1136              	.LBE185:
- 1137              	.LBE188:
- 104:Delay.cpp     ****     {
- 1138              		.loc 1 104 5 is_stmt 1 discriminator 2 view .LVU300
- 104:Delay.cpp     ****     {
- 1139              		.loc 1 104 23 discriminator 2 view .LVU301
- 1140 00ae ACD1     		bne	.L39
- 1141              	.LBE189:
- 109:Delay.cpp     ****     }
- 110:Delay.cpp     ****     
+ 759              		.loc 2 65 57 view .LVU214
+ 760 00de ED0A     		lsrs	r5, r5, #11
+ 761              	.LBE118:
+ 762              	.LBE132:
+ 763              	.LBB133:
+ 764              	.LBB111:
+ 765              		.loc 2 73 47 view .LVU215
+ 766 00e0 07FB1188 		mls	r8, r7, r1, r8
+ 767              	.LVL38:
+ 768              		.loc 2 73 47 view .LVU216
+ 769              	.LBE111:
+ 770              	.LBE133:
+ 771              	.LBB134:
+ 772              	.LBB119:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 773              		.loc 2 65 57 view .LVU217
+ 774 00e4 07FB15C5 		mls	r5, r7, r5, ip
+ 775              	.LBE119:
+ 776              	.LBE134:
+ 777              	.LBB135:
+ 778              	.LBB112:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 23
+
+
+ 779              		.loc 2 73 11 view .LVU218
+ 780 00e8 04EB8808 		add	r8, r4, r8, lsl #2
+  74:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
+ 781              		.loc 2 74 23 view .LVU219
+ 782 00ec 98ED037A 		vldr.32	s14, [r8, #12]
+ 783 00f0 37EE677A 		vsub.f32	s14, s14, s15
+ 784              		.loc 2 74 30 view .LVU220
+ 785 00f4 E5EE877A 		vfma.f32	s15, s11, s14
+ 786              	.LVL39:
+ 787              		.loc 2 74 30 view .LVU221
+ 788              	.LBE112:
+ 789              	.LBE135:
+ 790              		.loc 4 39 17 is_stmt 1 view .LVU222
+ 791              		.loc 4 39 29 is_stmt 0 view .LVU223
+ 792 00f8 B0EE407A 		vmov.f32	s14, s0
+ 793 00fc A6EEA77A 		vfma.f32	s14, s13, s15
+ 794              	.LVL40:
+ 795              	.LBB136:
+ 796              	.LBI114:
+  62:../../DaisySP//Source/Utility/delayline.h ****     {
+ 797              		.loc 2 62 17 is_stmt 1 view .LVU224
+ 798              	.LBE136:
+ 799              	.LBE94:
+ 800              	.LBE93:
+  67:Delay.cpp     ****         }
+ 801              		.loc 1 67 33 is_stmt 0 view .LVU225
+ 802 0100 32EE272A 		vadd.f32	s4, s4, s15
+ 803              	.LVL41:
+ 804              	.LBB139:
+ 805              	.LBB138:
+ 806              	.LBB137:
+ 807              	.LBB120:
+  64:../../DaisySP//Source/Utility/delayline.h ****         write_ptr_        = (write_ptr_ - 1 + max_size) % max_size;
+ 808              		.loc 2 64 27 view .LVU226
+ 809 0104 86ED037A 		vstr.32	s14, [r6, #12]
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 810              		.loc 2 65 27 view .LVU227
+ 811 0108 6560     		str	r5, [r4, #4]
+ 812              	.LVL42:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 813              		.loc 2 65 27 view .LVU228
+ 814              	.LBE120:
+ 815              	.LBE137:
+  40:Delay.h       ****                 
+  41:Delay.h       ****                 return readSample;
+ 816              		.loc 4 41 17 is_stmt 1 view .LVU229
+ 817              		.loc 4 41 17 is_stmt 0 view .LVU230
+ 818              	.LBE138:
+ 819              	.LBE139:
+ 820 010a A9E7     		b	.L22
+ 821              	.L31:
+ 822              		.align	2
+ 823              	.L30:
+ 824 010c 00000000 		.word	0
+ 825 0110 00007042 		.word	1114636288
+ 826 0114 00803B47 		.word	1195081728
+ 827 0118 17B75139 		.word	961656599
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 24
+
+
+ 828 011c FF760100 		.word	95999
+ 829 0120 00770100 		.word	96000
+ 830 0124 F1197605 		.word	91625969
+ 831              	.LBE142:
+ 832              		.cfi_endproc
+ 833              	.LFE4811:
+ 835              		.section	.text._ZN5Delay10toggleHeadERKi,"ax",%progbits
+ 836              		.align	1
+ 837              		.p2align 2,,3
+ 838              		.global	_ZN5Delay10toggleHeadERKi
+ 839              		.syntax unified
+ 840              		.thumb
+ 841              		.thumb_func
+ 843              	_ZN5Delay10toggleHeadERKi:
+ 844              	.LVL43:
+ 845              	.LFB4812:
+  73:Delay.cpp     **** 
+  74:Delay.cpp     **** void Delay::toggleHead(const int& headNum)
+  75:Delay.cpp     **** {
+ 846              		.loc 1 75 1 is_stmt 1 view -0
+ 847              		.cfi_startproc
+ 848              		@ args = 0, pretend = 0, frame = 0
+ 849              		@ frame_needed = 0, uses_anonymous_args = 0
+ 850              		@ link register save eliminated.
+  76:Delay.cpp     ****     if(headNum >= NUM_OF_DELAY_HEADS || headNum < 0)
+ 851              		.loc 1 76 5 view .LVU232
+ 852              		.loc 1 76 8 is_stmt 0 view .LVU233
+ 853 0000 0B68     		ldr	r3, [r1]
+ 854              		.loc 1 76 5 view .LVU234
+ 855 0002 032B     		cmp	r3, #3
+ 856 0004 03D8     		bhi	.L32
+  77:Delay.cpp     ****         return;
+  78:Delay.cpp     ****     else
+  79:Delay.cpp     ****         delayHeadOn[headNum] = !delayHeadOn[headNum];
+ 857              		.loc 1 79 9 is_stmt 1 view .LVU235
+ 858              		.loc 1 79 32 is_stmt 0 view .LVU236
+ 859 0006 C25C     		ldrb	r2, [r0, r3]	@ zero_extendqisi2
+ 860 0008 82F00102 		eor	r2, r2, #1
+ 861              		.loc 1 79 30 view .LVU237
+ 862 000c C254     		strb	r2, [r0, r3]
+ 863              	.L32:
+  80:Delay.cpp     **** }
+ 864              		.loc 1 80 1 view .LVU238
+ 865 000e 7047     		bx	lr
+ 866              		.cfi_endproc
+ 867              	.LFE4812:
+ 869              		.section	.text._ZN5Delay10enableHeadERKi,"ax",%progbits
+ 870              		.align	1
+ 871              		.p2align 2,,3
+ 872              		.global	_ZN5Delay10enableHeadERKi
+ 873              		.syntax unified
+ 874              		.thumb
+ 875              		.thumb_func
+ 877              	_ZN5Delay10enableHeadERKi:
+ 878              	.LVL44:
+ 879              	.LFB4813:
+  81:Delay.cpp     **** 
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 25
+
+
+  82:Delay.cpp     **** void Delay::enableHead(const int& headNum)
+  83:Delay.cpp     **** {
+ 880              		.loc 1 83 1 is_stmt 1 view -0
+ 881              		.cfi_startproc
+ 882              		@ args = 0, pretend = 0, frame = 0
+ 883              		@ frame_needed = 0, uses_anonymous_args = 0
+ 884              		@ link register save eliminated.
+  84:Delay.cpp     ****     if(headNum >= NUM_OF_DELAY_HEADS || headNum < 0)
+ 885              		.loc 1 84 5 view .LVU240
+ 886              		.loc 1 84 8 is_stmt 0 view .LVU241
+ 887 0000 0B68     		ldr	r3, [r1]
+ 888              		.loc 1 84 5 view .LVU242
+ 889 0002 032B     		cmp	r3, #3
+ 890 0004 01D8     		bhi	.L34
+  85:Delay.cpp     ****         return;
+  86:Delay.cpp     ****     else
+  87:Delay.cpp     ****         delayHeadOn[headNum] = true;
+ 891              		.loc 1 87 9 is_stmt 1 view .LVU243
+ 892              		.loc 1 87 30 is_stmt 0 view .LVU244
+ 893 0006 0122     		movs	r2, #1
+ 894 0008 C254     		strb	r2, [r0, r3]
+ 895              	.L34:
+  88:Delay.cpp     **** }
+ 896              		.loc 1 88 1 view .LVU245
+ 897 000a 7047     		bx	lr
+ 898              		.cfi_endproc
+ 899              	.LFE4813:
+ 901              		.section	.text._ZN5Delay11disableHeadERKi,"ax",%progbits
+ 902              		.align	1
+ 903              		.p2align 2,,3
+ 904              		.global	_ZN5Delay11disableHeadERKi
+ 905              		.syntax unified
+ 906              		.thumb
+ 907              		.thumb_func
+ 909              	_ZN5Delay11disableHeadERKi:
+ 910              	.LVL45:
+ 911              	.LFB4814:
+  89:Delay.cpp     **** 
+  90:Delay.cpp     **** void Delay::disableHead(const int& headNum)
+  91:Delay.cpp     **** {
+ 912              		.loc 1 91 1 is_stmt 1 view -0
+ 913              		.cfi_startproc
+ 914              		@ args = 0, pretend = 0, frame = 0
+ 915              		@ frame_needed = 0, uses_anonymous_args = 0
+  92:Delay.cpp     ****     if(headNum >= NUM_OF_DELAY_HEADS || headNum < 0)
+ 916              		.loc 1 92 5 view .LVU247
+ 917              		.loc 1 92 8 is_stmt 0 view .LVU248
+ 918 0000 0B68     		ldr	r3, [r1]
+ 919              		.loc 1 92 5 view .LVU249
+ 920 0002 032B     		cmp	r3, #3
+ 921 0004 00D9     		bls	.L42
+ 922 0006 7047     		bx	lr
+ 923              	.L42:
+  93:Delay.cpp     ****         return;
+  94:Delay.cpp     ****     else
+  95:Delay.cpp     ****     {
+  96:Delay.cpp     ****         delayHeadOn[headNum] = false;
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 26
+
+
+ 924              		.loc 1 96 9 is_stmt 1 view .LVU250
+ 925              	.LBB153:
+ 926              	.LBB154:
+  33:Delay.h       ****                 // Set delay time
+ 927              		.loc 4 33 25 is_stmt 0 view .LVU251
+ 928 0008 591C     		adds	r1, r3, #1
+ 929              	.LVL46:
+  33:Delay.h       ****                 // Set delay time
+ 930              		.loc 4 33 25 view .LVU252
+ 931              	.LBE154:
+ 932              	.LBE153:
+  97:Delay.cpp     ****         delayHeads[headNum].feedback = 0;
+ 933              		.loc 1 97 38 view .LVU253
+ 934 000a 03EB4302 		add	r2, r3, r3, lsl #1
+ 935 000e 9FED2C7A 		vldr.32	s14, .L43
+ 936              	.LBB204:
+ 937              	.LBB199:
+  33:Delay.h       ****                 // Set delay time
+ 938              		.loc 4 33 25 view .LVU254
+ 939 0012 01EB4101 		add	r1, r1, r1, lsl #1
+ 940              	.LBB155:
+ 941              	.LBB156:
+ 942              		.loc 5 137 9 view .LVU255
+ 943 0016 9FED2B6A 		vldr.32	s12, .L43+4
+ 944              	.LBE156:
+ 945              	.LBE155:
+ 946              	.LBE199:
+ 947              	.LBE204:
+  98:Delay.cpp     ****         delayHeads[headNum].process(0);
+ 948              		.loc 1 98 36 view .LVU256
+ 949 001a 00EBC20C 		add	ip, r0, r2, lsl #3
+  91:Delay.cpp     ****     if(headNum >= NUM_OF_DELAY_HEADS || headNum < 0)
+ 950              		.loc 1 91 1 view .LVU257
+ 951 001e 70B5     		push	{r4, r5, r6, lr}
+ 952              		.cfi_def_cfa_offset 16
+ 953              		.cfi_offset 4, -16
+ 954              		.cfi_offset 5, -12
+ 955              		.cfi_offset 6, -8
+ 956              		.cfi_offset 14, -4
+  96:Delay.cpp     ****         delayHeads[headNum].feedback = 0;
+ 957              		.loc 1 96 30 view .LVU258
+ 958 0020 0024     		movs	r4, #0
+ 959              	.LBB205:
+ 960              	.LBB200:
+ 961              	.LBB162:
+ 962              	.LBB157:
+ 963              		.loc 5 137 9 view .LVU259
+ 964 0022 DCED067A 		vldr.32	s15, [ip, #24]
+ 965              	.LBE157:
+ 966              	.LBE162:
+  35:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
+ 967              		.loc 4 35 17 view .LVU260
+ 968 0026 DCF81020 		ldr	r2, [ip, #16]
+ 969              	.LBE200:
+ 970              	.LBE205:
+  96:Delay.cpp     ****         delayHeads[headNum].feedback = 0;
+ 971              		.loc 1 96 30 view .LVU261
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 27
+
+
+ 972 002a C454     		strb	r4, [r0, r3]
+  97:Delay.cpp     ****         delayHeads[headNum].process(0);
+ 973              		.loc 1 97 9 is_stmt 1 view .LVU262
+ 974              	.LBB206:
+ 975              	.LBB201:
+  33:Delay.h       ****                 // Set delay time
+ 976              		.loc 4 33 25 is_stmt 0 view .LVU263
+ 977 002c 00EBC100 		add	r0, r0, r1, lsl #3
+ 978              	.LVL47:
+  33:Delay.h       ****                 // Set delay time
+ 979              		.loc 4 33 25 view .LVU264
+ 980              	.LBE201:
+ 981              	.LBE206:
+  97:Delay.cpp     ****         delayHeads[headNum].process(0);
+ 982              		.loc 1 97 38 view .LVU265
+ 983 0030 8CED087A 		vstr.32	s14, [ip, #32]
+ 984              	.LBB207:
+ 985              	.LBB202:
+ 986              	.LBB163:
+ 987              	.LBB158:
+ 988              		.loc 5 137 24 view .LVU266
+ 989 0034 D0ED016A 		vldr.32	s13, [r0, #4]
+ 990              	.LBE158:
+ 991              	.LBE163:
+ 992              	.LBB164:
+ 993              	.LBB165:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 994              		.loc 2 56 60 view .LVU267
+ 995 0038 2349     		ldr	r1, .L43+8
+ 996              	.LBE165:
+ 997              	.LBE164:
+ 998              	.LBE202:
+ 999              	.LBE207:
+ 1000              		.loc 1 98 9 is_stmt 1 view .LVU268
+ 1001              	.LVL48:
+ 1002              	.LBB208:
+ 1003              	.LBI153:
+  27:Delay.h       ****             {
+ 1004              		.loc 4 27 19 view .LVU269
+ 1005              	.LBB203:
+  30:Delay.h       **** 
+ 1006              		.loc 4 30 17 view .LVU270
+  33:Delay.h       ****                 // Set delay time
+ 1007              		.loc 4 33 17 view .LVU271
+ 1008              	.LBB169:
+ 1009              	.LBI155:
+ 135:../../DaisySP//Source/Utility/dsp.h **** {
+ 1010              		.loc 5 135 13 view .LVU272
+ 1011              	.LBB159:
+ 1012              		.loc 5 137 5 view .LVU273
+ 1013              		.loc 5 137 24 is_stmt 0 view .LVU274
+ 1014 003a 76EEE76A 		vsub.f32	s13, s13, s15
+ 1015              	.LBE159:
+ 1016              	.LBE169:
+ 1017              	.LBB170:
+ 1018              	.LBB171:
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 28
+
+
+ 1019              		.loc 2 72 22 view .LVU275
+ 1020 003e 5468     		ldr	r4, [r2, #4]
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1021              		.loc 2 72 43 view .LVU276
+ 1022 0040 2248     		ldr	r0, .L43+12
+ 1023              	.LBE171:
+ 1024              	.LBE170:
+ 1025              	.LBB177:
+ 1026              	.LBB178:
+  64:../../DaisySP//Source/Utility/delayline.h ****         write_ptr_        = (write_ptr_ - 1 + max_size) % max_size;
+ 1027              		.loc 2 64 27 view .LVU277
+ 1028 0042 02EB840E 		add	lr, r2, r4, lsl #2
+ 1029              	.LBE178:
+ 1030              	.LBE177:
+ 1031              	.LBB184:
+ 1032              	.LBB160:
+ 1033              		.loc 5 137 9 view .LVU278
+ 1034 0046 E6EE867A 		vfma.f32	s15, s13, s12
+ 1035              	.LBE160:
+ 1036              	.LBE184:
+  35:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
+ 1037              		.loc 4 35 32 view .LVU279
+ 1038 004a DCED096A 		vldr.32	s13, [ip, #36]
+ 1039              	.LBB185:
+ 1040              	.LBB161:
+ 1041              		.loc 5 137 9 view .LVU280
+ 1042 004e CCED067A 		vstr.32	s15, [ip, #24]
+ 1043              	.LVL49:
+ 1044              		.loc 5 137 9 view .LVU281
+ 1045              	.LBE161:
+ 1046              	.LBE185:
+  35:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
+ 1047              		.loc 4 35 17 is_stmt 1 view .LVU282
+  35:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
+ 1048              		.loc 4 35 32 is_stmt 0 view .LVU283
+ 1049 0052 77EEA67A 		vadd.f32	s15, s15, s13
+ 1050              	.LVL50:
+ 1051              	.LBB186:
+ 1052              	.LBI164:
+  52:../../DaisySP//Source/Utility/delayline.h ****     {
+ 1053              		.loc 2 52 17 is_stmt 1 view .LVU284
+ 1054              	.LBB166:
+  54:../../DaisySP//Source/Utility/delayline.h ****         frac_             = delay - static_cast<float>(int_delay);
+ 1055              		.loc 2 54 17 is_stmt 0 view .LVU285
+ 1056 0056 FDEEE76A 		vcvt.s32.f32	s13, s15
+ 1057              	.LVL51:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1058              		.loc 2 56 60 view .LVU286
+ 1059 005a 16EE903A 		vmov	r3, s13	@ int
+  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
+ 1060              		.loc 2 55 37 view .LVU287
+ 1061 005e F8EEE66A 		vcvt.f32.s32	s13, s13
+ 1062              	.LVL52:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1063              		.loc 2 56 60 view .LVU288
+ 1064 0062 8B42     		cmp	r3, r1
+  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 29
+
+
+ 1065              		.loc 2 55 35 view .LVU289
+ 1066 0064 77EEE67A 		vsub.f32	s15, s15, s13
+ 1067              	.LVL53:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1068              		.loc 2 56 60 view .LVU290
+ 1069 0068 28BF     		it	cs
+ 1070 006a 0B46     		movcs	r3, r1
+ 1071              	.LVL54:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1072              		.loc 2 56 60 view .LVU291
+ 1073              	.LBE166:
+ 1074              	.LBE186:
+ 1075              	.LBB187:
+ 1076              	.LBB179:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 1077              		.loc 2 65 45 view .LVU292
+ 1078 006c 2144     		add	r1, r1, r4
+ 1079              	.LBE179:
+ 1080              	.LBE187:
+ 1081              	.LBB188:
+ 1082              	.LBB167:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1083              		.loc 2 56 16 view .LVU293
+ 1084 006e 9360     		str	r3, [r2, #8]
+ 1085              	.LVL55:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1086              		.loc 2 56 16 view .LVU294
+ 1087              	.LBE167:
+ 1088              	.LBE188:
+  36:Delay.h       **** 
+ 1089              		.loc 4 36 17 is_stmt 1 view .LVU295
+ 1090              	.LBB189:
+ 1091              	.LBI170:
+  70:../../DaisySP//Source/Utility/delayline.h ****     {
+ 1092              		.loc 2 70 20 view .LVU296
+ 1093              	.LBB172:
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1094              		.loc 2 72 33 is_stmt 0 view .LVU297
+ 1095 0070 2344     		add	r3, r3, r4
+ 1096              	.LBE172:
+ 1097              	.LBE189:
+ 1098              	.LBB190:
+ 1099              	.LBB168:
+  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
+ 1100              		.loc 2 55 27 view .LVU298
+ 1101 0072 C2ED007A 		vstr.32	s15, [r2]
+ 1102              	.LBE168:
+ 1103              	.LBE190:
+ 1104              	.LBB191:
+ 1105              	.LBB173:
+  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
+ 1106              		.loc 2 73 42 view .LVU299
+ 1107 0076 03F1010C 		add	ip, r3, #1
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1108              		.loc 2 72 43 view .LVU300
+ 1109 007a A0FB0346 		umull	r4, r6, r0, r3
+  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 30
+
+
+ 1110              		.loc 2 73 47 view .LVU301
+ 1111 007e A0FB0C45 		umull	r4, r5, r0, ip
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1112              		.loc 2 72 43 view .LVU302
+ 1113 0082 F60A     		lsrs	r6, r6, #11
+ 1114              	.LBE173:
+ 1115              	.LBE191:
+ 1116              	.LBB192:
+ 1117              	.LBB180:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 1118              		.loc 2 65 57 view .LVU303
+ 1119 0084 A0FB0140 		umull	r4, r0, r0, r1
+ 1120              	.LBE180:
+ 1121              	.LBE192:
+ 1122              	.LBB193:
+ 1123              	.LBB174:
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1124              		.loc 2 72 43 view .LVU304
+ 1125 0088 114C     		ldr	r4, .L43+16
+  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
+ 1126              		.loc 2 73 47 view .LVU305
+ 1127 008a ED0A     		lsrs	r5, r5, #11
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1128              		.loc 2 72 43 view .LVU306
+ 1129 008c 04FB1633 		mls	r3, r4, r6, r3
+ 1130              	.LBE174:
+ 1131              	.LBE193:
+ 1132              	.LBB194:
+ 1133              	.LBB181:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 1134              		.loc 2 65 57 view .LVU307
+ 1135 0090 C00A     		lsrs	r0, r0, #11
+ 1136              	.LBE181:
+ 1137              	.LBE194:
+ 1138              	.LBB195:
+ 1139              	.LBB175:
+  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
+ 1140              		.loc 2 73 47 view .LVU308
+ 1141 0092 04FB15CC 		mls	ip, r4, r5, ip
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1142              		.loc 2 72 11 view .LVU309
+ 1143 0096 02EB8303 		add	r3, r2, r3, lsl #2
+ 1144              	.LBE175:
+ 1145              	.LBE195:
+ 1146              	.LBB196:
+ 1147              	.LBB182:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 1148              		.loc 2 65 57 view .LVU310
+ 1149 009a 04FB1010 		mls	r0, r4, r0, r1
+ 1150              	.LBE182:
+ 1151              	.LBE196:
+ 1152              	.LBB197:
+ 1153              	.LBB176:
+  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
+ 1154              		.loc 2 73 11 view .LVU311
+ 1155 009e 02EB8C0C 		add	ip, r2, ip, lsl #2
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 31
+
+
+ 1156              		.loc 2 72 11 view .LVU312
+ 1157 00a2 D3ED036A 		vldr.32	s13, [r3, #12]
+ 1158              	.LVL56:
+ 1159              		.loc 2 74 23 view .LVU313
+ 1160 00a6 9CED036A 		vldr.32	s12, [ip, #12]
+ 1161 00aa 36EE666A 		vsub.f32	s12, s12, s13
+ 1162              		.loc 2 74 30 view .LVU314
+ 1163 00ae E7EE866A 		vfma.f32	s13, s15, s12
+ 1164              	.LVL57:
+ 1165              		.loc 2 74 30 view .LVU315
+ 1166              	.LBE176:
+ 1167              	.LBE197:
+  39:Delay.h       ****                 
+ 1168              		.loc 4 39 17 is_stmt 1 view .LVU316
+  39:Delay.h       ****                 
+ 1169              		.loc 4 39 29 is_stmt 0 view .LVU317
+ 1170 00b2 A7EE267A 		vfma.f32	s14, s14, s13
+ 1171              	.LVL58:
+ 1172              	.LBB198:
+ 1173              	.LBI177:
+  62:../../DaisySP//Source/Utility/delayline.h ****     {
+ 1174              		.loc 2 62 17 is_stmt 1 view .LVU318
+ 1175              	.LBB183:
+  64:../../DaisySP//Source/Utility/delayline.h ****         write_ptr_        = (write_ptr_ - 1 + max_size) % max_size;
+ 1176              		.loc 2 64 27 is_stmt 0 view .LVU319
+ 1177 00b6 8EED037A 		vstr.32	s14, [lr, #12]
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 1178              		.loc 2 65 27 view .LVU320
+ 1179 00ba 5060     		str	r0, [r2, #4]
+ 1180              	.LVL59:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 1181              		.loc 2 65 27 view .LVU321
+ 1182              	.LBE183:
+ 1183              	.LBE198:
+ 1184              		.loc 4 41 17 is_stmt 1 view .LVU322
+ 1185              		.loc 4 41 17 is_stmt 0 view .LVU323
+ 1186              	.LBE203:
+ 1187              	.LBE208:
+  99:Delay.cpp     ****     }
+ 100:Delay.cpp     **** }
+ 1188              		.loc 1 100 1 view .LVU324
+ 1189 00bc 70BD     		pop	{r4, r5, r6, pc}
+ 1190              	.L44:
+ 1191 00be 00BF     		.align	2
+ 1192              	.L43:
+ 1193 00c0 00000000 		.word	0
+ 1194 00c4 17B75139 		.word	961656599
+ 1195 00c8 FF760100 		.word	95999
+ 1196 00cc F1197605 		.word	91625969
+ 1197 00d0 00770100 		.word	96000
+ 1198              		.cfi_endproc
+ 1199              	.LFE4814:
+ 1201              		.section	.text._ZN5Delay5clearEv,"ax",%progbits
+ 1202              		.align	1
+ 1203              		.p2align 2,,3
+ 1204              		.global	_ZN5Delay5clearEv
+ 1205              		.syntax unified
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 32
+
+
+ 1206              		.thumb
+ 1207              		.thumb_func
+ 1209              	_ZN5Delay5clearEv:
+ 1210              	.LVL60:
+ 1211              	.LFB4815:
+ 101:Delay.cpp     **** 
+ 102:Delay.cpp     **** void Delay::clear()
+ 103:Delay.cpp     **** {
+ 1212              		.loc 1 103 1 is_stmt 1 view -0
+ 1213              		.cfi_startproc
+ 1214              		@ args = 0, pretend = 0, frame = 0
+ 1215              		@ frame_needed = 0, uses_anonymous_args = 0
+ 104:Delay.cpp     ****     
+ 105:Delay.cpp     ****     for (int i = 0; i < NUM_OF_DELAY_HEADS; i++)
+ 1216              		.loc 1 105 5 view .LVU326
+ 1217              	.LBB220:
+ 1218              		.loc 1 105 23 view .LVU327
+ 1219              	.LBE220:
+ 103:Delay.cpp     ****     
+ 1220              		.loc 1 103 1 is_stmt 0 view .LVU328
+ 1221 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
+ 1222              		.cfi_def_cfa_offset 36
+ 1223              		.cfi_offset 4, -36
+ 1224              		.cfi_offset 5, -32
+ 1225              		.cfi_offset 6, -28
+ 1226              		.cfi_offset 7, -24
+ 1227              		.cfi_offset 8, -20
+ 1228              		.cfi_offset 9, -16
+ 1229              		.cfi_offset 10, -12
+ 1230              		.cfi_offset 11, -8
+ 1231              		.cfi_offset 14, -4
+ 1232 0004 0346     		mov	r3, r0
+ 1233 0006 00F16006 		add	r6, r0, #96
+ 1234              	.LVL61:
+ 1235              	.L46:
+ 1236              	.LBB273:
+ 106:Delay.cpp     ****     {
+ 107:Delay.cpp     ****         feedback = 0;
+ 1237              		.loc 1 107 9 is_stmt 1 discriminator 2 view .LVU329
+ 1238              		.loc 1 107 18 is_stmt 0 discriminator 2 view .LVU330
+ 1239 000a 9FED2D7A 		vldr.32	s14, .L49
+ 105:Delay.cpp     ****     {
+ 1240              		.loc 1 105 23 discriminator 2 view .LVU331
+ 1241 000e 1833     		adds	r3, r3, #24
+ 1242              	.LBB221:
+ 1243              	.LBB222:
+ 1244              	.LBB223:
+ 1245              	.LBB224:
+ 1246              		.loc 5 137 9 discriminator 2 view .LVU332
+ 1247 0010 9FED2C5A 		vldr.32	s10, .L49+4
+ 1248              	.LBE224:
+ 1249              	.LBE223:
+ 1250              	.LBE222:
+ 1251              	.LBE221:
+ 1252              		.loc 1 107 18 discriminator 2 view .LVU333
+ 1253 0014 80ED027A 		vstr.32	s14, [r0, #8]
+ 108:Delay.cpp     ****         delayHeads[i].feedback = 0;
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 33
+
+
+ 1254              		.loc 1 108 9 is_stmt 1 discriminator 2 view .LVU334
+ 1255              	.LBB270:
+ 1256              	.LBB267:
+ 1257              	.LBB230:
+ 1258              	.LBB225:
+ 1259              		.loc 5 137 9 is_stmt 0 discriminator 2 view .LVU335
+ 1260 0018 D3ED006A 		vldr.32	s13, [r3]
+ 1261              		.loc 5 137 24 discriminator 2 view .LVU336
+ 1262 001c 93ED016A 		vldr.32	s12, [r3, #4]
+ 1263              	.LBE225:
+ 1264              	.LBE230:
+  35:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
+ 1265              		.loc 4 35 32 discriminator 2 view .LVU337
+ 1266 0020 D3ED037A 		vldr.32	s15, [r3, #12]
+ 1267              	.LBB231:
+ 1268              	.LBB226:
+ 1269              		.loc 5 137 24 discriminator 2 view .LVU338
+ 1270 0024 36EE666A 		vsub.f32	s12, s12, s13
+ 1271              	.LBE226:
+ 1272              	.LBE231:
+  35:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
+ 1273              		.loc 4 35 17 discriminator 2 view .LVU339
+ 1274 0028 53F8082C 		ldr	r2, [r3, #-8]
+ 1275              	.LBE267:
+ 1276              	.LBE270:
+ 1277              		.loc 1 108 32 discriminator 2 view .LVU340
+ 1278 002c 83ED027A 		vstr.32	s14, [r3, #8]
+ 109:Delay.cpp     ****         delayHeads[i].process(0);
+ 1279              		.loc 1 109 9 is_stmt 1 discriminator 2 view .LVU341
+ 1280              	.LVL62:
+ 1281              	.LBB271:
+ 1282              	.LBI221:
+  27:Delay.h       ****             {
+ 1283              		.loc 4 27 19 discriminator 2 view .LVU342
+ 1284              	.LBB268:
+  30:Delay.h       **** 
+ 1285              		.loc 4 30 17 discriminator 2 view .LVU343
+  33:Delay.h       ****                 // Set delay time
+ 1286              		.loc 4 33 17 discriminator 2 view .LVU344
+ 1287              	.LBB232:
+ 1288              	.LBI223:
+ 135:../../DaisySP//Source/Utility/dsp.h **** {
+ 1289              		.loc 5 135 13 discriminator 2 view .LVU345
+ 1290              	.LBB227:
+ 1291              		.loc 5 137 5 discriminator 2 view .LVU346
+ 1292              	.LBE227:
+ 1293              	.LBE232:
+ 1294              	.LBB233:
+ 1295              	.LBB234:
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1296              		.loc 2 72 22 is_stmt 0 discriminator 2 view .LVU347
+ 1297 0030 5568     		ldr	r5, [r2, #4]
+ 1298              	.LBE234:
+ 1299              	.LBE233:
+ 1300              	.LBB241:
+ 1301              	.LBB228:
+ 1302              		.loc 5 137 9 discriminator 2 view .LVU348
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 34
+
+
+ 1303 0032 E6EE056A 		vfma.f32	s13, s12, s10
+ 1304              	.LBE228:
+ 1305              	.LBE241:
+ 1306              	.LBB242:
+ 1307              	.LBB243:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1308              		.loc 2 56 60 discriminator 2 view .LVU349
+ 1309 0036 2449     		ldr	r1, .L49+8
+ 1310              	.LBE243:
+ 1311              	.LBE242:
+ 1312              	.LBB247:
+ 1313              	.LBB235:
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1314              		.loc 2 72 43 discriminator 2 view .LVU350
+ 1315 0038 244C     		ldr	r4, .L49+12
+ 1316 003a 254F     		ldr	r7, .L49+16
+ 1317              	.LBE235:
+ 1318              	.LBE247:
+  35:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
+ 1319              		.loc 4 35 32 discriminator 2 view .LVU351
+ 1320 003c 76EEA77A 		vadd.f32	s15, s13, s15
+ 1321              	.LBB248:
+ 1322              	.LBB229:
+ 1323              		.loc 5 137 9 discriminator 2 view .LVU352
+ 1324 0040 C3ED006A 		vstr.32	s13, [r3]
+ 1325              	.LVL63:
+ 1326              		.loc 5 137 9 discriminator 2 view .LVU353
+ 1327              	.LBE229:
+ 1328              	.LBE248:
+  35:Delay.h       ****                 readSample = delay->Read(); // Read in the next sample from the delay line
+ 1329              		.loc 4 35 17 is_stmt 1 discriminator 2 view .LVU354
+ 1330              	.LBB249:
+ 1331              	.LBI242:
+  52:../../DaisySP//Source/Utility/delayline.h ****     {
+ 1332              		.loc 2 52 17 discriminator 2 view .LVU355
+ 1333              	.LBB244:
+  54:../../DaisySP//Source/Utility/delayline.h ****         frac_             = delay - static_cast<float>(int_delay);
+ 1334              		.loc 2 54 17 is_stmt 0 discriminator 2 view .LVU356
+ 1335 0044 FDEEE76A 		vcvt.s32.f32	s13, s15
+ 1336              	.LVL64:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1337              		.loc 2 56 60 discriminator 2 view .LVU357
+ 1338 0048 16EE908A 		vmov	r8, s13	@ int
+  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
+ 1339              		.loc 2 55 37 discriminator 2 view .LVU358
+ 1340 004c F8EEE66A 		vcvt.f32.s32	s13, s13
+ 1341              	.LVL65:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1342              		.loc 2 56 60 discriminator 2 view .LVU359
+ 1343 0050 8845     		cmp	r8, r1
+  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
+ 1344              		.loc 2 55 35 discriminator 2 view .LVU360
+ 1345 0052 77EEE67A 		vsub.f32	s15, s15, s13
+ 1346              	.LVL66:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1347              		.loc 2 56 60 discriminator 2 view .LVU361
+ 1348 0056 28BF     		it	cs
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 35
+
+
+ 1349 0058 8846     		movcs	r8, r1
+ 1350              	.LVL67:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1351              		.loc 2 56 60 discriminator 2 view .LVU362
+ 1352              	.LBE244:
+ 1353              	.LBE249:
+ 1354              	.LBB250:
+ 1355              	.LBB251:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 1356              		.loc 2 65 45 discriminator 2 view .LVU363
+ 1357 005a 2944     		add	r1, r1, r5
+ 1358              	.LBE251:
+ 1359              	.LBE250:
+ 1360              	.LBE268:
+ 1361              	.LBE271:
+ 105:Delay.cpp     ****     {
+ 1362              		.loc 1 105 23 discriminator 2 view .LVU364
+ 1363 005c B342     		cmp	r3, r6
+ 1364              	.LBB272:
+ 1365              	.LBB269:
+ 1366              	.LBB256:
+ 1367              	.LBB236:
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1368              		.loc 2 72 33 discriminator 2 view .LVU365
+ 1369 005e 08EB050C 		add	ip, r8, r5
+ 1370              	.LBE236:
+ 1371              	.LBE256:
+ 1372              	.LBB257:
+ 1373              	.LBB252:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 1374              		.loc 2 65 57 discriminator 2 view .LVU366
+ 1375 0062 A4FB01EA 		umull	lr, r10, r4, r1
+  64:../../DaisySP//Source/Utility/delayline.h ****         write_ptr_        = (write_ptr_ - 1 + max_size) % max_size;
+ 1376              		.loc 2 64 27 discriminator 2 view .LVU367
+ 1377 0066 02EB8505 		add	r5, r2, r5, lsl #2
+ 1378              	.LBE252:
+ 1379              	.LBE257:
+ 1380              	.LBB258:
+ 1381              	.LBB245:
+  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
+ 1382              		.loc 2 55 27 discriminator 2 view .LVU368
+ 1383 006a C2ED007A 		vstr.32	s15, [r2]
+ 1384              	.LVL68:
+  55:../../DaisySP//Source/Utility/delayline.h ****         delay_ = static_cast<size_t>(int_delay) < max_size ? int_delay
+ 1385              		.loc 2 55 27 discriminator 2 view .LVU369
+ 1386              	.LBE245:
+ 1387              	.LBE258:
+ 1388              	.LBB259:
+ 1389              	.LBB237:
+  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
+ 1390              		.loc 2 73 42 discriminator 2 view .LVU370
+ 1391 006e 0CF1010E 		add	lr, ip, #1
+ 1392              	.LBE237:
+ 1393              	.LBE259:
+ 1394              	.LBB260:
+ 1395              	.LBB253:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 36
+
+
+ 1396              		.loc 2 65 57 discriminator 2 view .LVU371
+ 1397 0072 4FEADA2A 		lsr	r10, r10, #11
+ 1398              	.LBE253:
+ 1399              	.LBE260:
+ 1400              	.LBB261:
+ 1401              	.LBB238:
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1402              		.loc 2 72 43 discriminator 2 view .LVU372
+ 1403 0076 A4FB0CB9 		umull	fp, r9, r4, ip
+ 1404              	.LBE238:
+ 1405              	.LBE261:
+ 1406              	.LBB262:
+ 1407              	.LBB254:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 1408              		.loc 2 65 57 discriminator 2 view .LVU373
+ 1409 007a 07FB1A11 		mls	r1, r7, r10, r1
+ 1410              	.LBE254:
+ 1411              	.LBE262:
+ 1412              	.LBB263:
+ 1413              	.LBB239:
+  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
+ 1414              		.loc 2 73 47 discriminator 2 view .LVU374
+ 1415 007e A4FB0EA4 		umull	r10, r4, r4, lr
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1416              		.loc 2 72 43 discriminator 2 view .LVU375
+ 1417 0082 4FEAD929 		lsr	r9, r9, #11
+ 1418              	.LBE239:
+ 1419              	.LBE263:
+ 1420              	.LBB264:
+ 1421              	.LBB246:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1422              		.loc 2 56 16 discriminator 2 view .LVU376
+ 1423 0086 C2F80880 		str	r8, [r2, #8]
+ 1424              	.LVL69:
+  56:../../DaisySP//Source/Utility/delayline.h ****                                                            : max_size - 1;
+ 1425              		.loc 2 56 16 discriminator 2 view .LVU377
+ 1426              	.LBE246:
+ 1427              	.LBE264:
+  36:Delay.h       **** 
+ 1428              		.loc 4 36 17 is_stmt 1 discriminator 2 view .LVU378
+ 1429              	.LBB265:
+ 1430              	.LBI233:
+  70:../../DaisySP//Source/Utility/delayline.h ****     {
+ 1431              		.loc 2 70 20 discriminator 2 view .LVU379
+ 1432              	.LBB240:
+  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
+ 1433              		.loc 2 73 47 is_stmt 0 discriminator 2 view .LVU380
+ 1434 008a 4FEAD424 		lsr	r4, r4, #11
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1435              		.loc 2 72 43 discriminator 2 view .LVU381
+ 1436 008e 07FB19CC 		mls	ip, r7, r9, ip
+  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
+ 1437              		.loc 2 73 47 discriminator 2 view .LVU382
+ 1438 0092 07FB14E4 		mls	r4, r7, r4, lr
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1439              		.loc 2 72 11 discriminator 2 view .LVU383
+ 1440 0096 02EB8C0C 		add	ip, r2, ip, lsl #2
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 37
+
+
+  73:../../DaisySP//Source/Utility/delayline.h ****         return a + (b - a) * frac_;
+ 1441              		.loc 2 73 11 discriminator 2 view .LVU384
+ 1442 009a 02EB8404 		add	r4, r2, r4, lsl #2
+  72:../../DaisySP//Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
+ 1443              		.loc 2 72 11 discriminator 2 view .LVU385
+ 1444 009e DCED036A 		vldr.32	s13, [ip, #12]
+ 1445              	.LVL70:
+ 1446              		.loc 2 74 23 discriminator 2 view .LVU386
+ 1447 00a2 94ED036A 		vldr.32	s12, [r4, #12]
+ 1448 00a6 36EE666A 		vsub.f32	s12, s12, s13
+ 1449              		.loc 2 74 30 discriminator 2 view .LVU387
+ 1450 00aa E7EE866A 		vfma.f32	s13, s15, s12
+ 1451              	.LVL71:
+ 1452              		.loc 2 74 30 discriminator 2 view .LVU388
+ 1453              	.LBE240:
+ 1454              	.LBE265:
+  39:Delay.h       ****                 
+ 1455              		.loc 4 39 17 is_stmt 1 discriminator 2 view .LVU389
+  39:Delay.h       ****                 
+ 1456              		.loc 4 39 29 is_stmt 0 discriminator 2 view .LVU390
+ 1457 00ae A7EE267A 		vfma.f32	s14, s14, s13
+ 1458              	.LVL72:
+ 1459              	.LBB266:
+ 1460              	.LBI250:
+  62:../../DaisySP//Source/Utility/delayline.h ****     {
+ 1461              		.loc 2 62 17 is_stmt 1 discriminator 2 view .LVU391
+ 1462              	.LBB255:
+  64:../../DaisySP//Source/Utility/delayline.h ****         write_ptr_        = (write_ptr_ - 1 + max_size) % max_size;
+ 1463              		.loc 2 64 27 is_stmt 0 discriminator 2 view .LVU392
+ 1464 00b2 85ED037A 		vstr.32	s14, [r5, #12]
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 1465              		.loc 2 65 27 discriminator 2 view .LVU393
+ 1466 00b6 5160     		str	r1, [r2, #4]
+ 1467              	.LVL73:
+  65:../../DaisySP//Source/Utility/delayline.h ****     }
+ 1468              		.loc 2 65 27 discriminator 2 view .LVU394
+ 1469              	.LBE255:
+ 1470              	.LBE266:
+ 1471              		.loc 4 41 17 is_stmt 1 discriminator 2 view .LVU395
+ 1472              		.loc 4 41 17 is_stmt 0 discriminator 2 view .LVU396
+ 1473              	.LBE269:
+ 1474              	.LBE272:
+ 105:Delay.cpp     ****     {
+ 1475              		.loc 1 105 5 is_stmt 1 discriminator 2 view .LVU397
+ 105:Delay.cpp     ****     {
+ 1476              		.loc 1 105 23 discriminator 2 view .LVU398
+ 1477 00b8 A7D1     		bne	.L46
+ 1478              	.LBE273:
+ 110:Delay.cpp     ****     }
  111:Delay.cpp     ****     
- 112:Delay.cpp     **** }
- 1142              		.loc 1 112 1 is_stmt 0 view .LVU302
- 1143 00b0 BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
- 1144              	.L43:
- 1145              		.align	2
- 1146              	.L42:
- 1147 00b4 00000000 		.word	0
- 1148 00b8 17B75139 		.word	961656599
- 1149 00bc FF760100 		.word	95999
- 1150 00c0 F1197605 		.word	91625969
- 1151 00c4 00770100 		.word	96000
- 1152              		.cfi_endproc
- 1153              	.LFE4812:
- 1155              		.section	.text._ZN5Delay6getBPMEv,"ax",%progbits
- 1156              		.align	1
- 1157              		.p2align 2,,3
- 1158              		.global	_ZN5Delay6getBPMEv
- 1159              		.syntax unified
- 1160              		.thumb
- 1161              		.thumb_func
- 1163              	_ZN5Delay6getBPMEv:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 31
+ 112:Delay.cpp     ****     
+ 113:Delay.cpp     **** }
+ 1479              		.loc 1 113 1 is_stmt 0 view .LVU399
+ 1480 00ba BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
+ 1481              	.L50:
+ 1482 00be 00BF     		.align	2
+ 1483              	.L49:
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 38
 
 
- 1164              	.LVL51:
- 1165              	.LFB4813:
- 113:Delay.cpp     **** float Delay::getBPM()
- 114:Delay.cpp     **** {
- 1166              		.loc 1 114 1 is_stmt 1 view -0
- 1167              		.cfi_startproc
- 1168              		@ args = 0, pretend = 0, frame = 0
- 1169              		@ frame_needed = 0, uses_anonymous_args = 0
- 1170              		@ link register save eliminated.
- 115:Delay.cpp     ****     return bpm;
- 1171              		.loc 1 115 5 view .LVU304
- 116:Delay.cpp     **** }...
- 1172              		.loc 1 116 1 is_stmt 0 view .LVU305
- 1173 0000 90ED010A 		vldr.32	s0, [r0, #4]
- 1174 0004 7047     		bx	lr
- 1175              		.cfi_endproc
- 1176              	.LFE4813:
- 1178 0006 00BF     		.text
- 1179              	.Letext0:
- 1180              		.file 6 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/machine/_default_types.h"
- 1181              		.file 7 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/_stdint.h"
- 1182              		.file 8 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdint.h"
- 1183              		.file 9 "/Library/DaisyToolchain/0.2.0/arm/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
- 1184              		.file 10 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath"
- 1185              		.file 11 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h"
- 1186              		.file 12 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdint"
- 1187              		.file 13 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdlib"
- 1188              		.file 14 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/type_traits"
- 1189              		.file 15 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/debug/debug.h"
- 1190              		.file 16 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cwchar"
- 1191              		.file 17 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h"
- 1192              		.file 18 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/exception_ptr.h"
- 1193              		.file 19 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v
- 1194              		.file 20 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/clocale"
- 1195              		.file 21 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdio"
- 1196              		.file 22 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h"
- 1197              		.file 23 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator.h"
- 1198              		.file 24 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstring"
- 1199              		.file 25 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/algorithmfwd.h"
- 1200              		.file 26 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdarg"
- 1201              		.file 27 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/predefined_ops.h
- 1202              		.file 28 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/_types.h"
- 1203              		.file 29 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/reent.h"
- 1204              		.file 30 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/lock.h"
- 1205              		.file 31 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/math.h"
- 1206              		.file 32 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdlib.h"
- 1207              		.file 33 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/math.h"
- 1208              		.file 34 "../../DaisySP//Source/Control/adenv.h"
- 1209              		.file 35 "/Library/DaisyToolchain/0.2.0/arm/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
- 1210              		.file 36 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/wchar.h"
- 1211              		.file 37 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/locale.h"
- 1212              		.file 38 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdio.h"
- 1213              		.file 39 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/stdlib.h"
- 1214              		.file 40 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/string.h"
- 1215              		.file 41 "../../libDaisy//src/daisy_core.h"
- 1216              		.file 42 "../../libDaisy//src/util/wav_format.h"
- 1217              		.file 43 "../../libDaisy//src/dev/max11300.h"
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 32
+ 1484 00c0 00000000 		.word	0
+ 1485 00c4 17B75139 		.word	961656599
+ 1486 00c8 FF760100 		.word	95999
+ 1487 00cc F1197605 		.word	91625969
+ 1488 00d0 00770100 		.word	96000
+ 1489              		.cfi_endproc
+ 1490              	.LFE4815:
+ 1492              		.section	.text._ZN5Delay13setModulationERKf,"ax",%progbits
+ 1493              		.align	1
+ 1494              		.p2align 2,,3
+ 1495              		.global	_ZN5Delay13setModulationERKf
+ 1496              		.syntax unified
+ 1497              		.thumb
+ 1498              		.thumb_func
+ 1500              	_ZN5Delay13setModulationERKf:
+ 1501              	.LVL74:
+ 1502              	.LFB4816:
+ 114:Delay.cpp     **** void  Delay::setModulation(const float& mod)
+ 115:Delay.cpp     **** {
+ 1503              		.loc 1 115 1 is_stmt 1 view -0
+ 1504              		.cfi_startproc
+ 1505              		@ args = 0, pretend = 0, frame = 0
+ 1506              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1507              		@ link register save eliminated.
+ 116:Delay.cpp     ****     modulation = mod;
+ 1508              		.loc 1 116 5 view .LVU401
+ 1509              		.loc 1 116 18 is_stmt 0 view .LVU402
+ 1510 0000 0B68     		ldr	r3, [r1]	@ float
+ 1511              		.loc 1 116 16 view .LVU403
+ 1512 0002 C360     		str	r3, [r0, #12]	@ float
+ 117:Delay.cpp     **** }
+ 1513              		.loc 1 117 1 view .LVU404
+ 1514 0004 7047     		bx	lr
+ 1515              		.cfi_endproc
+ 1516              	.LFE4816:
+ 1518 0006 00BF     		.section	.text._ZN5Delay6getBPMEv,"ax",%progbits
+ 1519              		.align	1
+ 1520              		.p2align 2,,3
+ 1521              		.global	_ZN5Delay6getBPMEv
+ 1522              		.syntax unified
+ 1523              		.thumb
+ 1524              		.thumb_func
+ 1526              	_ZN5Delay6getBPMEv:
+ 1527              	.LVL75:
+ 1528              	.LFB4817:
+ 118:Delay.cpp     **** float Delay::getBPM()
+ 119:Delay.cpp     **** {
+ 1529              		.loc 1 119 1 is_stmt 1 view -0
+ 1530              		.cfi_startproc
+ 1531              		@ args = 0, pretend = 0, frame = 0
+ 1532              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1533              		@ link register save eliminated.
+ 120:Delay.cpp     ****     return bpm;
+ 1534              		.loc 1 120 5 view .LVU406
+ 121:Delay.cpp     **** }...
+ 1535              		.loc 1 121 1 is_stmt 0 view .LVU407
+ 1536 0000 90ED010A 		vldr.32	s0, [r0, #4]
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 39
 
 
- 1218              		.file 44 "../../libDaisy//src/daisy_seed.h"
- 1219              		.file 45 "../../libDaisy//src/dev/sr_595.h"
- 1220              		.file 46 "<built-in>"
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s 			page 33
+ 1537 0004 7047     		bx	lr
+ 1538              		.cfi_endproc
+ 1539              	.LFE4817:
+ 1541 0006 00BF     		.text
+ 1542              	.Letext0:
+ 1543              		.file 6 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/machine/_default_types.h"
+ 1544              		.file 7 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/_stdint.h"
+ 1545              		.file 8 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdint.h"
+ 1546              		.file 9 "/Library/DaisyToolchain/0.2.0/arm/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
+ 1547              		.file 10 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cmath"
+ 1548              		.file 11 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h"
+ 1549              		.file 12 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdint"
+ 1550              		.file 13 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdlib"
+ 1551              		.file 14 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/type_traits"
+ 1552              		.file 15 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/debug/debug.h"
+ 1553              		.file 16 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cwchar"
+ 1554              		.file 17 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h"
+ 1555              		.file 18 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/exception_ptr.h"
+ 1556              		.file 19 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v
+ 1557              		.file 20 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/clocale"
+ 1558              		.file 21 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdio"
+ 1559              		.file 22 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h"
+ 1560              		.file 23 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator.h"
+ 1561              		.file 24 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstring"
+ 1562              		.file 25 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/algorithmfwd.h"
+ 1563              		.file 26 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/cstdarg"
+ 1564              		.file 27 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/predefined_ops.h
+ 1565              		.file 28 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/_types.h"
+ 1566              		.file 29 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/reent.h"
+ 1567              		.file 30 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/sys/lock.h"
+ 1568              		.file 31 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/math.h"
+ 1569              		.file 32 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdlib.h"
+ 1570              		.file 33 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/math.h"
+ 1571              		.file 34 "../../DaisySP//Source/Control/adenv.h"
+ 1572              		.file 35 "/Library/DaisyToolchain/0.2.0/arm/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
+ 1573              		.file 36 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/wchar.h"
+ 1574              		.file 37 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/locale.h"
+ 1575              		.file 38 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/stdio.h"
+ 1576              		.file 39 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/stdlib.h"
+ 1577              		.file 40 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/string.h"
+ 1578              		.file 41 "../../libDaisy//src/daisy_core.h"
+ 1579              		.file 42 "../../libDaisy//src/util/wav_format.h"
+ 1580              		.file 43 "../../libDaisy//src/dev/max11300.h"
+ 1581              		.file 44 "../../libDaisy//src/daisy_seed.h"
+ 1582              		.file 45 "../../libDaisy//src/dev/sr_595.h"
+ 1583              		.file 46 "<built-in>"
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s 			page 40
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 Delay.cpp
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:19     .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:26     .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000000 _ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:122    .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000038 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:128    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:135    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:0000000000000000 _ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:254    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:000000000000004c $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:262    .text._ZN5DelayC2Ev:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:269    .text._ZN5DelayC2Ev:0000000000000000 _ZN5DelayC2Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:343    .text._ZN5DelayC2Ev:000000000000001c $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:269    .text._ZN5DelayC2Ev:0000000000000000 _ZN5DelayC1Ev
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:350    .text._ZN5Delay7stopAllEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:357    .text._ZN5Delay7stopAllEv:0000000000000000 _ZN5Delay7stopAllEv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:391    .text._ZN5Delay6setBPMEf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:398    .text._ZN5Delay6setBPMEf:0000000000000000 _ZN5Delay6setBPMEf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:415    .text._ZN5Delay11setFeedbackERKf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:422    .text._ZN5Delay11setFeedbackERKf:0000000000000000 _ZN5Delay11setFeedbackERKf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:441    .text._ZN5Delay7processEf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:448    .text._ZN5Delay7processEf:0000000000000000 _ZN5Delay7processEf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:762    .text._ZN5Delay7processEf:0000000000000100 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:774    .text._ZN5Delay10toggleHeadERKi:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:781    .text._ZN5Delay10toggleHeadERKi:0000000000000000 _ZN5Delay10toggleHeadERKi
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:808    .text._ZN5Delay10enableHeadERKi:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:815    .text._ZN5Delay10enableHeadERKi:0000000000000000 _ZN5Delay10enableHeadERKi
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:840    .text._ZN5Delay11disableHeadERKi:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:847    .text._ZN5Delay11disableHeadERKi:0000000000000000 _ZN5Delay11disableHeadERKi
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:872    .text._ZN5Delay5clearEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:879    .text._ZN5Delay5clearEv:0000000000000000 _ZN5Delay5clearEv
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:1147   .text._ZN5Delay5clearEv:00000000000000b4 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:1156   .text._ZN5Delay6getBPMEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCBXYja.s:1163   .text._ZN5Delay6getBPMEv:0000000000000000 _ZN5Delay6getBPMEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:19     .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:26     .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000000 _ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:122    .text._ZN5Delay9initDelayEPN7daisysp9DelayLineIfLj96000EEE:0000000000000038 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:128    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:135    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:0000000000000000 _ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:254    .text._ZN5Delay16initDelayReverseEPN7daisysp16DelayLineReverseIfLj96000EEE:000000000000004c $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:262    .text._ZN5DelayC2Ev:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:269    .text._ZN5DelayC2Ev:0000000000000000 _ZN5DelayC2Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:398    .text._ZN5DelayC2Ev:0000000000000024 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:269    .text._ZN5DelayC2Ev:0000000000000000 _ZN5DelayC1Ev
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:405    .text._ZN5Delay7stopAllEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:412    .text._ZN5Delay7stopAllEv:0000000000000000 _ZN5Delay7stopAllEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:446    .text._ZN5Delay6setBPMEf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:453    .text._ZN5Delay6setBPMEf:0000000000000000 _ZN5Delay6setBPMEf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:470    .text._ZN5Delay11setFeedbackERKf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:477    .text._ZN5Delay11setFeedbackERKf:0000000000000000 _ZN5Delay11setFeedbackERKf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:496    .text._ZN5Delay7processEf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:503    .text._ZN5Delay7processEf:0000000000000000 _ZN5Delay7processEf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:824    .text._ZN5Delay7processEf:000000000000010c $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:836    .text._ZN5Delay10toggleHeadERKi:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:843    .text._ZN5Delay10toggleHeadERKi:0000000000000000 _ZN5Delay10toggleHeadERKi
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:870    .text._ZN5Delay10enableHeadERKi:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:877    .text._ZN5Delay10enableHeadERKi:0000000000000000 _ZN5Delay10enableHeadERKi
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:902    .text._ZN5Delay11disableHeadERKi:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:909    .text._ZN5Delay11disableHeadERKi:0000000000000000 _ZN5Delay11disableHeadERKi
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1193   .text._ZN5Delay11disableHeadERKi:00000000000000c0 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1202   .text._ZN5Delay5clearEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1209   .text._ZN5Delay5clearEv:0000000000000000 _ZN5Delay5clearEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1484   .text._ZN5Delay5clearEv:00000000000000c0 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1493   .text._ZN5Delay13setModulationERKf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1500   .text._ZN5Delay13setModulationERKf:0000000000000000 _ZN5Delay13setModulationERKf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1519   .text._ZN5Delay6getBPMEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccRFyU1F.s:1526   .text._ZN5Delay6getBPMEv:0000000000000000 _ZN5Delay6getBPMEv
 
 UNDEFINED SYMBOLS
 memset

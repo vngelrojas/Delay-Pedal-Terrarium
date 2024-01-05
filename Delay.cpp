@@ -60,6 +60,7 @@ float Delay::process(float in)
         for (int i = 0; i < NUM_OF_DELAY_HEADS; i++)
         {
             delayHeads[i].feedback = this->feedback;
+            delayHeads[i].modulation = this->modulation;
             //The (i+0.25-i*0.75) just sets the delay intervals to (1/16 note, 1/8 note, dotted 1/8 note, 1/4 note - or 0.25,0.5,0.75,1) for i=0,1,2,3
             delayHeads[i].delayTarget = (i+0.25-i*0.75)* (48000*(60/bpm));
             if(delayHeadOn[i])
@@ -109,6 +110,10 @@ void Delay::clear()
     }
     
     
+}
+void  Delay::setModulation(const float& mod)
+{
+    modulation = mod;
 }
 float Delay::getBPM()
 {

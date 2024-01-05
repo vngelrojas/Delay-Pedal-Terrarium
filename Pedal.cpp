@@ -20,6 +20,8 @@ ToneFilter tone(48000.f);
 static CrossFade crossFade;
 DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
 
+Oscillator osc;
+
 //DelayLineReverse<float, MAX_DELAY> DSY_SDRAM_BSS delayMems[4];
 
 Parameter toneParam;
@@ -91,6 +93,11 @@ int main(void)
 	balance.Init(hw.AudioSampleRate());
 	initParams();
 
+osc.Init(hw.AudioSampleRate());
+osc.SetWaveform(Oscillator::WAVE_SIN);
+osc.SetAmp(1);
+osc.SetFreq(20);
+
 	hw.StartAudio(AudioCallback);
 	while(1) {}
 }
@@ -110,7 +117,7 @@ void processControls()
 	if(hw.switches[Terrarium::FOOTSWITCH_2].RisingEdge())
 	{
 		bypass = !bypass;
-		
+
 		if(bypass)
 			delay.clear();
 	}
@@ -168,4 +175,5 @@ void processControls()
 	/*********************************************/
 
 	bpm = tapTempo.getBPM();
+	delay.setModulation((16*color)*osc.Process());
 }
