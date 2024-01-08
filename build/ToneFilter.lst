@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -27,7 +27,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
   24              		.thumb_func
   26              	_ZN10ToneFilterC2Ef:
   27              	.LVL0:
-  28              	.LFB4790:
+  28              	.LFB4791:
   29              		.file 1 "ToneFilter.cpp"
    1:ToneFilter.cpp **** #include "ToneFilter.h"
    2:ToneFilter.cpp **** 
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
    8:../../DaisySP//Source/Filters/tone.h **** namespace daisysp
    9:../../DaisySP//Source/Filters/tone.h **** {
   10:../../DaisySP//Source/Filters/tone.h **** /** A first-order recursive low-pass filter with variable frequency response.
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 2
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 2
 
 
   11:../../DaisySP//Source/Filters/tone.h **** */
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
    5:ToneFilter.cpp ****     highPassFilter.Init(sampleRate); 
   68              		.loc 1 5 23 view .LVU10
   69 0010 FFF7FEFF 		bl	_ZN7daisysp4Tone4InitEf
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 3
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 3
 
 
   70              	.LVL2:
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
   98              		.loc 1 11 5 is_stmt 1 view .LVU24
   99              	.LBB24:
  100              	.LBI24:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 4
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 4
 
 
   23:../../DaisySP//Source/Filters/atone.h ****     ~ATone() {}
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
   12:ToneFilter.cpp ****     highPassOn = false;
  129              		.loc 1 12 15 view .LVU39
  130 003c A286     		strh	r2, [r4, #52]	@ movhi
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 5
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 5
 
 
   14:ToneFilter.cpp ****     factor = 1.f;
@@ -262,7 +262,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  147              	.L4:
  148 0044 00247449 		.word	1232348160
  149              		.cfi_endproc
- 150              	.LFE4790:
+ 150              	.LFE4791:
  152              		.global	_ZN10ToneFilterC1Ef
  153              		.thumb_set _ZN10ToneFilterC1Ef,_ZN10ToneFilterC2Ef
  154              		.section	.text._ZN10ToneFilter7setFreqEf,"ax",%progbits
@@ -274,7 +274,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  160              		.thumb_func
  162              	_ZN10ToneFilter7setFreqEf:
  163              	.LVL9:
- 164              	.LFB4792:
+ 164              	.LFB4793:
   16:ToneFilter.cpp **** 
   17:ToneFilter.cpp **** void ToneFilter::setFreq(float knobValue)
   18:ToneFilter.cpp **** {
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  180 0006 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  181              	.LBE43:
   18:ToneFilter.cpp ****     if(knobValue < 0.00f)
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 6
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 6
 
 
  182              		.loc 1 18 1 view .LVU49
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  220              	.LBE32:
  221              	.LBE34:
   30:ToneFilter.cpp ****         highPassFilter.SetFreq(hpFreq);
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 7
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 7
 
 
  222              		.loc 1 30 31 view .LVU61
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  264              		.loc 1 35 16 view .LVU77
  265              	.LBE36:
  266              	.LBE45:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 8
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 8
 
 
  267              		.loc 1 37 1 view .LVU78
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  311              	.LBE41:
   23:ToneFilter.cpp ****         highPassOn = false;
  312              		.loc 1 23 9 is_stmt 1 view .LVU93
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 9
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 9
 
 
   24:ToneFilter.cpp ****         // As knobValue goes closer -1, factor increases
@@ -529,7 +529,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  348 00a4 00409C45 		.word	1167867904
  349 00a8 0000C842 		.word	1120403456
  350              		.cfi_endproc
- 351              	.LFE4792:
+ 351              	.LFE4793:
  353              		.section	.text._ZN10ToneFilter7processEf,"ax",%progbits
  354              		.align	1
  355              		.p2align 2,,3
@@ -538,11 +538,11 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  358              		.thumb
  359              		.thumb_func
  361              	_ZN10ToneFilter7processEf:
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 10
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 10
 
 
  362              	.LVL23:
- 363              	.LFB4793:
+ 363              	.LFB4794:
   38:ToneFilter.cpp **** 
   39:ToneFilter.cpp **** float ToneFilter::process(float in)
   40:ToneFilter.cpp **** {
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
   43:ToneFilter.cpp ****     else if(lowPassOn)
  401              		.loc 1 43 16 is_stmt 0 view .LVU120
  402 0020 9DED010A 		vldr.32	s0, [sp, #4]
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 11
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 11
 
 
  403              	.LVL26:
@@ -635,7 +635,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  429              		@ sp needed
  430 003c 5DF804FB 		ldr	pc, [sp], #4
  431              		.cfi_endproc
- 432              	.LFE4793:
+ 432              	.LFE4794:
  434              		.section	.text._ZN10ToneFilter9getFactorEv,"ax",%progbits
  435              		.align	1
  436              		.p2align 2,,3
@@ -645,7 +645,7 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  440              		.thumb_func
  442              	_ZN10ToneFilter9getFactorEv:
  443              	.LVL30:
- 444              	.LFB4794:
+ 444              	.LFB4795:
   49:ToneFilter.cpp **** 
   50:ToneFilter.cpp **** float ToneFilter::getFactor()
   51:ToneFilter.cpp **** {
@@ -658,13 +658,13 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  450              		.loc 1 52 5 view .LVU129
   53:ToneFilter.cpp **** }...
  451              		.loc 1 53 1 is_stmt 0 view .LVU130
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 12
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 12
 
 
  452 0000 90ED0E0A 		vldr.32	s0, [r0, #56]
  453 0004 7047     		bx	lr
  454              		.cfi_endproc
- 455              	.LFE4794:
+ 455              	.LFE4795:
  457 0006 00BF     		.text
  458              	.Letext0:
  459              		.file 4 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/machine/_default_types.h"
@@ -710,22 +710,22 @@ ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 1
  499              		.file 44 "ToneFilter.h"
  500              		.file 45 "<built-in>"
  501              		.file 46 "../../libDaisy//src/dev/sr_595.h"
-ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s 			page 13
+ARM GAS  /var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s 			page 13
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 ToneFilter.cpp
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s:19     .text._ZN10ToneFilterC2Ef:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s:26     .text._ZN10ToneFilterC2Ef:0000000000000000 _ZN10ToneFilterC2Ef
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s:148    .text._ZN10ToneFilterC2Ef:0000000000000044 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s:26     .text._ZN10ToneFilterC2Ef:0000000000000000 _ZN10ToneFilterC1Ef
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s:155    .text._ZN10ToneFilter7setFreqEf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s:162    .text._ZN10ToneFilter7setFreqEf:0000000000000000 _ZN10ToneFilter7setFreqEf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s:348    .text._ZN10ToneFilter7setFreqEf:00000000000000a4 $d
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s:354    .text._ZN10ToneFilter7processEf:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s:361    .text._ZN10ToneFilter7processEf:0000000000000000 _ZN10ToneFilter7processEf
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s:435    .text._ZN10ToneFilter9getFactorEv:0000000000000000 $t
-/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccCReh0L.s:442    .text._ZN10ToneFilter9getFactorEv:0000000000000000 _ZN10ToneFilter9getFactorEv
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s:19     .text._ZN10ToneFilterC2Ef:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s:26     .text._ZN10ToneFilterC2Ef:0000000000000000 _ZN10ToneFilterC2Ef
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s:148    .text._ZN10ToneFilterC2Ef:0000000000000044 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s:26     .text._ZN10ToneFilterC2Ef:0000000000000000 _ZN10ToneFilterC1Ef
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s:155    .text._ZN10ToneFilter7setFreqEf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s:162    .text._ZN10ToneFilter7setFreqEf:0000000000000000 _ZN10ToneFilter7setFreqEf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s:348    .text._ZN10ToneFilter7setFreqEf:00000000000000a4 $d
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s:354    .text._ZN10ToneFilter7processEf:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s:361    .text._ZN10ToneFilter7processEf:0000000000000000 _ZN10ToneFilter7processEf
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s:435    .text._ZN10ToneFilter9getFactorEv:0000000000000000 $t
+/var/folders/fs/ht5wlc7s7b56r9p0ngl7ssgc0000gn/T//ccF85chi.s:442    .text._ZN10ToneFilter9getFactorEv:0000000000000000 _ZN10ToneFilter9getFactorEv
 
 UNDEFINED SYMBOLS
 _ZN7daisysp4Tone4InitEf

@@ -16,6 +16,7 @@ void Delay::initDelayReverse(DelayLineReverse<float, MAX_DELAY> delayMems[4])
     {
         delayMems[i].Init();
         delayHeads[i].delayReverse = &delayMems[i];
+        delayHeads[i].delayReverse->Init();
     }
 }
 
@@ -29,7 +30,8 @@ Delay::Delay()
         // Make sure they are all off
         delayHeadOn[i] = false;
     }
-    bpm = 20;
+    bpm = 10;
+    proccessReverse = false;
 
 }
 
@@ -62,9 +64,16 @@ float Delay::process(float in)
             delayHeads[i].feedback = this->feedback;
             delayHeads[i].modulation = this->modulation;
             //The (i+0.25-i*0.75) just sets the delay intervals to (1/16 note, 1/8 note, dotted 1/8 note, 1/4 note - or 0.25,0.5,0.75,1) for i=0,1,2,3
-            delayHeads[i].delayTarget = (i+0.25-i*0.75)* (48000*(60/bpm));
+            delayHeads[i].delayTarget = ((i+0.25-i*0.75)* (48000*(60/bpm)));
             if(delayHeadOn[i])
+            {
                 allDelaySignals += delayHeads[i].process(in);
+                if(i == 1 || i == 3)
+                    delayHeads[i].delay->speedUp(true);
+                if(proccessReverse)
+                    allDelaySignals += delayHeads[i].processReverse(in);
+            }
+                
         }
 
         return allDelaySignals;
@@ -107,6 +116,7 @@ void Delay::clear()
         feedback = 0;
         delayHeads[i].feedback = 0;
         delayHeads[i].process(0);
+        delayHeads[i].processReverse(0);
     }
     
     
@@ -114,6 +124,10 @@ void Delay::clear()
 void  Delay::setModulation(const float& mod)
 {
     modulation = mod;
+}
+void  Delay::setReverse(bool reverse)
+{
+    proccessReverse = reverse;
 }
 float Delay::getBPM()
 {
